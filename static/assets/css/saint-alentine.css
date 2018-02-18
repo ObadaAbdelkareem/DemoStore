@@ -1,0 +1,101 @@
+.btm_act_banner .act_banner {
+  height:110px;
+}
+.btm_act_banner .act_banner .register {
+  height:110px;
+  background: url(qin_btm_02.png) no-repeat center center; 
+}
+.btm_act_banner .close_btn {
+  background: url(close_03.png) no-repeat center center;
+  height:20px;
+  width:20px;
+  right: 10px;
+  top: 10px;
+}
+#coupon_reg .register_popup {
+  width: 818px;
+  height: 440px;
+  top: 50%;
+  left: 50%;
+  margin-left: -409px;
+  margin-top: -220px;
+  background: url(qin_07.png) no-repeat left center #FFF;
+}
+#coupon_reg .register_popup .new_user {
+  width: 818px;
+  height: 440px;
+  background: none;
+  position: relative;
+}
+#coupon_reg .register_popup .new_user form {
+  color: #333;
+  width: 318px;
+  padding: 40px 0 0 499px;
+  font-size: 12px;
+}
+#coupon_reg .register_popup .new_user form .inp_p {
+  border: 1px solid #d6d6d6;
+  width:248px;
+  background: #FFF;
+  margin-bottom: 15px;
+}
+#coupon_reg .register_popup .new_user form .inp_p input {
+  color: #333333;
+  height: 38px;
+  line-height: 38px;
+}
+#coupon_reg .register_popup .new_user form .inp_item_btn {
+  padding-left: 0;
+  text-align: left;
+}
+#coupon_reg .register_popup .new_user form .inp_item_btn input {
+  width: 260px;
+  background: #b05a5d;
+  margin-top: 20px;
+  height:42px;
+  line-height: 42px;
+  background: #bf000d;
+}
+#coupon_reg .register_popup .new_user .close_btn {
+  background: url(qin_03.png) no-repeat center;
+  width: 16px;
+  height: 16px;
+  right:16px;
+  top: 16px;
+}
+#coupon_reg .register_popup .new_user #msgTip {
+  width:260px;
+  padding: 20px 0 0 499px;
+  margin:0;
+}
+#coupon_reg .register_popup .new_user .reg_success_con {
+  padding: 97px 0 0 499px;
+  text-align: left;
+  color: #333333;
+  width:260px;
+  margin: 0;
+}
+#coupon_reg .register_popup .new_user .reg_success_con p {
+  line-height: 1.8;
+  padding-top: 20px;
+  font-size: 14px;
+}
+#coupon_reg .register_popup .new_user .reg_success_con .new_shopping_btn a {
+  background: #bf000d;
+  width: 100%;
+  text-transform: uppercase;
+}
+#coupon_reg .register_popup .new_user .reg_success_con .new_shopping_btn{
+  margin: 20px 0 0;
+}
+#coupon_reg .register_popup .new_user .reg_success_con b {
+  font-weight: 600;
+}
+#coupon_reg  .new_user .reg_success_con h2{
+  padding-top: 0;
+  color: #c0000d;
+ font-size: 18px;
+  text-transform : uppercase;
+  font-weight: 600;
+  width: 300px;
+}

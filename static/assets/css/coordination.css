@@ -1,0 +1,73 @@
+// 搭配套餐功能。
+.discounts_wrap{border-bottom: 1px dashed #DDDDDD;}
+.discounts_wrap ul{border-bottom: none;}
+.discounts_wrap .td_product.muiti_product{width: 470px;}
+.discounts_wrap span.qtys{display:block;text-align: center;padding: 15px;}
+.td_product span.i_dispak{width: 187px;height: 34px;background: url(dispak.png) no-repeat center center;display: block;margin-top: 35px;line-height: 30px;text-indent: 10px;font-size: 16px;color: #F62257;}
+.head .bag .box ul li.discount_item_wrap{padding: 0;margin: 0;width: 335px;margin-bottom: 10px;}
+.head .bag .box ul li .discount_items h5{line-height: 30px;font-weight: bold;color: #e30057;}
+.discount_items ul li {border-top: none !important;}
+.discount_section{position: relative;}
+.discount_section a:hover{text-decoration: none;}
+.discount_section h3{line-height: 40px;border-bottom: 1px solid #999999;}
+.discount_section h3:after{display: block;clear: both;content: '';}
+.discount_section h3 strong{line-height: 40px;margin-bottom: 0;display: inline-block;border: 1px solid #999;border-bottom: none;padding: 0 10px;background: #fff;margin-bottom: -1px;}
+.discount_section h3 span{float: right;}
+.discount_section .section_body{position: relative;padding: 10px;}
+.discount_section .section_body:after{clear: both;display: block;content: '';}
+.section_body .product_item{width: 120px;height: auto;position: relative;float: left;padding: 0 10px;transition: all .3s;}
+/*.section_body .product_item:hover{box-shadow: 0 0 5px #bbb;}*/
+.section_body .product_item:after{clear: both;display: block;content: '';}
+.section_body .product_item .img_box{height: 150px;display: table;position: relative;}
+.section_body .product_item .img_box span{width: 30px;height: 30px;border-radius: 15px;position: absolute;right: -5px;bottom: 5px;display: block;cursor: pointer;background-repeat: no-repeat;background-size: 30px;background-position: center;}
+/*.section_body .product_item .img_box span:hover{background: #999999;}*/
+.section_body .product_item .img_box span.icon_check{background-image: url(check1.png);}
+.section_body .product_item .img_box span.icon_check.active{background-image: url(check2.png);}
+.section_body .product_item .img_box span.icon_edit{background-image: url(edit1.png);}
+.section_body .product_item .img_box span.icon_edit:hover{background-image: url(edit2.png);}
+.section_body .product_item .img_box span.icon_edit.active{background-image: url(edit3.png);}
+.section_body .product_item .img_box a{display: table-cell;vertical-align: middle;}
+.section_body .product_item .img_box a img{width: 100%;}
+.section_body .product_item > a{line-height: 20px;white-space: nowrap;display: block;overflow: hidden;text-overflow: ellipsis;}
+.section_body .product_item > p{line-height: 20px;}
+.section_body .product_item > p span.icon{}
+.section_body .product_item > dl{line-height: 16px;padding: 5px 0;}
+.section_body .product_item > dl dt,.section_body .product_item dl dd{display: inline-block;}
+.section_body .product_item > dl dt{color: #999;text-transform: capitalize;}
+
+.section_body .icon_plus,.section_body .icon_equal{width: 50px;height: 50px;text-align: center;line-height: 50px;display: inline-block;font-size: 50px;color: #999;font-weight: normal;margin-top: 50px;float: left;}
+.section_body .section_price{display: inline-block;line-height: 24px;text-align: center;vertical-align: middle;margin: 50px 20px;float: left;}
+.section_body .section_price strong{font-size: 22px;color: #F62257;display: block;}
+.section_body .section_price big{font-size: 18px;color: #999999;text-decoration: line-through;display: block;}
+.section_body .section_price small{font-size: 12px;}
+.section_option{float: left;display: inline-block;vertical-align: middle;margin: 30px 20px;}
+.section_option .buy_btn{height: auto;}
+.section_option .buy_btn:after{clear: both;display: block;content: '';}
+.section_option .buy_btn > span{float: none;display: block;margin: 10px 0;}
+
+.section_body .section_price > * {
+	display: block;
+}
+.section_body .section_price > .msg {
+	font-weight: 700;
+	font-size: 16px;
+}
+
+
+.item_modal{position: absolute;left: 100%;top: 0;bottom: 0;border: 1px solid #DDDDDD;background: #FFFFFF;border-radius: 2px;width: 335px;z-index: 99;height: 240px;display: block;}
+.item_modal .modal_header{height: 30px;border-bottom: 1px solid #DDDDDD;}
+.item_modal .modal_header span.close{width: 20px;height: 20px;float: right;padding: 5px;display: block;font-size: 30px;text-align: center;font-weight: 100;line-height: 20px;cursor: pointer;}
+.item_modal .modal_content{padding: 10px;position: relative;}
+.item_modal .modal_content dl:after{clear: both;display: block;content: '';}
+.item_modal .modal_content dl dt{display: block;line-height: 20px;}
+.item_modal .modal_content dl dd{display: block;}
+.item_modal .modal_content dl dd a{display: inline-block;margin: 3px;border: 1px solid #ddd;border-radius: 2px;cursor: pointer;padding: 1px;}
+.item_modal .modal_content dl dd a.active{border-color: #F62257;}
+.item_modal .modal_content dl dd a:hover{text-decoration: none;box-shadow: 0 0 2px #ddd;}
+.item_modal .modal_content dl dd a img{width: 50px;height: 50px;display: block;}
+.item_modal .modal_content dl.size dd a{height: 24px;line-height: 24px;padding: 0 10px;}
+.item_modal .modal_content dl.size dd a.gray{background-color: #ddd;cursor: not-allowed;color: #888;}
+.item_modal .modal_content span.arr_left{width: 0;height: 0;border-top: 6px solid transparent;border-bottom: 6px solid transparent;
+border-right: 10px solid #DDDDDD;position: absolute;left: -10px;top: 100px;margin: auto;}
+.item_modal .modal_content a.btn_ok{display: block;border: none;background: #333;height: 30px;line-height: 30px;
+margin: 5px auto 0;width: 120px;color: #FFFFFF;font-size: 14px;text-align: center;cursor: pointer;border-radius: 2px;}
