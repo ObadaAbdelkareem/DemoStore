@@ -7,9 +7,9 @@
 			<li>
 				<dl>
 					<dt><h3 data-language-id="LC_COMPANY_INFORMATION">Company Information</h3></dt>
-					<dd><a href="/about-us-hc171.html" rel="nofollow" data-language-id="LC_ABOUNT_NEWCHIC">About Newchic</a></dd>
-					<dd><a href="/privacy-policy-hc172.html" rel="nofollow" data-language-id="LC_PRIVACY_POLICY">Privacy Policy</a></dd>
-					<dd><a href="/return-and-refund-hc162.html" rel="nofollow" data-language-id="LC_RETURN_POLICY">Return Policy</a></dd>
+					<dd><router-link to="/helpCenter/" rel="nofollow" data-language-id="LC_ABOUNT_NEWCHIC">About Newchic</router-link></dd>
+					<dd><router-link to="/helpCenter/privacyPolicy" rel="nofollow" data-language-id="LC_PRIVACY_POLICY">Privacy Policy</router-link></dd>
+					<dd><router-link to="/helpCenter/returnAndRefund" rel="nofollow" data-language-id="LC_RETURN_POLICY">Return Policy</router-link></dd>
 					<dd><a href="/terms-and-conditions-hc174.html" rel="nofollow" data-language-id="LC_TERMS_CONDITIONS">Terms And Conditions</a></dd>
 					<dd><a href="/intellectual-property-claims-hc175.html" rel="nofollow" data-language-id="LC_PROPERTY_CLAIMS" target="_self">Intellectual Property Claims</a></dd>
 				</dl>

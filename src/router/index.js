@@ -5,6 +5,10 @@ import Product from '@/components/Product'
 import Cart from '@/components/Cart'
 import Checkout from '@/components/Checkout'
 import Payment from '@/components/Payment'
+import HelpCenter from '@/components/HelpCenter'
+import returnAndRefund from '@/components/returnAndRefund'
+import privacyPolicy from '@/components/privacyPolicy'
+import aboutUs from '@/components/aboutUs'
 // import sliderimage from '@/components/sliderimage'
 import homeHeader from '@/components/homeHeader'
 import imagesliderHomePage from '@/components/imagesliderHomePage'
@@ -101,6 +105,30 @@ export default new Router({
       path: '/homefooter',
       name: 'homefooter',
       component: homefooter
+    },
+    {
+      path: '/helpCenter',
+      name: 'help_center',
+      component: HelpCenter,
+      children: [
+        {
+          path: '/',
+          name: 'about-us',
+          component: aboutUs
+        },
+        {
+          path: 'returnAndRefund',
+          name: 'returnAndRefund',
+          component: returnAndRefund
+          
+        },
+        {
+          path: 'privacyPolicy',
+          name: 'privacyPolicy',
+          component: privacyPolicy
+          
+        }
+      ]
     }
   ]
 })
