@@ -50,9 +50,9 @@ export default {
 </script>
 
 <style>
-  #app {
+  /* #app {
     font-size: 0.9em;
-  }
+  } */
 
   #top-bar {
     background-color: #C0AAAA;

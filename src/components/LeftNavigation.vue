@@ -9,7 +9,7 @@
             <dt>About Newchic</dt>
         <dd>
                  
-        <router-link to="/helpCenter/">About Us</router-link>
+        <router-link to="/helpCenter">About Us</router-link>
                          
         <router-link to="/helpCenter/privacyPolicy">Privacy Policy</router-link>
                          

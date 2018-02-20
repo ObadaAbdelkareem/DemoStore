@@ -112,7 +112,7 @@ export default new Router({
       component: HelpCenter,
       children: [
         {
-          path: '/',
+          path: '',
           name: 'about-us',
           component: aboutUs
         },
