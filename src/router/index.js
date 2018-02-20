@@ -9,6 +9,9 @@ import HelpCenter from '@/components/HelpCenter'
 import returnAndRefund from '@/components/returnAndRefund'
 import privacyPolicy from '@/components/privacyPolicy'
 import aboutUs from '@/components/aboutUs'
+import shippingMethods from '@/components/shippingMethods'
+import orderFAQ from '@/components/orderFAQ'
+import termsAndConditions from '@/components/termsAndConditions'
 // import sliderimage from '@/components/sliderimage'
 import homeHeader from '@/components/homeHeader'
 import imagesliderHomePage from '@/components/imagesliderHomePage'
@@ -126,6 +129,24 @@ export default new Router({
           path: 'privacyPolicy',
           name: 'privacyPolicy',
           component: privacyPolicy
+          
+        },
+        {
+          path: 'shippingMethods',
+          name: 'shippingMethods',
+          component: shippingMethods
+          
+        },
+        {
+          path: 'orderFAQ',
+          name: 'orderFAQ',
+          component: orderFAQ
+          
+        },
+        {
+          path: 'termsAndConditions',
+          name: 'termsAndConditions',
+          component: termsAndConditions
           
         }
       ]
