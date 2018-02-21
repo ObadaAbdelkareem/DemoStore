@@ -30,7 +30,7 @@
 					<dt><h3 data-language-id="LC_COOPERATION">Cooperation</h3></dt>
 					<dd><router-link to="/bloggerProgram" rel="nofollow" data-language-id="LC_BLOGGER_PROGRAM">Blogger Program</router-link></dd>
 					<dd><router-link to="/affiliateProgram" rel="nofollow" data-language-id="LA_AFFILIATE_PROGRAM">Affiliate Program</router-link></dd>
-					<dd><a href="/account/showVipIllustrate.html" rel="nofollow" data-language-id="LA_VIP_PROGRAM">VIP Program</a></dd>
+					<dd><router-link to="/showVipIllustrate" rel="nofollow" data-language-id="LA_VIP_PROGRAM">VIP Program</router-link></dd>
 					<dd><a href="/dropship-program.html" rel="nofollow" data-language-id="LA_DROPSHIP_PROGRAM">Dropship Program</a></dd>					<dd><a href="/article/wholesaleShow.html" rel="nofollow" data-language-id="LA_WS_PROGRAM">Wholesale Program</a></dd>				</dl>
 			</li>
 			<li class="last">

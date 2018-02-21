@@ -14,6 +14,7 @@ import shippingMethods from '@/components/shippingMethods'
 import paymentMethods from '@/components/paymentMethods'
 import bloggerProgram from '@/components/bloggerProgram'
 import affiliateProgram from '@/components/affiliateProgram'
+import showVipIllustrate from '@/components/showVipIllustrate'
 import orderFAQ from '@/components/orderFAQ'
 import termsAndConditions from '@/components/termsAndConditions'
 // import sliderimage from '@/components/sliderimage'
@@ -178,6 +179,12 @@ export default new Router({
       path: '/affiliateProgram',
       name: 'affiliateProgram',
       component: affiliateProgram
+      
+    },
+    {
+      path: '/showVipIllustrate',
+      name: 'showVipIllustrate',
+      component: showVipIllustrate
       
     },
   ]
