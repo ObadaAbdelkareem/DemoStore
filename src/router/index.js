@@ -15,6 +15,7 @@ import paymentMethods from '@/components/paymentMethods'
 import bloggerProgram from '@/components/bloggerProgram'
 import affiliateProgram from '@/components/affiliateProgram'
 import showVipIllustrate from '@/components/showVipIllustrate'
+import dropshiProgram from '@/components/dropshiProgram'
 import orderFAQ from '@/components/orderFAQ'
 import termsAndConditions from '@/components/termsAndConditions'
 // import sliderimage from '@/components/sliderimage'
@@ -185,6 +186,12 @@ export default new Router({
       path: '/showVipIllustrate',
       name: 'showVipIllustrate',
       component: showVipIllustrate
+      
+    },
+    {
+      path: '/dropshiProgram',
+      name: 'dropshiProgram',
+      component: dropshiProgram
       
     },
   ]
