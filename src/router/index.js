@@ -12,6 +12,7 @@ import aboutUs from '@/components/aboutUs'
 import shippingFAQ from '@/components/shippingFAQ'
 import shippingMethods from '@/components/shippingMethods'
 import paymentMethods from '@/components/paymentMethods'
+import bloggerProgram from '@/components/bloggerProgram'
 import orderFAQ from '@/components/orderFAQ'
 import termsAndConditions from '@/components/termsAndConditions'
 // import sliderimage from '@/components/sliderimage'
@@ -162,8 +163,15 @@ export default new Router({
           name: 'paymentMethods',
           component: paymentMethods
           
-        }
+        },
+        
       ]
+    },
+    {
+      path: '/bloggerProgram',
+      name: 'bloggerProgram',
+      component: bloggerProgram
+      
     }
   ]
 })
