@@ -3,7 +3,7 @@
 	        	<div class="help_view">
 	        							<div class="edt_wholesale">
 						<div class="banner">
-							<img src="https://static.newchic.com/default/images/wholesale-banner.jpg" alt="">
+							<img src="../../static/assets/images/wholesale-banner.jpg" alt="">
 						</div>
 						<div class="whole_art">
 							<h1 class="whole_title">Why Buy Wholesale From Us?</h1>

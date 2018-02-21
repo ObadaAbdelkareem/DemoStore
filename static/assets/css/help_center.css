@@ -75,7 +75,7 @@
   .hp_center_rit .hp_cont .Useful_closet .haven_send {
     clear: both;
     padding-left: 36px;
-    /* background: url("../images/use_facw_03.png") no-repeat left center; */
+    background: url("../images/use_facw_03.png") no-repeat left center;
   }
   .hp_center_rit .hp_cont .Useful_closet .art {
     float: left;
@@ -107,10 +107,10 @@
     margin-right: 16px;
   }
   .hp_center_rit .hp_cont .Useful_closet .use i {
-    /* background: url("../images/help-praise_03.png") no-repeat center center; */
+    background: url("../images/help-praise_03.png") no-repeat center center;
   }
   .hp_center_rit .hp_cont .Useful_closet .no-use i {
-    /* background: url("../images/help-praise_05.png") no-repeat center center; */
+    background: url("../images/help-praise_05.png") no-repeat center center;
   }
   .hp_center_rit .hp_cont .tip {
     font-size: 18px;
@@ -144,14 +144,14 @@
   }
   .hp_center_rit .hp_cont .hp_cont_lst li.lst_li:hover h1.title {
     color: #e30057;
-    /* background: url(../images/help-doc_06.png) no-repeat right center; */
+    background: url(../images/help-doc_06.png) no-repeat right center;
     font-weight: 600;
   }
   .hp_center_rit .hp_cont .hp_cont_lst li.lst_li:hover .lst_hp {
     border-bottom: 1px dashed transparent;
   }
   .hp_center_rit .hp_cont .hp_cont_lst li.lst_li.active:hover h1.title {
-    /* background: url(../images/help-doc_03.png) no-repeat right center; */
+    background: url(../images/help-doc_03.png) no-repeat right center;
   }
   .hp_center_rit .hp_cont .hp_cont_lst li.active {
     margin-bottom: 8px;
@@ -168,7 +168,7 @@
     border-color: transparent;
   }
   .hp_center_rit .hp_cont .hp_cont_lst li.active h1.title {
-    /* background: url("../images/help-doc_03.png") no-repeat right center; */
+    background: url("../images/help-doc_03.png") no-repeat right center;
     font-weight: 600;
   }
   .hp_center_rit .hp_cont .hp_cont_lst li.bor .lst_hp {
@@ -216,10 +216,10 @@
     height: 30px;
     margin-left: 0;
     display: block;
-    /* background: url("../images/help_icon_03.png") no-repeat center center; */
+    background: url("../images/help_icon_03.png") no-repeat center center;
   }
   .art_photos .layui-layer-setwin .layui-layer-close2:hover {
-    /* background: url("../images/help_icon_03.png") no-repeat center center; */
+    background: url("../images/help_icon_03.png") no-repeat center center;
   }
   .art_photos .layui-layer-imgprev,
   .art_photos .layui-layer-imgprev:hover {
@@ -257,12 +257,12 @@
     margin-bottom: 0;
   }
   .colle_msg .doc_lst {
-    /* background: url("../images/use_doc_06.png") no-repeat left center; */
+    background: url("../images/use_doc_06.png") no-repeat left center;
     padding-left: 20px;
     cursor: pointer;
   }
   .colle_msg li.active {
-    /* background: url("../images/use_doc_03.png") no-repeat left center; */
+    background: url("../images/use_doc_03.png") no-repeat left center;
   }
   .colle_msg textarea {
     height: 74px;

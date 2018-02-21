@@ -16,8 +16,55 @@ export default {
   {
     leftNavigation
 
-  }
+  },
+mounted: function()
+  {
+    
+      Array.from(document.getElementsByClassName('title')).forEach(element => {
+             
+               element.addEventListener('click', function(){
+                 if(element.parentElement.parentElement.classList.contains('active'))
+                 {
+                        
+                        element.parentElement.parentElement.classList.remove('active');
+                 }
+                 else{
+                   
+                       element.parentElement.parentElement.classList.add('active');
+
+                 }
+                 
+               });
+             
+      });
+    
+  },
+ updated(){
   
+   if(window.location.href.includes("helpCenter"))
+   {
+    
+ Array.from(document.getElementsByClassName('title')).forEach(element => {
+              
+               element.addEventListener('click', function(){
+                 if(element.parentElement.parentElement.classList.contains('active'))
+                 {
+                        
+                        element.parentElement.parentElement.classList.remove('active');
+                 }
+                 else{
+                   
+                       element.parentElement.parentElement.classList.add('active');
+
+                 }
+                 
+               });
+             
+      });
+    
+ }
+   }
+ 
   };
 
 </script>
