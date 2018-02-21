@@ -13,6 +13,7 @@ import shippingFAQ from '@/components/shippingFAQ'
 import shippingMethods from '@/components/shippingMethods'
 import paymentMethods from '@/components/paymentMethods'
 import bloggerProgram from '@/components/bloggerProgram'
+import affiliateProgram from '@/components/affiliateProgram'
 import orderFAQ from '@/components/orderFAQ'
 import termsAndConditions from '@/components/termsAndConditions'
 // import sliderimage from '@/components/sliderimage'
@@ -172,6 +173,12 @@ export default new Router({
       name: 'bloggerProgram',
       component: bloggerProgram
       
-    }
+    },
+    {
+      path: '/affiliateProgram',
+      name: 'affiliateProgram',
+      component: affiliateProgram
+      
+    },
   ]
 })
