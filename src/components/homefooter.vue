@@ -31,7 +31,7 @@
 					<dd><router-link to="/bloggerProgram" rel="nofollow" data-language-id="LC_BLOGGER_PROGRAM">Blogger Program</router-link></dd>
 					<dd><router-link to="/affiliateProgram" rel="nofollow" data-language-id="LA_AFFILIATE_PROGRAM">Affiliate Program</router-link></dd>
 					<dd><router-link to="/showVipIllustrate" rel="nofollow" data-language-id="LA_VIP_PROGRAM">VIP Program</router-link></dd>
-					<dd><router-link to="/dropshiProgram" rel="nofollow" data-language-id="LA_DROPSHIP_PROGRAM">Dropship Program</router-link></dd>					<dd><a href="/article/wholesaleShow.html" rel="nofollow" data-language-id="LA_WS_PROGRAM">Wholesale Program</a></dd>				</dl>
+					<dd><router-link to="/dropshiProgram" rel="nofollow" data-language-id="LA_DROPSHIP_PROGRAM">Dropship Program</router-link></dd>					<dd><router-link to="/helpCenter/wholesaleProgram" rel="nofollow" data-language-id="LA_WS_PROGRAM">Wholesale Program</router-link></dd>				</dl>
 			</li>
 			<li class="last">
 				<div class="clearfix">

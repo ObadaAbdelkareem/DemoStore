@@ -15,6 +15,7 @@ import paymentMethods from '@/components/paymentMethods'
 import bloggerProgram from '@/components/bloggerProgram'
 import affiliateProgram from '@/components/affiliateProgram'
 import showVipIllustrate from '@/components/showVipIllustrate'
+import wholesaleProgram from '@/components/wholesaleProgram'
 import dropshiProgram from '@/components/dropshiProgram'
 import orderFAQ from '@/components/orderFAQ'
 import termsAndConditions from '@/components/termsAndConditions'
@@ -165,6 +166,12 @@ export default new Router({
           path: 'paymentMethods',
           name: 'paymentMethods',
           component: paymentMethods
+          
+        },
+        {
+          path: 'wholesaleProgram',
+          name: 'wholesaleProgram',
+          component: wholesaleProgram
           
         },
         

@@ -19,6 +19,10 @@
         <router-link v-on:click.native="activate" to="/helpCenter/termsAndConditions">Terms And Conditions</router-link>
                          
                     </dd>
+                    <dt>Cooperation</dt>
+                    <dd>
+                              <router-link v-on:click.native="activate" id="aboutUs" to="/helpCenter/wholesaleProgram">Wholesale Program</router-link>
+                    </dd>
             </dl>
   </div>
 </template>
