@@ -1544,25 +1544,25 @@
 		display:block;
 	}
 	.payment_flow li .step_icon{
-		width:36px;
-		height:36px;
+		width: 28px;
+		height: 28px;
 		margin:auto auto 6px auto;
 		background:url('../images/shop_cart.png') no-repeat
 	}
 	.payment_flow li .step_1{
-		background-position:0px -144px;
+		background-position:-4px -144px;
 	}
 	.payment_flow li .step_2{
-		background-position:0px -180px;
+		background-position:-4px -151px;
 	}
 	.payment_flow li .step_3{
-		background-position:0px -216px;
+		background-position:-4px -178px;
 	}
 	.payment_flow li .step_4{
-		background-position:0px -252px;
+		background-position:-4px -208px;
 	}
 	.payment_flow .active .step_1{
-		background-position:0px 0px;
+		background-position:-4px -4px;
 	}
 	.payment_flow .active .step_2{
 		background-position:0px -36px;
@@ -1639,14 +1639,14 @@
 	
 	.checkbox{ cursor:pointer;}
 	.checkbox span{width:12px; height:12px; background:url(../images/sprite_home.png) no-repeat #FFFFFF; border:1px #000000 solid; margin:0 auto; display:block;}
-	.checkbox .check_on{background-position:-253px -42px;}
+	.checkbox .check_on{background-position:-158px -916px;}
 	.checkbox .check_un{background-position:-253px -67px;}
 	.checkbox .check_off{ background:#f2f2f2; border:1px #dddddd solid;cursor:no-drop;}
 	
 	.cart_main .warehouse{ position:relative; height:35px; font-size:14px;}
 	.cart_main .warehouse .checkbox{ cursor:pointer; float:left; margin-right:10px;}
 	.cart_main .warehouse .checkbox span{width:12px; height:12px; background:url(../images/sprite_home.png) no-repeat #FFFFFF; border:1px #000000 solid; left:0;}
-	.cart_main .warehouse .checkbox .check_on{background-position:-253px -42px;}
+	.cart_main .warehouse .checkbox .check_on{background-position:-158px -916px;}
 	.cart_main .warehouse .checkbox .check_un{background-position:-253px -67px;}
 	.cart_main .warehouse .checkbox .check_off{ background:#f2f2f2; border:1px #dddddd solid;cursor:no-drop;}
 	
@@ -1733,7 +1733,16 @@
 	.ul_total .td_option .li_select_all .checkbox span{ float:left; margin:11px 10px 0 0;}
 	.ul_total .td_option .li_select_all .checkbox b{ float:left; font-weight:normal;}
 	.ul_total .td_option .li_clear_all,
-	.ul_total .td_option .li_later_save{float:left; height:35px;background:url(../images/buy_link.png) repeat-x 0 -44px; height:35px; line-height:35px;padding:0 10px;border:1px #a1a1a1 solid; cursor:pointer;}
+	.ul_total .td_option .li_later_save{
+		float: left;
+		padding: 0 15px;
+		height: 30px;
+		line-height: 30px;
+		background: #fff;
+		color: #333;
+		border: 1px solid #000;
+		cursor: pointer;
+	}
 	.ul_total .td_option .li_clear_all:hover,
 	.ul_total .td_option .li_later_save:hover{ background-position:0 -51px;}
 	
@@ -1765,7 +1774,7 @@
 	.cart_bottom_box .left .telephone{ overflow:hidden; margin:15px 0 6px 0;}
 	.cart_bottom_box .left .telephone span{ font-weight:bold; padding-right:5px;}
 	.cart_bottom_box .left .telephone input{ width:160px; height:22px; line-height:22px; padding:3px 8px; border:1px #dedede solid;}
-	.cart_bottom_box .choose{ float:left; line-height:30px;width:78px;}
+	.cart_bottom_box .choose{ float:left; line-height:30px;}
 	.cart_bottom_box .choose .checkbox{ float:left; margin:7px 8px 0 0;}
 	.cart_bottom_box .choose b{ padding-right:10px;}
 	.cart_bottom_box .off_tool{ overflow:hidden;zoom:1; padding-bottom:6px; font-style:normal; line-height:30px;}
@@ -1910,7 +1919,7 @@
 	.cart_bottom_box .have{ line-height:2; font-size:14px; color:#e33057; font-style:normal;}
 	.cart_bottom_box .have b{ color:#e33057; font-weight:normal;}
 	
-	.cart_bottom_box .right{float:right; width:600px;}
+	.cart_bottom_box .right{float:right; width:100%;}
 	.cart_bottom_box .payment_accept { overflow:hidden; float:left; margin-top:5px;}
 	.cart_bottom_box .payment_accept b{ float:right;line-height:48px; color:#666666; font-weight:normal; margin-right:10px;}
 	.cart_bottom_box .payment_accept span{ float:right; width:156px; height:48px;background:url(../images/sprite_home.png) no-repeat -8px -596px; margin-right:20px;}
@@ -1925,12 +1934,21 @@
 	
 	.cart_bottom_box .payment_btn_paypal{ margin-top:10px;}
 	.cart_bottom_box .payment_btn_paypal ul{ float:right;}
-	.cart_bottom_box .payment_btn_paypal li{ float:left; height:35px; line-height:35px; margin-left:10px;}
+	.cart_bottom_box .payment_btn_paypal li{ float:left; height:40px; line-height:35px; margin-left:10px;}
 	.cart_bottom_box .payment_btn_paypal li.paypal_btn {border:1px #e7a531 solid;}
-	.cart_bottom_box .payment_btn_paypal li.paypal_btn a{ display:block;background:#ffc439;overflow:hidden; height:35px; padding:0 20px; text-decoration:none; font-size:10px; color:#000000;}
+.cart_bottom_box .payment_btn_paypal li.paypal_btn a {
+	display: block;
+	background: #ffc439;
+	overflow: hidden;
+	height: 40px;
+	padding: 0 20px;
+	text-decoration: none;
+	font-size: 10px;
+	color: #000000;}
+	/*.cart_bottom_box .payment_btn_paypal li.paypal_btn a{ display:block;background:#ffc439;overflow:hidden; height:35px; padding:0 20px; text-decoration:none; font-size:10px; color:#000000;}*/
 	.cart_bottom_box .payment_btn_paypal li.paypal_btn a:hover{background:#fdbf2f;}
-	.cart_bottom_box .payment_btn_paypal li.paypal_btn span{ float:right; width:94px; height:23px;background:url(../images/sprite_home.png) no-repeat -293px -610px; margin:6px 0 0 10px;}
-	.cart_bottom_box .payment_btn_paypal li.checkout_btn{background:url(../images/buy_link.png) repeat-x 0 -1px; color:#ffffff; padding:0 20px; cursor:pointer; border:1px solid #A52E57; font-size:16px; text-transform:uppercase;}
+	.cart_bottom_box .payment_btn_paypal li.paypal_btn span{ width: 100px;height: 26px;background:url(../images/sprite_home.png) no-repeat -293px -610px;}
+	.cart_bottom_box .payment_btn_paypal li.checkout_btn{background:url(../images/buy_link.png) repeat-x 0 -1px;height: 40px; color:#ffffff; padding:0; cursor:pointer;background: #e30157;border-color: #e30157; font-size:15px; text-transform:uppercase;width: 100%;margin: 0 0 20px 0;}
 	.cart_bottom_box .payment_btn_paypal li.checkout_btn:hover{ background-position:0 -8px;}
 	
 	.country{ position:relative;margin-top:15px; height:31px; width:100%;}
@@ -1951,7 +1969,7 @@
 	.country_tool .tools .box .search i{ width:13px; height:12px; background:url(../images/sprite_home.png) no-repeat -284px -10px; position:absolute; top:12px; left:18px;}
 	.country_tool .tools .box .search input{ background:none; height:23px; border:1px #dedede solid; background:#FFFFFF; padding-left:25px; margin:5px 0 5px 10px; width:387px;}
 	
-	.cart_bottom_box .Coupon_box{ border: none; padding:0; display:block; margin:10px 0 15px 108px;}	
+	.cart_bottom_box .Coupon_box{ border: none; padding:0; display:block; margin:10px 0 15px 0px;}
 	.cart_bottom_box .Coupon_box .title{ line-height:2.5; font-weight:bold; font-size:14px; font-style:normal;}
 	.cart_bottom_box .Coupon_box .tips_off{ background:#ffebbb; padding:9px; padding-top:11px; text-align:center; font-size:15px; margin:5px 0 16px 0;}	
 	.cart_bottom_box .Coupon_box .tips_off span{ color:#e33057;font-weight:bold;}
@@ -2630,7 +2648,7 @@
 	}
 	
 
-	.cart_box {padding: 0 35px 10px 35px; }
+	.cart_box {padding: 0; }
 	.cart_box .cart_main > dl > dd > div {
 		box-sizing: border-box;
 	}
@@ -2641,7 +2659,7 @@
 	.cart_box .cart_main .dt_edit{ width:11%;}
 	.cart_box .cart_main .dt_subtotal{ width:10.6%;}
 	
-	.cart_box .cart_main .td_select {width: 5.75%;}
+	.cart_box .cart_main .td_select {width: 210px;}
 	.cart_box .cart_main .td_product {width: 40.75%;}
 	.cart_box .cart_main .td_product .a_title{ width: auto; }
 	.cart_box .cart_main .td_opt { width: 11%;}

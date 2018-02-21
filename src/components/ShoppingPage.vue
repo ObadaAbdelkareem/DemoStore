@@ -1,5 +1,14 @@
-<template> 
+<template>
 <div class="wrap margin-top-20">
+	<div class="wrap">
+		<div class="top ">
+			<div class="logo text-center">
+				<a href="https://www.newchic.com/" target="_self">
+					<img src="//static.newchic.com/default/images/logo.png">
+				</a>
+			</div>
+		</div>
+	</div>
 	<div class="payment_flow">
 		<ul class="clear_1">
 			<li class="step_li_1 active">
@@ -37,7 +46,8 @@
 		<h3 str="Your Shopping Bag (<span id='numCart'>%d</span> Items)" data-language-id="LS_CART_TITLE">
 			<!--Your Shopping Bag-->
 			Shopping Bag (<span id="numCart">1</span> Items)
-			<a class="pull-right" onclick="set_shopping_ga('continue-shopping')" href="/" target="_self">Continue Shopping &gt;&gt;</a>
+			<a class="pull-right" onclick="set_shopping_ga('continue-shopping')"
+               href="/" target="_self">Continue Shopping &gt;&gt;</a>
 		</h3>
 	</div>
 	<div class="cart_box">
@@ -74,11 +84,10 @@
 			</a>
 		</div>
 	</li>
-	<li class="td_product"> 
+	<li class="td_product">
 		
 		<div class="td_product_info">
-			<a class="a_title" href="https://www.newchic.com/backpack-3624/p-1047630.html?rmmds=cart" onclick="set_shopping_ga('url')" target="_self">
-				Women Canvas Casual Multifunctional Microfiber Leather Large Capacity Handbag Shoulder Bags Backpack
+			<a class="a_title" href="https://www.newchic.com/backpack-3624/p-1047630.html?rmmds=cart" onclick="set_shopping_ga('url')" target="_self">Women Canvas Casual Multifunctional Microfiber Leather Large Capacity Handbag Shoulder Bags Backpack
 			</a>
 			<div class="prod-icon-container">
 				<ul class=" list-inline">
@@ -350,7 +359,7 @@
 			<input type="hidden" value="" id="needPhone">
 			<input type="hidden" value="" id="phone" name="phone">
 			<input type="hidden" value="1" id="usePPaddress" name="usePPaddress">
-			<a href="javascript:void(0);" id="paypalForm"><span></span>Checkout</a>
+			<a href="javascript:void(0);" id="paypalForm"><span></span></a>
 			</form>
 		</li>
 		<li class="or"><span>Or</span></li>
