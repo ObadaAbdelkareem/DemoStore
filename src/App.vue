@@ -13,7 +13,8 @@
         </div>
       </div>
     </div>-->
-    <router-view></router-view>
+    <homeHeader></homeHeader>
+     <router-view></router-view>
      <homefooter></homefooter>
   </div>
 </template>
@@ -27,8 +28,10 @@ import homefooter from '@/components/homefooter'
 export default {
   name: 'app',
   components: {
+    homeHeader,
     homefooter,
     //imagesliderHomePage,
+    
       
     },
   data () {
@@ -47,9 +50,9 @@ export default {
 </script>
 
 <style>
-  #app {
+  /* #app {
     font-size: 0.9em;
-  }
+  } */
 
   #top-bar {
     background-color: #C0AAAA;
