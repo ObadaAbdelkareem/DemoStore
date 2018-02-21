@@ -18,10 +18,10 @@
 				<dl>
 					<dt><h3 data-language-id="LC_CUSTOMER_SERVICE">Customer Service</h3></dt>
 					<dd><a href="/index.php?com=order" rel="nofollow" data-language-id="LC_TRACK_ORDER">Track Order</a></dd>
-					<dd><router-link to="/helpCenter/shippingMethods" rel="nofollow" data-language-id="LC_SHIPPING_FAQ">Shipping FAQ</router-link></dd>
+					<dd><router-link to="/helpCenter/shippingFAQ" rel="nofollow" data-language-id="LC_SHIPPING_FAQ">Shipping FAQ</router-link></dd>
 					<dd><router-link to="/helpCenter/orderFAQ" rel="nofollow" data-language-id="LC_ORDRE_FAQ" target="_self">Order FAQ</router-link></dd>
-					<dd><a href="/shipping-methods-hc160.html" rel="nofollow" data-language-id="LC_SHIPPING_METHODS">Shipping Methods</a></dd>
-					<dd><a href="/payment-methods-hc159.html" rel="nofollow" data-language-id="LC_PAYMENT_METHODS" target="_self">Payment Methods</a></dd>
+					<dd><router-link to="/helpCenter/shippingMethods" rel="nofollow" data-language-id="LC_SHIPPING_METHODS">Shipping Methods</router-link></dd>
+					<dd><router-link to="/helpCenter/paymentMethods" rel="nofollow" data-language-id="LC_PAYMENT_METHODS" target="_self">Payment Methods</router-link></dd>
 					<!-- <dd><a href="/help_center" rel="nofollow" data-language-id="LC_SUPPORT_CENTER">Support Center</a></dd> -->
 				</dl>
 			</li>

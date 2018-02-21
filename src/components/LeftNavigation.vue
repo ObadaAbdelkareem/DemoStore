@@ -5,8 +5,10 @@
         <dd>
                         
         <router-link v-on:click.native="activate" to="/helpCenter/returnAndRefund">Return &amp; Refund</router-link>
-        <router-link v-on:click.native="activate" to="/helpCenter/shippingMethods">Shipping FAQ</router-link>
+        <router-link v-on:click.native="activate" to="/helpCenter/shippingFAQ">Shipping FAQ</router-link>
         <router-link v-on:click.native="activate" to="/helpCenter/orderFAQ">Order FAQ</router-link>
+        <router-link v-on:click.native="activate" to="/helpCenter/shippingMethods">Shipping Methods</router-link>
+        <router-link v-on:click.native="activate" to="/helpCenter/paymentMethods">Payment Methods</router-link>
                     </dd>
             <dt>About Newchic</dt>
         <dd>
