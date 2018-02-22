@@ -1,6 +1,6 @@
 <template> 
 <div>
-    <homeHeader></homeHeader>
+    
     <imagesliderHomePage></imagesliderHomePage>
     <categoryHomePage></categoryHomePage>
   </div>
@@ -15,7 +15,7 @@ import homefooter from '@/components/homefooter.vue'
 export default {
   name: 'homePage',
   components: {
-      homeHeader,
+
       imagesliderHomePage,
       categoryHomePage,
       homefooter

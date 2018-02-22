@@ -5,6 +5,20 @@ import Product from '@/components/Product'
 import Cart from '@/components/Cart'
 import Checkout from '@/components/Checkout'
 import Payment from '@/components/Payment'
+import HelpCenter from '@/components/HelpCenter'
+import returnAndRefund from '@/components/returnAndRefund'
+import privacyPolicy from '@/components/privacyPolicy'
+import aboutUs from '@/components/aboutUs'
+import shippingFAQ from '@/components/shippingFAQ'
+import shippingMethods from '@/components/shippingMethods'
+import paymentMethods from '@/components/paymentMethods'
+import bloggerProgram from '@/components/bloggerProgram'
+import affiliateProgram from '@/components/affiliateProgram'
+import showVipIllustrate from '@/components/showVipIllustrate'
+import wholesaleProgram from '@/components/wholesaleProgram'
+import dropshiProgram from '@/components/dropshiProgram'
+import orderFAQ from '@/components/orderFAQ'
+import termsAndConditions from '@/components/termsAndConditions'
 // import sliderimage from '@/components/sliderimage'
 import homeHeader from '@/components/homeHeader'
 import imagesliderHomePage from '@/components/imagesliderHomePage'
@@ -101,6 +115,91 @@ export default new Router({
       path: '/homefooter',
       name: 'homefooter',
       component: homefooter
-    }
+    },
+    {
+      path: '/helpCenter',
+      name: 'help_center',
+      component: HelpCenter,
+      children: [
+        {
+          path: '',
+          name: 'about-us',
+          component: aboutUs
+        },
+        {
+          path: 'returnAndRefund',
+          name: 'returnAndRefund',
+          component: returnAndRefund
+          
+        },
+        {
+          path: 'privacyPolicy',
+          name: 'privacyPolicy',
+          component: privacyPolicy
+          
+        },
+        {
+          path: 'shippingFAQ',
+          name: 'shippingFAQ',
+          component: shippingFAQ
+          
+        },
+        {
+          path: 'orderFAQ',
+          name: 'orderFAQ',
+          component: orderFAQ
+          
+        },
+        {
+          path: 'termsAndConditions',
+          name: 'termsAndConditions',
+          component: termsAndConditions
+          
+        },
+        {
+          path: 'shippingMethods',
+          name: 'shippingMethods',
+          component: shippingMethods
+          
+        },
+        {
+          path: 'paymentMethods',
+          name: 'paymentMethods',
+          component: paymentMethods
+          
+        },
+        {
+          path: 'wholesaleProgram',
+          name: 'wholesaleProgram',
+          component: wholesaleProgram
+          
+        },
+        
+      ]
+    },
+    {
+      path: '/bloggerProgram',
+      name: 'bloggerProgram',
+      component: bloggerProgram
+      
+    },
+    {
+      path: '/affiliateProgram',
+      name: 'affiliateProgram',
+      component: affiliateProgram
+      
+    },
+    {
+      path: '/showVipIllustrate',
+      name: 'showVipIllustrate',
+      component: showVipIllustrate
+      
+    },
+    {
+      path: '/dropshiProgram',
+      name: 'dropshiProgram',
+      component: dropshiProgram
+      
+    },
   ]
 })
