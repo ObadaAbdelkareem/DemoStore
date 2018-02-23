@@ -2209,7 +2209,7 @@ table.list-table.table-bordered td,table.list-table.table-bordered th{border-rig
 .dialog-affiliate-code .code-wrap{padding:5px 10px;margin-bottom:20px;line-height:2em;background-color:#f9f9f9;border:1px solid #dedede;word-break:break-word}
 .affiliate-wrap,.affiliate-wrap *{box-sizing:border-box}
 .affiliate-wrap .text-blue{color:#0e6ea8}
-.affiliate-wrap.affiliate-index-wrap .banner{position:relative;height:340px;background:url(../images/affiliate/affiliate_index_banner.jpg) center top no-repeat}
+.affiliate-wrap.affiliate-index-wrap .banner{position:relative;height:340px;background:url(../images/affiliate_index_banner.jpg) center top no-repeat}
 .affiliate-wrap.affiliate-index-wrap .banner .user-head-wrap{padding-top:30px;text-align:center;line-height:1.5}
 .affiliate-wrap.affiliate-index-wrap .banner .user-head-wrap .name{font-size:18px;line-height:2em;margin-top:10px}
 .affiliate-wrap.affiliate-index-wrap .banner .user-head-wrap .level{font-size:14px}

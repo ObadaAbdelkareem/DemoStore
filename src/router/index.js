@@ -19,6 +19,29 @@ import wholesaleProgram from '@/components/wholesaleProgram'
 import dropshiProgram from '@/components/dropshiProgram'
 import orderFAQ from '@/components/orderFAQ'
 import termsAndConditions from '@/components/termsAndConditions'
+import myAccount from '@/components/myAccount'
+import myAccountIndex from '@/components/myAccountIndex'
+import myOrders from '@/components/myOrders'
+import ordersList from '@/components/ordersList'
+import unPaidOrders from '@/components/unPaidOrders'
+import proccessingOrders from '@/components/proccessingOrders'
+import shippedOrders from '@/components/shippedOrders'
+import myAccountPoints from '@/components/myAccountPoints'
+import myCoupons from '@/components/myCoupons'
+import myAccountWishList from '@/components/myAccountWishList'
+import myAccountOutFits from '@/components/myAccountOutFits'
+import myAccountReviews from '@/components/myAccountReviews'
+import myAccountQuestions from '@/components/myAccountQuestions'
+import myAccountPersonalInfo from '@/components/myAccountPersonalInfo'
+import myAccountChangePassword from '@/components/myAccountChangePassword'
+import myAccountAddressBook from '@/components/myAccountAddressBook'
+import myAccountPrograms from '@/components/myAccountPrograms'
+import myAccountAffProgram from '@/components/myAccountAffProgram'
+import myAccountWholeSaleProgram from '@/components/myAccountWholeSaleProgram'
+import myAccountReffProgram from '@/components/myAccountReffProgram'
+import myAccountDopShipProgram from '@/components/myAccountDopShipProgram'
+
+
 // import sliderimage from '@/components/sliderimage'
 import homeHeader from '@/components/homeHeader'
 import imagesliderHomePage from '@/components/imagesliderHomePage'
@@ -200,6 +223,138 @@ export default new Router({
       name: 'dropshiProgram',
       component: dropshiProgram
       
+    },
+    {
+      path: '/myAccount',
+      name: 'myAccount',
+      component: myAccount,
+      children: [
+        {
+          path: '',
+          name: 'myAccountIndex',
+          component: myAccountIndex
+
+        },
+        {
+          path: 'myAccountPoints',
+          name: 'myAccountPoints',
+          component: myAccountPoints
+
+        },
+        {
+          path: 'myCoupons',
+          name: 'myCoupons',
+          component: myCoupons,
+          
+
+        },
+        {
+          path: 'wishList',
+          name: 'myAccountWishList',
+          component: myAccountWishList,
+          
+
+        },
+        {
+          path: 'outFits',
+          name: 'myAccountOutFits',
+          component: myAccountOutFits,
+          
+
+        },
+        {
+          path: 'reviews',
+          name: 'myAccountReviews',
+          component: myAccountReviews,
+          
+
+        },
+        {
+          path: 'personalInfo',
+          name: 'myAccountPersonalInfo',
+          component: myAccountPersonalInfo,
+          
+
+        },
+        {
+          path: 'changePassword',
+          name: 'myAccountChangePassword',
+          component: myAccountChangePassword,
+          
+
+        },
+        {
+          path: 'questions',
+          name: 'myAccountQuestions',
+          component: myAccountQuestions,
+          
+
+        },
+        {
+          path: 'addressBook',
+          name: 'myAccountAddressBook',
+          component: myAccountAddressBook,
+          
+
+        },
+        {
+          path: 'myOrders',
+          name: 'myOrders',
+          component: myOrders,
+          children: [
+            {
+                path:'ordersList',
+                name: 'ordersList',
+                component: ordersList
+            },
+            {
+                path:'unPaidOrders',
+                name: 'unPaidOrders',
+                component: unPaidOrders
+            },
+            {
+                path:'proccessingOrders',
+                name: 'proccessingOrders',
+                component: proccessingOrders
+            },
+            {
+                path:'shippedOrders',
+                name: 'shippedOrders',
+                component: shippedOrders
+            }
+          ]
+
+        },
+        {
+          path: 'programs',
+          name:'myAccountPrograms',
+          component: myAccountPrograms,
+          children: [
+            
+             {
+               path: 'WholeSaleProgram',
+               name: 'myAccountWholeSaleProgram',
+               component: myAccountWholeSaleProgram
+             },
+             {
+               path: 'DropShipProgram',
+               name: 'myAccountDopShipProgram',
+               component: myAccountDopShipProgram
+             }
+            
+          ]
+        }
+      ]
+    },
+    {
+      path: '/account/AffProgram',
+      name: 'myAccountAffProgram',
+      component: myAccountAffProgram
+    },
+    {
+      path: '/account/ReffProgram',
+      name: 'myAccountReffProgram',
+      component: myAccountReffProgram
     },
   ]
 })

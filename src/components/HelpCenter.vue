@@ -9,9 +9,9 @@
 
 
 <script>
-import leftNavigation from '@/components/leftNavigation'
+import leftNavigation from '@/components/LeftNavigation'
 export default {
-  name: 'helpCenter',
+  name: 'HelpCenter',
   components:
   {
     leftNavigation
