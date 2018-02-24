@@ -92,7 +92,7 @@
                         <div class="box" style="margin-left: -67px;">
                           <i></i>
                           <ul>
-                            <li><a class="a_1" rel="nofollow" href="/Contact-Us-hc10.html" onclick="set_home_ga('Home - Contact us')" data-language-id="LC_CONTACT_US"><span class="nc-icon nc-icon-email"></span>Contact us</a></li>
+                            <li><router-link class="a_1" rel="nofollow" to="/helpCenter/contactUs" onclick="set_home_ga('Home - Contact us')" data-language-id="LC_CONTACT_US"><span class="nc-icon nc-icon-email"></span>Contact us</router-link></li>
                             <li><router-link class="a_2" rel="nofollow" to="/helpCenter" onclick="set_home_ga('Home - Help Center')" data-language-id="LC_HELP_CENTER"><span class="nc-icon nc-icon-why"></span>Help Center</router-link></li>
                             <li class="live-chat">
                               <a class="a_1" rel="nofollow" href="javascript:void(0);" data-language-id="LC_LIVE_CHAT"><span class="nc-icon-Customerservice-m nc-icon"></span>Live chat</a>

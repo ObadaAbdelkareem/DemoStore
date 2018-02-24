@@ -40,6 +40,7 @@ import myAccountAffProgram from '@/components/myAccountAffProgram'
 import myAccountWholeSaleProgram from '@/components/myAccountWholeSaleProgram'
 import myAccountReffProgram from '@/components/myAccountReffProgram'
 import myAccountDopShipProgram from '@/components/myAccountDopShipProgram'
+import contactUs from '@/components/contactUs'
 
 
 // import sliderimage from '@/components/sliderimage'
@@ -195,6 +196,12 @@ export default new Router({
           path: 'wholesaleProgram',
           name: 'wholesaleProgram',
           component: wholesaleProgram
+          
+        },
+        {
+          path: 'contactUs',
+          name: 'contactUs',
+          component: contactUs
           
         },
         
