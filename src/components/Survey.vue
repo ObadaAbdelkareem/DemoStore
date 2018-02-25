@@ -403,7 +403,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 html { height: 100%; }
 
 body { height: 100%; padding: 0; margin: 0; line-height: 1; font-size: 12px; font-family: Arial; -webkit-text-size-adjust: none; color: #333; background: #ffffff; }
