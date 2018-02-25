@@ -41,6 +41,7 @@ import myAccountWholeSaleProgram from '@/components/myAccountWholeSaleProgram'
 import myAccountReffProgram from '@/components/myAccountReffProgram'
 import myAccountDopShipProgram from '@/components/myAccountDopShipProgram'
 import contactUs from '@/components/contactUs'
+import Survey from '@/components/Survey'
 
 
 // import sliderimage from '@/components/sliderimage'
@@ -69,6 +70,11 @@ export default new Router({
       path: '/cart',
       name: 'Cart',
       component: Cart
+    },
+    {
+      path: '/survey',
+      name: 'Survey',
+      component: Survey
     },
     {
       path: '/checkout',

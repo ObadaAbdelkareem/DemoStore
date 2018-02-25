@@ -139,14 +139,14 @@
 <div class="fix_slides">
     <ul>
                 <li class="fix_lst  fix_question">
-            <a data-href="http://survey.newchic.com/Survey?email=aGRvcjQzQG90ZW5ldC5ncg%3D%3D&amp;type=7&amp;surveyType=1" href="javascript:void(0);">
+            <router-link to="/survey">
                 <div class="fix_lst_box">
                     <dl>
                         <dt>Satisfaction Survey</dt>
                         <dd></dd>
                     </dl>
                 </div>
-            </a>
+            </router-link>
         </li>
                 <li class="fix_lst gift hidden">
             <div class="fix_lst_box">
