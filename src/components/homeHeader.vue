@@ -112,9 +112,9 @@
                       </div>
                     </div>
                     <div class="logo">
-                      <a href="/vue-demo-storeew/" onclick="set_home_ga('Home - Newchic')" target="_self">
+                      <router-link to="/" onclick="set_home_ga('Home - Newchic')" target="_self">
                       <img src="../../static/assets/images/logo.png">
-                      </a>
+                      </router-link>
                     </div>
                     <div class="top_search_container">
                       <div class="search text-left">
@@ -161,10 +161,10 @@
                     <div class="head_right">
                       <div class="bag">
                         <div class="title">
-                          <a href="/new/shopping_cart.php" rel="nofollow" target="_self">
+                          <router-link to="/cart" rel="nofollow" target="_self">
                           <i class="nc-icon nc-icon-bag"></i>
                           <span><b id="head_cart_num" class="num">1</b></span>
-                          </a>
+                          </router-link>
                         </div>
                         <div class="box" style="">
                           <i calss="firsti"></i>
@@ -220,14 +220,14 @@
                         </div>
                       </div>
                       <div class="index_wish">
-                        <a href="/login.html">
+                        <router-link to="/myAccount/wishList">
                         <i class="nc-icon nc-icon-heart-linear"></i>
                         <span class="wish_nums"></span>
-                        </a>
+                        </router-link>
                       </div>
                       <div class="nav_login" style="float:right;">
                         <div class="login">
-                          <a href="/new/login.html">Sign in</a><!--<span>or</span><a href="/new/login.html">Register</a>-->
+                          <router-link to="/LoginRegister">Sign in</router-link><!--<span>or</span><a href="/new/login.html">Register</a>-->
                           <input type="hidden" value="" id="head_ds_flg">
                           <input type="hidden" value="" id="customers_name">
                           <input type="hidden" value="login.html" id="surveyUrl">
@@ -244,7 +244,7 @@
                 <div class="channel">
                   <ul>
                     <li>
-                      <b><a href="/new/new-arrivals/" class="red" onclick="set_navigation_ga('Weekly New');">Weekly New</a></b>
+                      <b><router-link to="/mainCategory" class="red" onclick="set_navigation_ga('Weekly New');">Weekly New</router-link></b>
                       <i></i>
                       <div>
                         <div class="wrap clearfixes">
@@ -285,7 +285,7 @@
                       </div>
                     </li>
                     <li>
-                      <b><a href="/new/womens-clothing.html" onclick="set_home_ga('Home - Women');set_navigation_ga('Women');" target="_self">Women</a></b>
+                      <b><router-link to="/mainCategory" onclick="set_home_ga('Home - Women');set_navigation_ga('Women');" target="_self">Women</router-link></b>
                       <i style="left: 23px; margin-left: -4px; display: none;"></i>
                       <div style="width: 1351px; left: -207.5px; display: none;">
                         <div class="wrap clearfixes">
@@ -356,7 +356,7 @@
                       </div>
                     </li>
                     <li>
-                      <b><a href="/new/mens-clothing-c-3581/" onclick="set_home_ga('Home - Men');set_navigation_ga('Men');" target="_self">Men</a></b>
+                      <b><router-link to="/mainCategory" onclick="set_home_ga('Home - Men');set_navigation_ga('Men');" target="_self">Men</router-link></b>
                       <i style="display: none;"></i>
                       <div style="display: none;">
                         <div class="wrap clearfixes">
@@ -430,7 +430,7 @@
                       </div>
                     </li>
                     <li>
-                      <b><a href="/vue-demo-store/bags-c-3579/" onclick="set_home_ga('Home - Bags');set_navigation_ga('Bags');">Bags</a></b>
+                      <b><router-link to="/mainCategory" onclick="set_home_ga('Home - Bags');set_navigation_ga('Bags');">Bags</router-link></b>
                       <i style="left: 16px; margin-left: -4px; display: none;"></i>
                       <div style="width: 1351px; left: -383.5px; display: none;">
                         <div class="wrap clearfixes">
@@ -490,7 +490,7 @@
                       </div>
                     </li>
                     <li>
-                      <b><a href="/new/shoes-c-3580/" onclick="set_home_ga('Home - Shoes');set_navigation_ga('Shoes');" target="_self">Shoes</a></b>
+                      <b><router-link to="/mainCategory" onclick="set_home_ga('Home - Shoes');set_navigation_ga('Shoes');" target="_self">Shoes</router-link></b>
                       <i style="display: none;"></i>
                       <div style="display: none;">
                         <div class="wrap clearfixes">
@@ -551,7 +551,7 @@
                       </div>
                     </li>
                     <li>
-                      <b><a href="/new/beauty-c-3990/" onclick="set_home_ga('Home - Beauty');set_navigation_ga('Beauty');" target="_self">Beauty</a></b>
+                      <b><router-link to="/mainCategory" onclick="set_home_ga('Home - Beauty');set_navigation_ga('Beauty');" target="_self">Beauty</router-link></b>
                       <i style="display: none;"></i>
                       <div style="display: none;">
                         <div class="wrap clearfixes">
@@ -625,7 +625,7 @@
                       </div>
                     </li>
                     <li>
-                      <b><a href="/new/jewelry-and-watch-c-4040/" onclick="set_home_ga('Home - Jewelry');set_navigation_ga('Jewelry &amp; Watch');" target="_self">Jewelry &amp; Watch</a></b>
+                      <b><router-link to="/mainCategory" onclick="set_home_ga('Home - Jewelry');set_navigation_ga('Jewelry &amp; Watch');" target="_self">Jewelry &amp; Watch</router-link></b>
                       <i style="left: 55.5px; margin-left: -4px; display: none;"></i>
                       <div style="width: 1351px; left: -659.5px; display: none;">
                         <div class="wrap clearfixes">
@@ -698,7 +698,7 @@
                       </div>
                     </li>
                     <li>
-                      <b><a href="/new/home-and-garden-c-4494/" onclick="set_home_ga('Home - Home &amp; Garden');set_navigation_ga('Home &amp; Garden');" target="_self">Home &amp; Garden</a></b>
+                      <b><router-link to="/mainCategory" onclick="set_home_ga('Home - Home &amp; Garden');set_navigation_ga('Home &amp; Garden');" target="_self">Home &amp; Garden</router-link></b>
                       <i style="left: 50px; margin-left: -4px; display: none;"></i>
                       <div style="width: 1351px; left: -823.5px; display: none;">
                         <div class="wrap clearfixes">
@@ -770,7 +770,7 @@
                       </div>
                     </li>
                     <li>
-                      <b><a href="/new/kids-c-4565/" onclick="set_home_ga('Home - Kids');set_navigation_ga('Kids');" target="_self">Kids</a></b>
+                      <b><router-link to="/mainCategory" onclick="set_home_ga('Home - Kids');set_navigation_ga('Kids');" target="_self">Kids</router-link></b>
                       <i style="display: none;"></i>
                       <div style="display: none;">
                         <div class="wrap clearfixes">
@@ -827,7 +827,7 @@
                       </div>
                     </li>
                     <li>
-                      <b><a href="/new/accessories-c-3973/" onclick="set_home_ga('Home - Accessories');set_navigation_ga('Accessories');">Accessories</a></b>
+                      <b><router-link to="/mainCategory" onclick="set_home_ga('Home - Accessories');set_navigation_ga('Accessories');">Accessories</router-link></b>
                       <i style="left: 43px; margin-left: -4px; display: none;"></i>
                       <div style="width: 1351px; left: -1055.5px; display: none;">
                         <div class="wrap clearfixes">
@@ -886,7 +886,7 @@
                       </div>
                     </li>
                     <li>
-                      <b><a href="" class="red" onclick="set_navigation_ga('SALE');" target="_self">SALE</a></b>
+                      <b><router-link to="/" class="red" onclick="set_navigation_ga('SALE');" target="_self">SALE</router-link></b>
                       <i style="left: 15px; margin-left: -4px; display: none;"></i>
                       <div class="last_spe" style="width: 1351px; left: -1193.5px; display: none;">
                         <div class="wrap clearfixes">

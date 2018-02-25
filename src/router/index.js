@@ -137,6 +137,7 @@ export default new Router({
       component: LoginRegister
     },
     {
+      
       path: '/ProductPage',
       name: 'ProductPage',
       component: ProductPage
