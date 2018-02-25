@@ -16,6 +16,28 @@
     <homeHeader></homeHeader>
      <router-view></router-view>
      <homefooter></homefooter>
+     <div class="fix_slides">
+       <ul>
+<li class="fix_lst down_app">
+  
+  <div class="fix_lst_box">
+      <dl>
+          <dt>
+          <ol>
+              <li class="down_app_til">Download  <span>NEWCHIC APP</span>  to</li>
+              <li class="fix_lst_pics"><span>GET</span> <span class="f_size_28"><i>20%</i>OFF</span></li>
+              <li class="down_way clearfixes">
+                  <span>1st order</span>
+                  <a href="/AppDownload.html" onClick="set_app_ga('Central')" target="_blank">LEARN MORE >></a>
+              </li>
+          </ol>
+          </dt>
+          <!--<dd></dd>-->
+      </dl>
+  </div>
+</li>
+</ul>
+</div>
   </div>
 </template>
 
