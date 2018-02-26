@@ -45,7 +45,8 @@ export default {
     MoltinService.getCart().then((response) => {
       this.cartItems = response
     })
-  }
+  },
+ 
 }
 </script>
 

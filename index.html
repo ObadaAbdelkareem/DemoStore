@@ -33,6 +33,7 @@
 
             <link href="static/assets/css/help_center.css" rel="stylesheet" type="text/css">
             <link href="static/assets/css/master.css" rel="stylesheet" type="text/css">
+           
     <!--<link href="//static.newchic.com/default/images/logo_small.jpg" rel="Shortcut Icon">
     <link href="//static.newchic.com/default/images/logo_small.jpg" rel="Bookmark">-->
     <link href="static/assets/images/logo_small.jpg" rel="Shortcut Icon">
@@ -45,7 +46,44 @@
    
     <script type="text/javascript" src="static/assets/js/utils.js"></script>
      <script src="static/assets/js/header/keyword.js"></script>
-     
+     <style>
+       .goog-text-highlight{
+         background-color: unset !important;
+         box-shadow: unset !important;
+       }
+       .goog-tooltip.skiptranslate
+       {
+         display: none !important;
+       }
+     .goog-te-banner-frame.skiptranslate{
+       display: none !important;
+     }
+     body{
+       top: 0 !important;
+     }
+     .translated-rtl{
+       direction: rtl;
+     }
+     .goog-te-menu-value{
+       text-decoration: none !important;
+       height: 18px !important;
+       position: relative !important;
+       bottom: 9px !important;
+     }
+     .goog-te-gadget-simple{
+      height: 18px !important;
+     }
+     .goog-te-gadget-icon{
+      position: relative;
+    bottom: 9px;
+     }
+     .goog-te-gadget-simple
+     {
+
+         position: relative !important;
+         top: 8px !important;
+}
+     </style>
   </head>
 
   <body class="full-page-index product-info-wrap">
@@ -92,7 +130,49 @@
 
 <!--Main category-->
 <script src="static/assets/js/wom.js"></script>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+  }
+  </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script>
+     window.setInterval(function () {
 
+    var cssId = 'myCss';  // you could encode the css path itself to generate id..
+    var head = document.getElementsByTagName('head')[0];
+    var link = document.createElement('link');
+    if ($('html').hasClass('translated-rtl')) {
+
+      $('.hp_center_rit .hp_cont .hp_cont_lst li.lst_li:hover h1.title').css('background', 'url("../static/assets/images/help-doc_06.png") no-repeat left center');
+
+      $('.hp_center_rit .hp_cont .hp_cont_lst li.lst_li.active:hover h1.title').css('background', 'url("../static/assets/images/help-doc_03.png") no-repeat left center');
+
+      if (!document.getElementById(cssId)) {
+
+        link.id = cssId;
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'static/assets/css/arabic_lang.css';
+        link.media = 'all';
+        head.appendChild(link);
+        $('.pull-left').css('float', 'right');
+        $('.home_index_head .head_right .bag .title a span').css('right', 'unset');
+
+      }
+    }
+    else {
+      $('.hp_center_rit .hp_cont .hp_cont_lst li.lst_li:hover h1.title').css('background', 'url("../static/assets/images/help-doc_06.png") no-repeat right center');
+      $('.hp_center_rit .hp_cont .hp_cont_lst li.lst_li.active:hover h1.title').css('background', 'url("../static/assets/images/help-doc_03.png") no-repeat right center');
+
+      if (document.getElementById(cssId)) {
+        $('.pull-left').css('float', 'left');
+        $('link[rel=stylesheet][href="static/assets/css/arabic_lang.css"]').remove();
+
+      }
+    }
+  }, 500);
+
+  </script>
   </body>
 
 </html>
