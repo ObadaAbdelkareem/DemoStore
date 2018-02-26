@@ -1,7 +1,7 @@
 <template>
 <div class="wrap edts_form_contactus help_center_all">
     <div class="content_box clearfix">
-        <leftNavigation></leftNavigation>
+        <LeftNavigation></LeftNavigation>
         <router-view></router-view>
     </div>
 </div>
@@ -9,12 +9,12 @@
 
 
 <script>
-import leftNavigation from '@/components/leftNavigation'
+import LeftNavigation from '@/components/LeftNavigation'
 export default {
   name: 'helpCenter',
   components:
   {
-    leftNavigation
+    LeftNavigation
 
   },
 mounted: function()

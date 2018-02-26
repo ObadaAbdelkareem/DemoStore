@@ -31,6 +31,7 @@ import PaymentDetailsVisaMaster from '@/components/PaymentDetailsVisaMaster'
 import LoginRegister from '@/components/LoginRegister'
 import ProductPage from '@/components/ProductPage'
 import homefooter from '@/components/homefooter'
+import NotFound from '@/components/NotFound'
 
 Vue.use(Router)
 
@@ -201,5 +202,7 @@ export default new Router({
       component: dropshiProgram
       
     },
+    { path: '*', component: NotFound }
+
   ]
 })
