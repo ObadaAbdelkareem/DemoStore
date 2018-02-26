@@ -244,9 +244,9 @@
     </div>
     <div class="wom_lst_pic wom_lst_square">
       <!--wom_lst_square-->
-      <a href="https://www.newchic.com/crossbody-bags-3610/p-1201054.html?rmmds=category" target="_self">
+      <router-link to="ProductPage" target="_self">
       <img class="lazy reals" src="https://img1.newchic.com/thumb/view/oaupload/banggood/images/30/AF/225d544d-6cd5-4075-8df1-a8d863f0c5bd.jpg" data-original="https://img1.newchic.com/thumb/view/oaupload/banggood/images/30/AF/225d544d-6cd5-4075-8df1-a8d863f0c5bd.jpg" alt="Women Nylon Waterproof Handbag " style="display: inline;">
-      </a>
+      </router-link>
     </div>
     <div class="wom_lst_btm">
       <h1 class="wom_lst_name ellipsis">

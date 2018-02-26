@@ -11,7 +11,7 @@
 <script>
 import LeftNavigation from '@/components/LeftNavigation'
 export default {
-  name: 'helpCenter',
+  name: 'HelpCenter',
   components:
   {
     LeftNavigation

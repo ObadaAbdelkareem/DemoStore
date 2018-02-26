@@ -29,7 +29,7 @@
 
 <script>
 export default {
-  name: "leftNavigation",
+  name: "LeftNavigation",
   
 };
 </script>
