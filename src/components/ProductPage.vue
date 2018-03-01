@@ -1,6 +1,6 @@
 <template>
 <div ><!--class="product-info-wrap"-->
-<homeHeader></homeHeader>
+<!--<homeHeader></homeHeader>-->
 <!---<div class="inhere">
 	   <ul itemscope="" itemtype="http://schema.org/BreadcrumbList">
 												<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://www.newchic.com/" data-ga-tag="top_Home_link_180122" data-ga-ac="click"><span itemprop="name">Home</span></a><meta itemprop="position" content="1"></li>
