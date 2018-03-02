@@ -819,6 +819,17 @@ export default {
   beforeMount () {
     
   },
+  created(){
+
+    this.$http.post('http://127.0.0.1:8000/api/v1/products',{body:
+     {
+         'Authorization':'Bearer ZjQxYTRkMTZmYTQxNzZmZjVhYWFlMWVhZmM4MDBkOTAwOTEyYWI4NDJjNDFlYzYxMDMxZTVjZDZlMjgzNzhjOA',
+         'Content-Type': 'multipart/form-data'
+         }}).then(response =>{
+            console.log(response);
+        });
+       
+  },
   methods: {
     
   }
