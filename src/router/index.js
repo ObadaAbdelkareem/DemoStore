@@ -57,7 +57,7 @@ import LoginRegister from '@/components/LoginRegister'
 import ProductPage from '@/components/ProductPage'
 import homefooter from '@/components/homefooter'
 import NotFound from '@/components/NotFound'
-
+import testApi from '@/components/testApi'
 Vue.use(Router)
 
 export default new Router({
@@ -371,6 +371,7 @@ export default new Router({
       name: 'myAccountReffProgram',
       component: myAccountReffProgram
     },
-        { path: '*', component: NotFound }
+    { path: '*', component: NotFound },
+    { path: '/testApi' , component : testApi}
   ]
 })
