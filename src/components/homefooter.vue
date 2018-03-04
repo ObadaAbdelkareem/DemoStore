@@ -124,8 +124,8 @@
 				<img src="//static.newchic.com/default/images/foot_icon.png?v=287.0.3"><a href="" target="_blank" class="cando"><img src="//static.newchic.com/default/images/mcafeesecure.png"></a>
 				<a href="" title="DMCA.com Protection Status" target="_blank" class="dmca-badge cando"> <img height="33" src="//images.dmca.com/Badges/DMCA_logo-grn-btn100w.png?ID=b3175638-0576-40d1-9533-822a5f1892fc" alt="DMCA.com Protection Status"></a> 
 			</div>
-			<div class="copy-right" data-language-id="LC_COPYRIGHT" style="" id="isNotCN">Copyright © 2014-2018 Newchic.com All Rights Reserved.</div>
-			<div class="copy-right" style="display:none;" id="s_beian">版权所有为广州棒谷网络科技有限公司 &nbsp;<a target="_blank" href="">粤ICP备15016191号</a></div>
+			<!-- <div class="copy-right" data-language-id="LC_COPYRIGHT" style="" id="isNotCN">Copyright © 2014-2018 Newchic.com All Rights Reserved.</div>
+			<div class="copy-right" style="display:none;" id="s_beian">版权所有为广州棒谷网络科技有限公司 &nbsp;<a target="_blank" href="">粤ICP备15016191号</a></div> -->
 		</div>
 	</div>
 </div>
