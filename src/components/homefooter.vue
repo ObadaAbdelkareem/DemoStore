@@ -89,7 +89,7 @@
 	<div class="footer_quick_lst">
 		<div class="wrap">
 			<div class="quick-index">
-				<span><a href="/quick-index.html" target="_blank" data-language-id="LC_QUICK_INDEX">Quick Index:</a></span>
+				<span><a href="" target="_blank" data-language-id="LC_QUICK_INDEX">Quick Index:</a></span>
 				<a href="" target="_self">A</a>
 				<a href="" target="_self">B</a>
 				<a href="" target="_blank">C</a>
