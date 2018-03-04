@@ -250,7 +250,7 @@
                                 <div class="head_right">
                                     <div class="bag">
                                         <div class="title">
-                                            <router-link to="/cart" rel="nofollow" target="_self">
+                                            <router-link to="/shoppingPage" rel="nofollow" target="_self">
                                                 <i class="nc-icon nc-icon-bag"></i>
                                                 <span>
                                                     <b id="head_cart_num" class="num">1</b>
