@@ -10,7 +10,7 @@
                         <form class="form-order-list" method="post">
 
                             <div class="order-list-container">
-                                <div class="order_none">You have not yet made any purchases. To continue shopping, <a target="_blank" href="/?rmmds=myorder">click here.</a></div>
+                                <div class="order_none">You have not yet made any purchases. To continue shopping, <a target="_blank" href="">click here.</a></div>
 
 
                             </div>

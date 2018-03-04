@@ -44,7 +44,7 @@
                     <div class="coupon-wrap coupon-pink received">
                         <div class="coupon-content">
                             <div class="coupon-content-in">
-                                <a href="/new-arrivals/?filterProduct=1" target="_self">
+                                <a href="" target="_self">
                                     <h3 class="ellipsis" title="15% off for new customer">15% OFF
                                         <span></span>
                                     </h3>
@@ -64,7 +64,7 @@
                             </div>
 
                             <p class="code clearfix">
-                                <a class="copycode" href="/new-arrivals/?filterProduct=1" target="_blank">Use it</a>
+                                <a class="copycode" href="" target="_blank">Use it</a>
                             </p>
 
                         </div>
@@ -159,7 +159,7 @@
                     <div class="coupon-wrap coupon-purple">
                         <div class="coupon-content">
                             <div class="coupon-content-in">
-                                <a href="https://www.newchic.com/underwear-c-4290/?filterProduct=1&amp;ht=1" class="hrefbox" target="_self">
+                                <a href="" class="hrefbox" target="_self">
                                     <h3 class="ellipsis" title="10% off for mens underwear">10% OFF
                                         <span></span>
                                     </h3>
@@ -170,14 +170,14 @@
                                 </a>
                             </div>
                             <p class="code clearfix">
-                                <a class="copycode" data-copytext="NCMU10" data-coupon-url="https://www.newchic.com/underwear-c-4290/?filterProduct=1" href="javascript:;">Get coupon</a>
+                                <a class="copycode" data-copytext="NCMU10"  href="javascript:;">Get coupon</a>
                             </p>
                         </div>
                     </div>
                     <div class="coupon-wrap coupon-purple">
                         <div class="coupon-content">
                             <div class="coupon-content-in">
-                                <a href="https://www.newchic.com/mens-shoes-c-3593/?filterProduct=1" class="hrefbox" target="_blank">
+                                <a href="" class="hrefbox" target="_blank">
                                     <h3 class="ellipsis" title="10%off for men shoes">10% OFF
                                         <span></span>
                                     </h3>
@@ -188,7 +188,7 @@
                                 </a>
                             </div>
                             <p class="code clearfix">
-                                <a class="copycode" data-copytext="Mshoes10" data-coupon-url="https://www.newchic.com/mens-shoes-c-3593/?filterProduct=1"
+                                <a class="copycode" data-copytext="Mshoes10" 
                                     href="javascript:;">Get coupon</a>
                             </p>
                         </div>
@@ -196,7 +196,7 @@
                     <div class="coupon-wrap coupon-blue">
                         <div class="coupon-content">
                             <div class="coupon-content-in">
-                                <a href="/fashion-collection-183.html" class="hrefbox" target="_blank">
+                                <a href="" class="hrefbox" target="_blank">
                                     <h3 class="ellipsis" title="10% off mens underwear">10% OFF
                                         <span></span>
                                     </h3>
@@ -207,14 +207,15 @@
                                 </a>
                             </div>
                             <p class="code clearfix">
-                                <a class="copycode" data-copytext="MUC10" data-coupon-url="/fashion-collection-183.html" href="javascript:;">Get coupon</a>
+                                <a class="copycode" data-copytext="MUC10" href="javascript:;">Get coupon</a>
                             </p>
                         </div>
                     </div>
                     <div class="coupon-wrap coupon-purple">
                         <div class="coupon-content">
                             <div class="coupon-content-in">
-                                <a href="https://www.newchic.com/storage-bags-c-4915/?filterProduct=1" class="hrefbox" target="_blank">
+                                <a href="
+                                " class="hrefbox" target="_blank">
                                     <h3 class="ellipsis" title="$5 OFF">$5 OFF
                                         <span>order over $30</span>
                                     </h3>
@@ -225,7 +226,7 @@
                                 </a>
                             </div>
                             <p class="code clearfix">
-                                <a class="copycode" data-copytext="2f8afa" data-coupon-url="https://www.newchic.com/storage-bags-c-4915/?filterProduct=1"
+                                <a class="copycode" data-copytext="2f8afa" 
                                     href="javascript:;">Get coupon</a>
                             </p>
                         </div>
@@ -233,7 +234,7 @@
                     <div class="coupon-wrap coupon-purple">
                         <div class="coupon-content">
                             <div class="coupon-content-in">
-                                <a href="https://www.newchic.com/-4611/?filterProduct=1" class="hrefbox" target="_blank">
+                                <a href="" class="hrefbox" target="_blank">
                                     <h3 class="ellipsis" title="10% OFF">10% OFF
                                         <span></span>
                                     </h3>
@@ -244,14 +245,14 @@
                                 </a>
                             </div>
                             <p class="code clearfix">
-                                <a class="copycode" data-copytext="4352f2" data-coupon-url="https://www.newchic.com/-4611/?filterProduct=1" href="javascript:;">Get coupon</a>
+                                <a class="copycode" data-copytext="4352f2"  href="javascript:;">Get coupon</a>
                             </p>
                         </div>
                     </div>
                     <div class="coupon-wrap coupon-blue">
                         <div class="coupon-content">
                             <div class="coupon-content-in">
-                                <a href="https://www.newchic.com/en/underwear-c-4290/?ht=1" class="hrefbox" target="_blank">
+                                <a href="" class="hrefbox" target="_blank">
                                     <h3 class="ellipsis" title="10% OFF">10% OFF
                                         <span></span>
                                     </h3>
@@ -262,14 +263,14 @@
                                 </a>
                             </div>
                             <p class="code clearfix">
-                                <a class="copycode" data-copytext="MUC10%" data-coupon-url="https://www.newchic.com/en/underwear-c-4290/?ht=1" href="javascript:;">Get coupon</a>
+                                <a class="copycode" data-copytext="MUC10%"  href="javascript:;">Get coupon</a>
                             </p>
                         </div>
                     </div>
                     <div class="coupon-wrap coupon-purple">
                         <div class="coupon-content">
                             <div class="coupon-content-in">
-                                <a href="https://www.newchic.com/clock-c-4621/?filterProduct=1" class="hrefbox" target="_blank">
+                                <a href="" class="hrefbox" target="_blank">
                                     <h3 class="ellipsis" title="10% OFF">10% OFF
                                         <span>order over $30</span>
                                     </h3>
@@ -280,14 +281,14 @@
                                 </a>
                             </div>
                             <p class="code clearfix">
-                                <a class="copycode" data-copytext="905f23" data-coupon-url="https://www.newchic.com/clock-c-4621/?filterProduct=1" href="javascript:;">Get coupon</a>
+                                <a class="copycode" data-copytext="905f23"  href="javascript:;">Get coupon</a>
                             </p>
                         </div>
                     </div>
                     <div class="coupon-wrap coupon-purple">
                         <div class="coupon-content">
                             <div class="coupon-content-in">
-                                <a href="https://www.newchic.com/personal-care-c-5559/?filterProduct=1" class="hrefbox" target="_blank">
+                                <a href="" class="hrefbox" target="_blank">
                                     <h3 class="ellipsis" title="10% OFF">10% OFF
                                         <span>order over $60</span>
                                     </h3>
@@ -298,7 +299,7 @@
                                 </a>
                             </div>
                             <p class="code clearfix">
-                                <a class="copycode" data-copytext="460119" data-coupon-url="https://www.newchic.com/personal-care-c-5559/?filterProduct=1"
+                                <a class="copycode" data-copytext="460119" 
                                     href="javascript:;">Get coupon</a>
                             </p>
                         </div>
@@ -306,7 +307,7 @@
                     <div class="coupon-wrap coupon-purple">
                         <div class="coupon-content">
                             <div class="coupon-content-in">
-                                <a href="https://www.newchic.com/makeup-c-4000/?filterProduct=1" class="hrefbox" target="_blank">
+                                <a href="" class="hrefbox" target="_blank">
                                     <h3 class="ellipsis" title="$10 OFF">$10 OFF
                                         <span>order over $69</span>
                                     </h3>
@@ -317,7 +318,7 @@
                                 </a>
                             </div>
                             <p class="code clearfix">
-                                <a class="copycode" data-copytext="de6b43" data-coupon-url="https://www.newchic.com/makeup-c-4000/?filterProduct=1" href="javascript:;">Get coupon</a>
+                                <a class="copycode" data-copytext="de6b43"  href="javascript:;">Get coupon</a>
                             </p>
                         </div>
                     </div>

@@ -10,7 +10,7 @@
             <p class="price">{{ product.data[0].meta.display_price.with_tax.formatted }}</p>
             <hr />
             <p>{{ product.data[0].description }}</p>
-            <p><a href="#" class="btn btn-primary" v-on:click.prevent="addToCart(product.data[0].id)">Add to cart</a></p>
+            <p><a href="" class="btn btn-primary" v-on:click.prevent="addToCart(product.data[0].id)">Add to cart</a></p>
           </div>
         </div>
       </div>

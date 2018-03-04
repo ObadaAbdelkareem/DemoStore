@@ -112,10 +112,10 @@
 	<img src="https://img.newchic.com/editor/201801/428_1515400720_624.png" alt="" width="709" height="555">
 </p>
 <p>
-	If you experience any delays in tracking updates, we recommend you check the estimated delivery time. If your package is taking longer than schedule, please <a href="https: /www.newchic.com/Contact-Us-hc10.html">contact us</a>.
+	If you experience any delays in tracking updates, we recommend you check the estimated delivery time. If your package is taking longer than schedule, please <a href="">contact us</a>.
 </p>
 <p>
-	Shipping methods and delivery time&nbsp; : <a href="https://www.newchic.com/shipping-methods-hc160.html">https://www.newchic.com/shipping-methods-hc160.html</a>
+	Shipping methods and delivery time&nbsp; : <a href="/shippingMethods">here</a>
 </p>
                                                                 <ul class="Useful_closet clearfix">
                                     <li class="art">Whether this help is useful?</li>
@@ -157,7 +157,7 @@
 	If an item is out-of-stock, it will be labeled with "Leaves warehouse in ××× business days." on the product page. You can find it between the title and the price when you choose the size and color.
 </p>
 <p>
-	If you want to modify the content of your order, please do not hesitate to <a href="https://www.newchic.com/Contact-Us-hc10.html" target="_blank">contact us</a>.
+	If you want to modify the content of your order, please do not hesitate to <a href="" target="_blank">contact us</a>.
 </p>
 <br>
 <span></span><span></span> 
@@ -178,7 +178,7 @@
                         <div class="lst_hp">
                             <h1 class="title">I did not receive my order, why is the tracking status showing as delivered?</h1>
                             <div class="lst_el elp faq_list_content_p">
-                                <p>Possible reasons include:<br>A. The delivery address is incorrect .<br>B. Someone else has signed for the parcel. <br>C. The parcel has arrived at your local post office and will be delivered in 1-2 business days.<br>D.  The parcel has been delivered and left in your mailbox.  <br>If the shipping address is incorrect, please <a href="https://www.newchic.com/Contact-Us-hc10.html">contact us</a>.<br>If the shipping address is correct, we recommend you check your Mailbox and look around your property to be sure it has not been left outside. If you can not find the package, please <a href="https://www.newchic.com/Contact-Us-hc10.html">contact us</a>.</p>
+                                <p>Possible reasons include:<br>A. The delivery address is incorrect .<br>B. Someone else has signed for the parcel. <br>C. The parcel has arrived at your local post office and will be delivered in 1-2 business days.<br>D.  The parcel has been delivered and left in your mailbox.  <br>If the shipping address is incorrect, please <a href="">contact us</a>.<br>If the shipping address is correct, we recommend you check your Mailbox and look around your property to be sure it has not been left outside. If you can not find the package, please <a href="">contact us</a>.</p>
 <p>&nbsp;</p>
                                                                 <ul class="Useful_closet clearfix">
                                     <li class="art">Whether this help is useful?</li>
@@ -204,7 +204,7 @@
 	B.  Your order has just shipped out and shipping information will be updated in the coming days , we recommend you can track logistics information in next 3-7 days .
 </p>
 <p>
-	C.&nbsp;  If it still showed that the logistics information is Not Found , please <a href="https://www.newchic.com/Contact-Us-hc10.html">contact</a> our after-sale customer service team and provide them with order number &amp; the problem .
+	C.&nbsp;  If it still showed that the logistics information is Not Found , please <a href="">contact</a> our after-sale customer service team and provide them with order number &amp; the problem .
 </p>
 <div id="SL_balloon_obj">
 	<div id="SL_shadow_translator">

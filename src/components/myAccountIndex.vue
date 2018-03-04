@@ -3,7 +3,7 @@
             <div class="member-container clearfix">
 			    <div class="pull-left clearfix member-info-container">
 			        <div class="member-icon pull-left">
-			            <a href="/account/personalInformation.html" target="_self"><img src="https://www.newchic.com/templates/default/images/touxiang.png" style="width: 120px; height: 120px; transition: all 0.5s; margin-top: 0px;"></a>
+			            <a href="" target="_self"><img src="https://www.newchic.com/templates/default/images/touxiang.png" style="width: 120px; height: 120px; transition: all 0.5s; margin-top: 0px;"></a>
 			        </div>
 			        <div class="pull-left member-info">
 			            <div class="clearfix">
@@ -31,11 +31,11 @@
 
 			            <ul class="list-inline margin-top-10">
 							<li>
-								<a target="_blank" href="/account/personalInformation.html">
-									<i class="icon icon-config"></i> Setting</a></li><a target="_blank" href="/account/personalInformation.html">
+								<a target="_blank" href="">
+									<i class="icon icon-config"></i> Setting</a></li><a target="_blank" href="">
 								</a>
 							<li>
-																<a target="_blank" href="/account/sendConfirmEmail.html" data-placement="bottom" data-original-title="Confirm your e-mail address to receive points" data-toggle="tooltip"><i class="icon icon-email-unverify"></i> Get <span class="red">50</span> Points Now</a>
+																<a target="_blank" href="" data-placement="bottom" data-original-title="Confirm your e-mail address to receive points" data-toggle="tooltip"><i class="icon icon-email-unverify"></i> Get <span class="red">50</span> Points Now</a>
 																
 							</li>
 			            </ul>
@@ -76,9 +76,9 @@
 			<div class="order_form_title">
 			    <h3>My Orders</h3> 
 			    <ul>
-			        			        					<li><a target="_blank" href="/lottery/flip_to_win.html"><i class="lottery_room_icon"></i> Lottery Activities <span class="red">(0)</span></a></li>
-								        <li><a href="javascript:;" class="open-live-chat"><i class="edt_icon_live_chat"></i> Live chat</a></li>
-			        <li><a target="_blank" href="/account/orderlist.html">View all orders</a></li>
+			        			        					<li><a target="_blank" href=""><i class="lottery_room_icon"></i> Lottery Activities <span class="red">(0)</span></a></li>
+								        <!-- <li><a href="javascript:;" class="open-live-chat"><i class="edt_icon_live_chat"></i> Live chat</a></li> -->
+			        <li><a target="_blank" href="">View all orders</a></li>
 			    </ul>
 			</div>
 			

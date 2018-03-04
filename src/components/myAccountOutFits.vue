@@ -44,7 +44,7 @@
                 </div>
                 <div id="my-collections-container" class="pane none" style="display: none;">
                     <div class="my_colloc ">
-                        <p class="no-message none">You have not collected any collaction yet,<a href="/collocation.html" target="_blank" class="red text-undeliner">explore some</a></p>
+                        <p class="no-message none">You have not collected any collaction yet,<a href="" target="_blank" class="red text-undeliner">explore some</a></p>
                         <ul class="w1000">
                             
                         </ul>

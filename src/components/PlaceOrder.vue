@@ -373,11 +373,11 @@ $(function(){
 							<!--订单的商品列表项-->
 															<div class="clear_1 goods_list_item">
 									<div class="cell g_product">
-										<a class="g_img" href="https://www.newchic.com/trench-coat-4970/p-1237082.html" title="Winter Fur Collar Wool Casual Trench Coat Single-breasted Slim Fit Jacket for Men">
+										<a class="g_img" href="" title="Winter Fur Collar Wool Casual Trench Coat Single-breasted Slim Fit Jacket for Men">
 											<img src="https://img2.newchic.com/thumb/view/oaupload/newchic/images/35/CA/5ad9c958-eff0-40ef-bfb7-117162c409fc.jpg" alt="Winter Fur Collar Wool Casual Trench Coat Single-breasted Slim Fit Jacket for Men">
 										</a>
 										<div class="g_title">
-											<a href="https://www.newchic.com/trench-coat-4970/p-1237082.html">
+											<a href="">
 												Winter Fur Collar Wool Casual Trench Coat Single-breasted Slim Fit Jacket for Men
 											</a>
 																						<div class="g_filter">

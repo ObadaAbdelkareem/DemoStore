@@ -76,7 +76,7 @@ Bank Code: 016 <br>
 Beneficiary Account Number: 7886404390<br>
 Swift Code: DHBKHKHH<br>
 <br>
-IMPORTANT NOTICE: Your products will not be shipped until payment is completed. Once you have made a wire transfer payment order, please let us know. If you have any other questions regarding your NewChic order payment through Wire Transfer, please do not hesitate to <a href="../Contact-Us-hc10.html">contact us</a>.<br>
+IMPORTANT NOTICE: Your products will not be shipped until payment is completed. Once you have made a wire transfer payment order, please let us know. If you have any other questions regarding your NewChic order payment through Wire Transfer, please do not hesitate to <a href="">contact us</a>.<br>
 <br>
 We want to remind all customers that they are responsible for all local handling fees and intermediary bank handling fees. Therefore, customers should confirm the total payment amount with their local bank.
 </p>

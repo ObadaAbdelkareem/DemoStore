@@ -262,12 +262,12 @@
                                             <ul class="bag_list ">
                                                 <li class="quantity_select  ">
                                                     <s>
-                                                        <a href="/new/backpack-3624/p-1047630.html">
+                                                        <a href="">
                                                             <img src="../../static/assets/images/4dddf13d-7ac1-4e37-947b-4d452452f82e.jpg">
                                                         </a>
                                                     </s>
                                                     <p>
-                                                        <a href="/new/backpack-3624/p-1047630.html" title="Multifunctional Microfiber Leather Large Capacity Handbag">Multifunctional Microfiber</a>
+                                                        <a href="" title="Multifunctional Microfiber Leather Large Capacity Handbag">Multifunctional Microfiber</a>
                                                         <span class="attr">
                                                             Color: Blue
                                                             <br>
@@ -380,11 +380,11 @@
                                                     data-string1="Weekly New" data-string2="Texting Gloves" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Texting Gloves
                                                     <img src="../../static/assets/images/head_new.png" alt=""> </a>
-                                                <a onclick="set_navigation_ga('Weekly New_trending_5')" href="w" data-point-id="17325000059"
+                                                <a onclick="set_navigation_ga('Weekly New_trending_5')" href="" data-point-id="17325000059"
                                                     data-string1="Weekly New" data-string2="Hiking Jacket" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Hiking Jacket
                                                     <img src="../../static/assets/images/head_hot.png" alt=""> </a>
-                                                <a onclick="set_navigation_ga('Weekly New_trending_6')" href="w" data-point-id="17325000059"
+                                                <a onclick="set_navigation_ga('Weekly New_trending_6')" href="" data-point-id="17325000059"
                                                     data-string1="Weekly New" data-string2="Fashion Sport Shoes" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Fashion Sport Shoes
                                                     <img src="../../static/assets/images/head_hot.png" alt=""> </a>

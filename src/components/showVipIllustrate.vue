@@ -59,7 +59,7 @@
 			<p>4. Drop-ship and wholesale customers cannot take part to this activity.</p>
 		</div>
 				<div class="text-center">
-			<a href="/login.html"><button class="btn btn-sign-in">Log in to see if you are eligible</button></a>
+			<a href="/LoginAndRegister"><button class="btn btn-sign-in">Log in to see if you are eligible</button></a>
 		</div>
 			</div>
   </div>

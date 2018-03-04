@@ -13,7 +13,7 @@
 						Newchic was established in 2014 to allow people to express themselves through high-quality fashion at affordable prices. Newchic offers a wide range of trending products including but not limited to clothing, bags, shoes, beauty, jewelry, accessories and more.
 					</p>
 					<p>
-						Earn money without having to actually sell anything! You don't even need a website! Earning money is so easy with our affiliate program. Promote Newchic products on your website, blog, social media accounts, or similar platforms to receive a commission on your referral sales<a rel="nofollow" href="/login.html">Click here to register now</a>
+						Earn money without having to actually sell anything! You don't even need a website! Earning money is so easy with our affiliate program. Promote Newchic products on your website, blog, social media accounts, or similar platforms to receive a commission on your referral sales<a rel="nofollow" href="/LoginRegister">Click here to register now</a>
 					</p>
 				</div>
 			</div>
@@ -81,7 +81,7 @@
 						<div><strong>Pending</strong> means you still can not temporarily use the commussion until the order is completed</div>
 						<div><strong>Active</strong> means you can use the commissions</div>
 						<div><strong>Canceled</strong> means the order is canceled by the customer</div>
-						<div>You can exchange the active commission for cash<a rel="nofollow" href="/index.php?com=account&amp;t=withdrawDetail" target="_blank">Check your referral withdrawal</a></div>
+						<div>You can exchange the active commission for cash<a rel="nofollow" href="" target="_blank">Check your referral withdrawal</a></div>
 					<p></p>
 					
 				</dd>
@@ -143,33 +143,33 @@
 		</div>
 		<div class="comstemt_lst_edt clearfix">
 			<ul style="display: grid; grid-template-columns: auto auto auto;">
-				<li><a rel="nofollow" href="https://signup.cj.com/member/signup/publisher/?cid=4782826" target="_blank">
+				<li><a rel="nofollow" href="" target="_blank">
 					<img src="//static.newchic.com/default/edt_need/common/affiliate/affiliate_edt_03.png" alt="newchic conversant affiliate">
 				</a></li>
-				<li><a rel="nofollow" href="http://www.shareasale.com/shareasale.cfm?merchantID=63433" target="_blank">
+				<li><a rel="nofollow" href="" target="_blank">
 					<img src="//static.newchic.com/default/edt_need/common/affiliate/affiliate_edt_05.png" alt="newchic sharesale affiliate">
 				</a></li>
 				<li>
 					<img src="//static.newchic.com/default/edt_need/common/affiliate/affiliate_edt_07.png" usemap="#fist_map" alt="newchic webgains affiliate">
 						<map name="fist_map">
-							<area shape="rect" coords="304,0,336,90" rel="nofollow" href="http://us.webgains.com/front/publisher/program/view/programID/11697" target="_blank" alt="US">
-							<area shape="rect" coords="361,0,396,90" rel="nofollow" href="http://us.webgains.com/front/publisher/program/view/programID/11699" target="_blank" alt="FR">
-							<area shape="rect" coords="419,0,452,90" rel="nofollow" href="http://us.webgains.com/front/publisher/program/view/programID/11707" target="_blank" alt="UK">
-							<area shape="rect" coords="477,0,511,90" rel="nofollow" href="http://us.webgains.com/front/publisher/program/view/programID/11709" target="_blank" alt="ES">
+							<area shape="rect" coords="304,0,336,90" rel="nofollow" href="" target="_blank" alt="US">
+							<area shape="rect" coords="361,0,396,90" rel="nofollow" href="" target="_blank" alt="FR">
+							<area shape="rect" coords="419,0,452,90" rel="nofollow" href="" target="_blank" alt="UK">
+							<area shape="rect" coords="477,0,511,90" rel="nofollow" href="" target="_blank" alt="ES">
 						</map>
 				</li>
 
-				<li><a rel="nofollow" href="https://www.admitad.com/en/webmaster/offers/15671-newchiccom-int/#information" target="_blank">
+				<li><a rel="nofollow" href="" target="_blank">
 					<img src="//static.newchic.com/default/edt_need/common/affiliate/affiliate_edt_12.png" alt="newchic admitad affiliate">
 				</a></li>
-				<li><a rel="nofollow" href="https://www6.netaffiliation.com/affiliate/program/management/newsletter?newsp=55041" target="_blank">
+				<li><a rel="nofollow" href="" target="_blank">
 					<img src="//static.newchic.com/default/edt_need/common/affiliate/affiliate_edt_13.png" alt="newchic netaffiliate affiliate">
 				</a></li>
 				<li>
 					<img src="//static.newchic.com/default/edt_need/common/affiliate/affiliate_edt_14.png" usemap="#tewn_map" alt="newchic TradeTracker affiliate">
 					<map name="tewn_map">
-						<area id="tewn_nows1" shape="rect" coords="304,0,336,90" rel="nofollow" href="https://merchant.tradetracker.com/portal/affiliateSignup?loc=fr_FR&amp;amp;style=custom&amp;amp;campaignID=23841&amp;amp;hash=f92b30ad2bc9413efb6fab572937b1b1" target="_blank" alt="US">
-						<area id="tewn_nows2" shape="rect" coords="361,0,396,90" rel="nofollow" href="https://merchant.tradetracker.com/portal/affiliateSignup?loc=es_ES&amp;amp;style=custom&amp;amp;campaignID=25243&amp;amp;hash=740ebb8dc37c5fcd8677e68705e37640" target="_blank" alt="FR">
+						<area id="tewn_nows1" shape="rect" coords="304,0,336,90" rel="nofollow" href="" target="_blank" alt="US">
+						<area id="tewn_nows2" shape="rect" coords="361,0,396,90" rel="nofollow" href="" target="_blank" alt="FR">
 					</map>
 				</li>
 			</ul> 

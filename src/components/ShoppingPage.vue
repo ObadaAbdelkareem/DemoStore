@@ -68,7 +68,7 @@
 			<div class="checkbox" onclick="set_shopping_ga('check-box')">
 				<span warehouse="722_shelf" cart_id="1047630_379-16215" class="cartItemCheckbox check_on" data-sku="SKU396616"></span>
 			</div>
-			<a class="a_img" href="https://www.newchic.com/backpack-3624/p-1047630.html?rmmds=cart" title="Women Canvas Casual Multifunctional Microfiber Leather Large Capacity Handbag Shoulder Bags Backpack" onclick="set_shopping_ga('image')">
+			<a class="a_img" href="" title="Women Canvas Casual Multifunctional Microfiber Leather Large Capacity Handbag Shoulder Bags Backpack" onclick="set_shopping_ga('image')">
 				<img src="https://img2.newchic.com/thumb/view/oaupload/newchic/images/6A/83/0d3acfa9-86b5-41a3-b699-be54343c2af3.jpg" alt="Women Canvas Casual Multifunctional Microfiber Leather Large Capacity Handbag Shoulder Bags Backpack">
 																																
 			</a>
@@ -77,7 +77,7 @@
 	<li class="td_product"> 
 		
 		<div class="td_product_info">
-			<a class="a_title" href="https://www.newchic.com/backpack-3624/p-1047630.html?rmmds=cart" onclick="set_shopping_ga('url')" target="_self">
+			<a class="a_title" href="" onclick="set_shopping_ga('url')" target="_self">
 				Women Canvas Casual Multifunctional Microfiber Leather Large Capacity Handbag Shoulder Bags Backpack
 			</a>
 			<div class="prod-icon-container">
@@ -272,7 +272,7 @@
 							<div class="meta">
 								<i class="arrow"></i>
 								<ul class="list-unstyled">
-									<li><a href="/points-and-coupons-hc22.html" target="_blank">How can I get the Newchic coupons?</a></li>
+									<li><a href="" target="_blank">How can I get the Newchic coupons?</a></li>
 								</ul>
 								<p class="orange">Promotion’s items cannot use coupons at check out.</p>
 							</div>

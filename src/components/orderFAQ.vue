@@ -43,7 +43,7 @@
                         <div class="lst_hp">
                             <h1 class="title">How do I add or remove items from my order?</h1>
                             <div class="lst_el elp faq_list_content_p">
-                                <p>Please <a href="../Contact-Us-hc10.html">contact us</a> and if the order is in an early stage of processing, we can modify it. We cannot change items after the order ships.</p>
+                                <p>Please <a href="">contact us</a> and if the order is in an early stage of processing, we can modify it. We cannot change items after the order ships.</p>
                                                                 <ul class="Useful_closet clearfix">
                                     <li class="art">Whether this help is useful?</li>
                                     <li class="btn_closet">
@@ -73,7 +73,7 @@
                         <div class="lst_hp">
                             <h1 class="title">What should I do if I want to change the shipping address?</h1>
                             <div class="lst_el elp faq_list_content_p">
-                                <p>Please<span style="color: #3366ff;"> <a href="../Contact-Us-hc10.html">contact us</a></span>, if the order has not shipped, we will update the address. We cannot change the delivery address after the order ships.</p>
+                                <p>Please<span style="color: #3366ff;"> <a href="">contact us</a></span>, if the order has not shipped, we will update the address. We cannot change the delivery address after the order ships.</p>
 <p>&nbsp;</p>
                                                                 <ul class="Useful_closet clearfix">
                                     <li class="art">Whether this help is useful?</li>
@@ -152,7 +152,7 @@
 	<strong><span style="color:#000000;"> </span></strong>
 </p>
 <p>
-	<span style="color:#000000;">ATTENTION: You can only cancel orders with the status of "payment pending" or "payment declined". If your order status is "ready to process" and you want to cancel the order, please go to <a href="https://www.newchic.com/return-and-refund-hc162.html">return and refund policy</a> page.</span>
+	<span style="color:#000000;">ATTENTION: You can only cancel orders with the status of "payment pending" or "payment declined". If your order status is "ready to process" and you want to cancel the order, please go to <a href="">return and refund policy</a> page.</span>
 </p>
 <div id="SL_balloon_obj">
 	<div id="SL_shadow_translator">

@@ -21,11 +21,11 @@
 						<dd>
 							<p class="form-control-static">
 								example@gmail.com
-																<a href="/index.php?com=account&amp;t=personalInformation&amp;whichPage=originalEmail" class="edt_email news_edts">Change Email</a>
+																<a href="" class="edt_email news_edts">Change Email</a>
 																<!--<a href="" class="write_email">Your E-mail,please</a>-->
 							</p>
 						</dd>
-						                        <dd class="edt_menages"><a href="/index.php?com=account&amp;t=sendConfirmEmail" class="verify_email">Verify your Email</a></dd>
+						                        <dd class="edt_menages"><a href="" class="verify_email">Verify your Email</a></dd>
                         						<dt>Username:</dt>
 						<dd>					
 							<input type="text" name="nickname" data-msg-required="Invalid username" value="NC142428835" maxlength="50"> <span class="red">*</span>

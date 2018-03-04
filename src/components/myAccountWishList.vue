@@ -32,7 +32,7 @@
                                     <tbody>
                                                                         <tr id="1029010">
                                         <td class="wi_piclst sim_lst_pic">
-                                            <a target="_self" href="https://www.newchic.com/casual-pants-4975/p-1029010.html?rmmds=mywishlist">
+                                            <a target="_self" href="">
                                                 <img src="https://img.newchic.com/thumb/list_grid/oaupload/newchic/images/2A/92/0bc1aef3-477a-3e7b-79cb-907b3a18bad5.jpg" alt="">
                                             </a>
                                                                                         <div class="similar-wrap wish-similar-wrap">
@@ -41,7 +41,7 @@
                                         </td>
                                         <td width="400">
                                             <ul class="wi_art">
-                                                <li class="good_tip "><a target="_blank" href="https://www.newchic.com/casual-pants-4975/p-1029010.html?rmmds=mywishlist" class="wi_goods">Men's Lightweight Loose Yoga Pants Morning Practice Cozy Sports Pants</a></li>
+                                                <li class="good_tip "><a target="_blank" href="" class="wi_goods">Men's Lightweight Loose Yoga Pants Morning Practice Cozy Sports Pants</a></li>
                                                 <li>
                                                     <p class="wi_icon red_start"><i class="wi_icon start_bg" style="width: 97%;"></i></p>
                                                     <span class="re_number">(4.85)</span>
@@ -58,7 +58,7 @@
                                             <span class="wi_btn dele_wish"><i class="wi_del wi_icon"></i>Remove</span>
                                         </td>
                                         <td class="text-center">
-                                                                                        <a target="_blank" class="wi_btn" href="https://www.newchic.com/casual-pants-4975/p-1029010.html?rmmds=mywishlist"><i class="wi_add wi_icon"></i>ADD TO BAG</a>
+                                                                                        <a target="_blank" class="wi_btn" href=""><i class="wi_add wi_icon"></i>ADD TO BAG</a>
                                                                                     </td>
                                     </tr>
                                                                         </tbody>

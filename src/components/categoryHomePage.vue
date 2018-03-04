@@ -37,7 +37,7 @@
           <div class="text-center share-container">
             <div class="title"><img src="//static.newchic.com/default/images/index-share-title.png"></div>
             <div class="post-now">
-              <a href="/upload-display.html" target="_blank" onclick="">
+              <a href="" target="_blank" onclick="">
               <i></i>
               <span>post now &gt;&gt;</span>
               </a>
