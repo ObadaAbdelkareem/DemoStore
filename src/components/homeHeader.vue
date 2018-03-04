@@ -354,55 +354,55 @@
                                     <div>
                                         <div class="wrap clearfixes">
                                             <span class="menu">
-                                                <a href="/new/new-arrivals/2018-02-02/" onclick="set_navigation_ga('new_1-1');">2018-02-02</a>
-                                                <a href="/new/new-arrivals/2018-02-01/" onclick="set_navigation_ga('new_1-2');">2018-02-01</a>
-                                                <a href="/new/new-arrivals/2018-01-31/" onclick="set_navigation_ga('new_1-3');">2018-01-31</a>
-                                                <a href="/new/new-arrivals/2018-01-30/" onclick="set_navigation_ga('new_1-4');">2018-01-30</a>
-                                                <a href="/new/new-arrivals/2018-01-29/" onclick="set_navigation_ga('new_1-5');">2018-01-29</a>
-                                                <a href="/new/new-arrivals/2018-01-28/" onclick="set_navigation_ga('new_1-6');">2018-01-28</a>
-                                                <a href="/new/new-arrivals/2018-01-26/" onclick="set_navigation_ga('new_1-7');">2018-01-26</a>
+                                                <a href="" onclick="set_navigation_ga('new_1-1');">2018-02-02</a>
+                                                <a href="" onclick="set_navigation_ga('new_1-2');">2018-02-01</a>
+                                                <a href="" onclick="set_navigation_ga('new_1-3');">2018-01-31</a>
+                                                <a href="" onclick="set_navigation_ga('new_1-4');">2018-01-30</a>
+                                                <a href="" onclick="set_navigation_ga('new_1-5');">2018-01-29</a>
+                                                <a href="" onclick="set_navigation_ga('new_1-6');">2018-01-28</a>
+                                                <a href="" onclick="set_navigation_ga('new_1-7');">2018-01-26</a>
                                             </span>
                                             <span class="menu">
                                                 <span class="title">Trending</span>
-                                                <a onclick="set_navigation_ga('Weekly New_trending_1')" href="/new/fashion-collection/715.html?icn=wnew" data-point-id="17325000059"
+                                                <a onclick="set_navigation_ga('Weekly New_trending_1')" href="" data-point-id="17325000059"
                                                     data-string1="Weekly New" data-string2="Lingerie New Arrival" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Lingerie New Arrival
                                                     <img src="../../static/assets/images/head_new.png" alt=""> </a>
-                                                <a onclick="set_navigation_ga('Weekly New_trending_2')" href="/new/fashion-collection/787.html?icn=wnew" data-point-id="17325000059"
+                                                <a onclick="set_navigation_ga('Weekly New_trending_2')" href="" data-point-id="17325000059"
                                                     data-string1="Weekly New" data-string2="Vintage Printed Dresses" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Vintage Printed Dresses
                                                     <img src="../../static/assets/images/head_new.png" alt=""> </a>
-                                                <a onclick="set_navigation_ga('Weekly New_trending_3')" href="/new/storage-bags-c-4915/?icn=wnew" data-point-id="17325000059"
+                                                <a onclick="set_navigation_ga('Weekly New_trending_3')" href="" data-point-id="17325000059"
                                                     data-string1="Weekly New" data-string2="Home Organization" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Home Organization
                                                     <img src="../../static/assets/images/head_new.png" alt=""> </a>
-                                                <a onclick="set_navigation_ga('Weekly New_trending_4')" href="/new/nc/texting-gloves.html?icn=wnew" data-point-id="17325000059"
+                                                <a onclick="set_navigation_ga('Weekly New_trending_4')" href="" data-point-id="17325000059"
                                                     data-string1="Weekly New" data-string2="Texting Gloves" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Texting Gloves
                                                     <img src="../../static/assets/images/head_new.png" alt=""> </a>
-                                                <a onclick="set_navigation_ga('Weekly New_trending_5')" href="/new/fashion-collection/1535.html?icn=wnew" data-point-id="17325000059"
+                                                <a onclick="set_navigation_ga('Weekly New_trending_5')" href="w" data-point-id="17325000059"
                                                     data-string1="Weekly New" data-string2="Hiking Jacket" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Hiking Jacket
                                                     <img src="../../static/assets/images/head_hot.png" alt=""> </a>
-                                                <a onclick="set_navigation_ga('Weekly New_trending_6')" href="/new/fashion-collection/1975.html?icn=wnew" data-point-id="17325000059"
+                                                <a onclick="set_navigation_ga('Weekly New_trending_6')" href="w" data-point-id="17325000059"
                                                     data-string1="Weekly New" data-string2="Fashion Sport Shoes" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Fashion Sport Shoes
                                                     <img src="../../static/assets/images/head_hot.png" alt=""> </a>
-                                                <a onclick="set_navigation_ga('Weekly New_trending_7')" href="/new/fashion-collection/826.html?icn=wnew" data-point-id="17325000059"
+                                                <a onclick="set_navigation_ga('Weekly New_trending_7')" href="" data-point-id="17325000059"
                                                     data-string1="Weekly New" data-string2="Daily Fashion Apparel" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Daily Fashion Apparel
                                                     <img src="../../static/assets/images/head_new.png" alt=""> </a>
-                                                <a onclick="set_navigation_ga('Weekly New_trending_8')" href="/new/nc/cloisonne-watch.html?icn=wnew" data-point-id="17325000059"
+                                                <a onclick="set_navigation_ga('Weekly New_trending_8')" href="" data-point-id="17325000059"
                                                     data-string1="Weekly New" data-string2="Retro Cloisonne Watch" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Retro Cloisonne Watch
                                                     <img src="../../static/assets/images/head_new.png" alt=""> </a>
-                                                <a onclick="set_navigation_ga('Weekly New_trending_9')" href="/new/fashion-collection/1199.html?icn=wnew" data-point-id="17325000059"
+                                                <a onclick="set_navigation_ga('Weekly New_trending_9')" href="" data-point-id="17325000059"
                                                     data-string1="Weekly New" data-string2="Men's New Arrival" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Men's New Arrival
                                                     <img src="../../static/assets/images/head_hot.png" alt=""> </a>
                                             </span>
                                             <span class="banner_menu">
-                                                <a href="/new/handbags-3609/p-1243391.html?bid=1342&amp;rmmds=head_categery_banner" class="bold" onclick="set_navigation_ga('Weekly New_banner')">
+                                                <a href="" class="bold" onclick="set_navigation_ga('Weekly New_banner')">
                                                     <img src="../../static/assets/images/grey.gif" data-original="../../static/assets/images/107_1515984968_866.jpg"
                                                         class="menu_lazy">
                                                 </a>
@@ -419,11 +419,11 @@
                                     <div style="width: 1351px; left: -207.5px; display: none;">
                                         <div class="wrap clearfixes">
                                             <span class="menu" v-for="subcat of category.subCategories">
-                                                <a href="/new/swimwear-c-4281/" class="title" onclick="set_navigation_ga('Women_1-1')" v>{{subcat.main}}</a>
-                                                <a href="/new/bikinis-c-4995/" onclick="set_navigation_ga('Women_1-2')" v-for="item of subcat.items">{{item}}</a>
+                                                <a href="" class="title" onclick="set_navigation_ga('Women_1-1')" v>{{subcat.main}}</a>
+                                                <a href="" onclick="set_navigation_ga('Women_1-2')" v-for="item of subcat.items">{{item}}</a>
                                             </span>
                                             <span class="banner_menu">
-                                                <a href="/new/babydolls-and-chemises-6289/p-1241055.html?bid=1358&amp;rmmds=head_categery_banner" class="bold" onclick="set_navigation_ga('Women_banner')">
+                                                <a href="" class="bold" onclick="set_navigation_ga('Women_banner')">
                                                     <img src="../../static/assets/images/289_1517191150_949.jpg" data-original="../../static/assets/images/289_1517191150_949.jpg"
                                                         class="menu_lazy">
                                                 </a>
@@ -597,7 +597,7 @@ export default {
 
                 ]}
           ]},
-          {code:"Jewelry &amp; Watch", subCategories: [
+          {code:"Jewelry & Watch", subCategories: [
    {main: 'sub main', items: [
                     'test',
                     'test',
@@ -623,7 +623,7 @@ export default {
 
                 ]}
           ]},
-          {code:"Home &amp; Garden", subCategories: [
+          {code:"Home & Garden", subCategories: [
    {main: 'sub main', items: [
                     'test',
                     'test',
