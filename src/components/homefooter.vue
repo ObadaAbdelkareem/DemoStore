@@ -11,13 +11,13 @@
 					<dd><router-link to="/helpCenter/privacyPolicy" rel="nofollow" data-language-id="LC_PRIVACY_POLICY">Privacy Policy</router-link></dd>
 					<dd><router-link to="/helpCenter/returnAndRefund" rel="nofollow" data-language-id="LC_RETURN_POLICY">Return Policy</router-link></dd>
 					<dd><router-link to="/helpCenter/termsAndConditions" rel="nofollow" data-language-id="LC_TERMS_CONDITIONS">Terms And Conditions</router-link></dd>
-					<dd><a href="/intellectual-property-claims-hc175.html" rel="nofollow" data-language-id="LC_PROPERTY_CLAIMS" target="_self">Intellectual Property Claims</a></dd>
+					<!-- <dd><a href="" rel="nofollow" data-language-id="LC_PROPERTY_CLAIMS" target="_self">Intellectual Property Claims</a></dd> -->
 				</dl>
 			</li>
 			<li>
 				<dl>
 					<dt><h3 data-language-id="LC_CUSTOMER_SERVICE">Customer Service</h3></dt>
-					<dd><a href="/index.php?com=order" rel="nofollow" data-language-id="LC_TRACK_ORDER">Track Order</a></dd>
+					<!-- <dd><a href="/index.php?com=order" rel="nofollow" data-language-id="LC_TRACK_ORDER">Track Order</a></dd> -->
 					<dd><router-link to="/helpCenter/shippingFAQ" rel="nofollow" data-language-id="LC_SHIPPING_FAQ">Shipping FAQ</router-link></dd>
 					<dd><router-link to="/helpCenter/orderFAQ" rel="nofollow" data-language-id="LC_ORDRE_FAQ" target="_self">Order FAQ</router-link></dd>
 					<dd><router-link to="/helpCenter/shippingMethods" rel="nofollow" data-language-id="LC_SHIPPING_METHODS">Shipping Methods</router-link></dd>
@@ -42,7 +42,7 @@
 							<a class="foot_sumt sub_sumt" data-msg="Please Enter a Valid Email Adress!" href="javascript:void(0);">JOIN &gt; </a>
 						</div>
 					</div>
-					<div class="join-community">
+					<!-- <div class="join-community">
 						<h3 data-language-id="LC_JOIN_OUR_COMMUNITY">Join Our Community</h3>
 						<ul class="join-list clearfix">
 							<li>
@@ -70,14 +70,14 @@
 								<a href="https://www.snapchat.com/add/newchicfashion" class="snapchat cando" rel="nofollow" target="_blank"><i class="nc-icon nc-icon-sjpt-youling-m"></i></a>
 							</li>
 						</ul>
-					</div>
+					</div> -->
 					<div class="foot-app">
 						<ul class="list-inline clearfix">
 							<li>
-								<a href="/AppDownload.html?utm_source=direct&amp;utm_medium=none&amp;utm_campaign=-&amp;utm_content=-&amp;utm_design=0&amp;" onclick="set_app_ga('Bottom')" class="app-apple" rel="nofollow" target="_blank"><i class="nc-icon nc-icon-apple"></i> <span>App Store</span></a>
+								<a href="" onclick="set_app_ga('Bottom')" class="app-apple" rel="nofollow" target="_blank"><i class="nc-icon nc-icon-apple"></i> <span>App Store</span></a>
 							</li>
 							<li>
-								<a href="/AppDownload.html?utm_source=direct&amp;utm_medium=none&amp;utm_campaign=-&amp;utm_content=-&amp;utm_design=0&amp;" onclick="set_app_ga('Bottom')" class="app-android" rel="nofollow" target="_blank"><i class="nc-icon nc-icon-android1"></i> <span>Google Play</span></a>
+								<a href="" onclick="set_app_ga('Bottom')" class="app-android" rel="nofollow" target="_blank"><i class="nc-icon nc-icon-android1"></i> <span>Google Play</span></a>
 							</li>
 						</ul>
 					</div>
@@ -90,42 +90,42 @@
 		<div class="wrap">
 			<div class="quick-index">
 				<span><a href="/quick-index.html" target="_blank" data-language-id="LC_QUICK_INDEX">Quick Index:</a></span>
-				<a href="/product-directory/a.html" target="_self">A</a>
-				<a href="/product-directory/b.html" target="_self">B</a>
-				<a href="/product-directory/c.html" target="_blank">C</a>
-				<a href="/product-directory/d.html" target="_blank">D</a>
-				<a href="/product-directory/e.html" target="_blank">E</a>
-				<a href="/product-directory/f.html" target="_blank">F</a>
-				<a href="/product-directory/g.html" target="_blank">G</a>
-				<a href="/product-directory/h.html" target="_blank">H</a>
-				<a href="/product-directory/i.html" target="_blank">I</a>
-				<a href="/product-directory/j.html" target="_blank">J</a>
-				<a href="/product-directory/k.html" target="_blank">K</a>
-				<a href="/product-directory/l.html" target="_blank">L</a>
-				<a href="/product-directory/m.html" target="_blank">M</a>
-				<a href="/product-directory/n.html" target="_blank">N</a>
-				<a href="/product-directory/o.html" target="_blank">O</a>
-				<a href="/product-directory/p.html" target="_blank">P</a>
-				<a href="/product-directory/q.html" target="_blank">Q</a>
-				<a href="/product-directory/r.html" target="_blank">R</a>
-				<a href="/product-directory/s.html" target="_blank">S</a>
-				<a href="/product-directory/t.html" target="_blank">T</a>
-				<a href="/product-directory/u.html" target="_blank">U</a>
-				<a href="/product-directory/v.html" target="_blank">V</a>
-				<a href="/product-directory/w.html" target="_blank">W</a>
-				<a href="/product-directory/x.html" target="_blank">X</a>
-				<a href="/product-directory/y.html" target="_blank">Y</a>
-				<a href="/product-directory/z.html" target="_blank">Z</a>
-				<a href="/product-directory/0-9.html" target="_blank">0-9</a>
-				<a href="/sitemap.html" target="_blank" data-language-id="LC_SITE_MAP">Site Map</a>
-				<a href="http://m.newchic.com" target="_blank" data-language-id="LC_MOBILE_SITE">Mobile Site</a>
+				<a href="" target="_self">A</a>
+				<a href="" target="_self">B</a>
+				<a href="" target="_blank">C</a>
+				<a href="" target="_blank">D</a>
+				<a href="" target="_blank">E</a>
+				<a href="" target="_blank">F</a>
+				<a href="" target="_blank">G</a>
+				<a href="" target="_blank">H</a>
+				<a href="" target="_blank">I</a>
+				<a href="" target="_blank">J</a>
+				<a href="" target="_blank">K</a>
+				<a href="" target="_blank">L</a>
+				<a href="" target="_blank">M</a>
+				<a href="" target="_blank">N</a>
+				<a href="" target="_blank">O</a>
+				<a href="" target="_blank">P</a>
+				<a href="" target="_blank">Q</a>
+				<a href="" target="_blank">R</a>
+				<a href="" target="_blank">S</a>
+				<a href="" target="_blank">T</a>
+				<a href="" target="_blank">U</a>
+				<a href="" target="_blank">V</a>
+				<a href="" target="_blank">W</a>
+				<a href="" target="_blank">X</a>
+				<a href="" target="_blank">Y</a>
+				<a href="" target="_blank">Z</a>
+				<a href="" target="_blank">0-9</a>
+				<a href="" target="_blank" data-language-id="LC_SITE_MAP">Site Map</a>
+				<a href="" target="_blank" data-language-id="LC_MOBILE_SITE">Mobile Site</a>
 			</div>
 			<div class="official-partner">
-				<img src="//static.newchic.com/default/images/foot_icon.png?v=287.0.3"><a href="https://www.mcafeesecure.com/verify?host=newchic.com" target="_blank" class="cando"><img src="//static.newchic.com/default/images/mcafeesecure.png"></a>
-				<a href="https://www.dmca.com/Protection/Status.aspx?ID=1ffbb7da-5569-4f27-9a97-121b4e6d472e&amp;refurl=https://www.newchic.com/" title="DMCA.com Protection Status" target="_blank" class="dmca-badge cando"> <img height="33" src="//images.dmca.com/Badges/DMCA_logo-grn-btn100w.png?ID=b3175638-0576-40d1-9533-822a5f1892fc" alt="DMCA.com Protection Status"></a> 
+				<img src="//static.newchic.com/default/images/foot_icon.png?v=287.0.3"><a href="" target="_blank" class="cando"><img src="//static.newchic.com/default/images/mcafeesecure.png"></a>
+				<a href="" title="DMCA.com Protection Status" target="_blank" class="dmca-badge cando"> <img height="33" src="//images.dmca.com/Badges/DMCA_logo-grn-btn100w.png?ID=b3175638-0576-40d1-9533-822a5f1892fc" alt="DMCA.com Protection Status"></a> 
 			</div>
 			<div class="copy-right" data-language-id="LC_COPYRIGHT" style="" id="isNotCN">Copyright © 2014-2018 Newchic.com All Rights Reserved.</div>
-			<div class="copy-right" style="display:none;" id="s_beian">版权所有为广州棒谷网络科技有限公司 &nbsp;<a target="_blank" href="http://www.miibeian.gov.cn">粤ICP备15016191号</a></div>
+			<div class="copy-right" style="display:none;" id="s_beian">版权所有为广州棒谷网络科技有限公司 &nbsp;<a target="_blank" href="">粤ICP备15016191号</a></div>
 		</div>
 	</div>
 </div>
@@ -165,7 +165,7 @@
                         <li class="fix_lst_pics"><span>GET</span> <span class="f_size_28"><i>20%</i>OFF</span></li>
                         <li class="down_way clearfixes">
                             <span>1st order</span>
-                            <a href="/AppDownload.html" onclick="set_app_ga('Central')" target="_blank">LEARN MORE &gt;&gt;</a>
+                            <a href="" onclick="set_app_ga('Central')" target="_blank">LEARN MORE &gt;&gt;</a>
                         </li>
                     </ol>
                     </dt>
