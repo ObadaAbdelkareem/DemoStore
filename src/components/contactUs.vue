@@ -36,7 +36,7 @@
                                     and clicking the cancel order button. (Orders are unable to be canceled once they have
                                     been shipped.)</p>
                                 <p>
-                                    <a href="/?com=account&amp;t=orderlist&amp;orderStatus=0" target="_blank">View orders</a>
+                                    <a href="" target="_blank">View orders</a>
                                 </p>
 
                                 <div class="tal_alert_btm">
@@ -45,7 +45,7 @@
                                     </h1>
                                     <ol>
                                         <li>
-                                            <a href="/?com=article&amp;t=saleForm&amp;isAfter=1&amp;topic=26" target="_blank">Email Us Now</a>
+                                            <a href="" target="_blank">Email Us Now</a>
                                         </li>
                                         <li>
                                             <p>(Please allow 24 hours for a response).</p>
@@ -62,7 +62,7 @@
                                 <div class="tal_alert_btm">
                                     <ol>
                                         <li>
-                                            <a href="/?com=article&amp;t=saleForm&amp;isAfter=1&amp;topic=27" target="_blank">Email Us Now</a>
+                                            <a href="" target="_blank">Email Us Now</a>
                                         </li>
                                         <li>
                                             <p>(Please allow 24 hours for a response).</p>
@@ -79,7 +79,7 @@
                                 <p>You can check your order status by logging into your account and visiting the [My Orders]
                                     page.</p>
                                 <p>
-                                    <a href="/?com=account&amp;t=orderlist&amp;orderStatus=0" target="_blank">View orders</a>
+                                    <a href="" target="_blank">View orders</a>
                                 </p>
 
                                 <div class="tal_alert_btm">
@@ -88,7 +88,7 @@
                                     </h1>
                                     <ol>
                                         <li>
-                                            <a href="/?com=article&amp;t=saleForm&amp;isAfter=1&amp;topic=28" target="_blank">Email Us Now</a>
+                                            <a href="" target="_blank">Email Us Now</a>
                                         </li>
                                         <li>
                                             <p>(Please allow 24 hours for a response).</p>
@@ -106,7 +106,7 @@
                             <div class="tal_alert hidden" style="display: none;">
                                 <p>Details on Customs Duties are available in our Help Center.</p>
                                 <p>
-                                    <a href="/tax-policy-hc105.html" target="_blank">Visit Help Center Now</a>
+                                    <a href="" target="_blank">Visit Help Center Now</a>
                                 </p>
 
                                 <div class="tal_alert_btm">
@@ -115,7 +115,7 @@
                                     </h1>
                                     <ol>
                                         <li>
-                                            <a href="/?com=article&amp;t=saleForm&amp;isAfter=1&amp;topic=29" target="_blank">Email Us Now</a>
+                                            <a href="" target="_blank">Email Us Now</a>
                                         </li>
                                         <li>
                                             <p>(Please allow 24 hours for a response).</p>
@@ -131,7 +131,7 @@
                             <div class="tal_alert hidden">
                                 <p>You can track you order in the user center.</p>
                                 <p>
-                                    <a href="/?com=account&amp;t=orderlist&amp;orderStatus=0" target="_blank">View orders</a>
+                                    <a href="" target="_blank">View orders</a>
                                 </p>
 
                                 <div class="tal_alert_btm">
@@ -140,7 +140,7 @@
                                     </h1>
                                     <ol>
                                         <li>
-                                            <a href="/?com=article&amp;t=saleForm&amp;isAfter=1&amp;topic=30" target="_blank">Email Us Now</a>
+                                            <a href="" target="_blank">Email Us Now</a>
                                         </li>
                                         <li>
                                             <p>(Please allow 24 hours for a response).</p>
@@ -159,7 +159,7 @@
                                 <div class="tal_alert_btm">
                                     <ol>
                                         <li>
-                                            <a href="/?com=article&amp;t=saleForm&amp;isAfter=1&amp;topic=31" target="_blank">Email Us Now</a>
+                                            <a href="" target="_blank">Email Us Now</a>
                                         </li>
                                         <li>
                                             <p>(Please allow 24 hours for a response).</p>
@@ -181,7 +181,7 @@
                                 <div class="tal_alert_btm">
                                     <ol>
                                         <li>
-                                            <a href="/?com=article&amp;t=saleForm&amp;isAfter=1&amp;topic=32" target="_blank">Email Us Now</a>
+                                            <a href="" target="_blank">Email Us Now</a>
                                         </li>
                                         <li>
                                             <p>(Please allow 24 hours for a response).</p>
@@ -200,7 +200,7 @@
                                 <div class="tal_alert_btm">
                                     <ol>
                                         <li>
-                                            <a href="/?com=article&amp;t=saleForm&amp;isAfter=1&amp;topic=33" target="_blank">Email Us Now</a>
+                                            <a href="" target="_blank">Email Us Now</a>
                                         </li>
                                         <li>
                                             <p>(Please allow 24 hours for a response).</p>
@@ -217,7 +217,7 @@
                                 <div class="tal_alert_btm">
                                     <ol>
                                         <li>
-                                            <a href="/?com=article&amp;t=saleForm&amp;isAfter=1&amp;topic=34" target="_blank">Email Us Now</a>
+                                            <a href="" target="_blank">Email Us Now</a>
                                         </li>
                                         <li>
                                             <p>(Please allow 24 hours for a response).</p>
@@ -255,7 +255,7 @@
                                             <p>(Please allow 24 hours for a response).</p>
                                         </li>
                                         <li>
-                                            <a href="/?com=article&amp;t=saleForm&amp;isAfter=0&amp;topic=20" target="_blank">Email Us Now</a>
+                                            <a href="" target="_blank">Email Us Now</a>
                                         </li>
                                     </ol>
                                 </div>
@@ -268,7 +268,7 @@
                             <div class="tal_alert hidden">
                                 <p>Full details on payment Issues are displayed in our Help Center.</p>
                                 <p>
-                                    <a href="/how-to-pay-hc12.html" target="_blank">Visit Help Center Now</a>
+                                    <a href="" target="_blank">Visit Help Center Now</a>
                                 </p>
 
                                 <div class="tal_alert_btm">
@@ -281,7 +281,7 @@
                                             <p>(Please allow 24 hours for a response).</p>
                                         </li>
                                         <li>
-                                            <a href="/?com=article&amp;t=saleForm&amp;isAfter=0&amp;topic=21" target="_blank">Email Us Now</a>
+                                            <a href="" target="_blank">Email Us Now</a>
                                         </li>
                                     </ol>
                                 </div>
@@ -294,7 +294,7 @@
                             <div class="tal_alert hidden">
                                 <p>Details on Shipping Methods are in our Help Center.</p>
                                 <p>
-                                    <a href="/shipping-methods-hc13.html" target="_blank">Visit Help Center Now</a>
+                                    <a href="" target="_blank">Visit Help Center Now</a>
                                 </p>
                                 <div class="tal_alert_btm">
                                     <h1 class="tal_or">
@@ -306,7 +306,7 @@
                                             <p>(Please allow 24 hours for a response).</p>
                                         </li>
                                         <li>
-                                            <a href="/?com=article&amp;t=saleForm&amp;isAfter=0&amp;topic=22" target="_blank">Email Us Now</a>
+                                            <a href="" target="_blank">Email Us Now</a>
                                         </li>
                                     </ol>
                                 </div>
@@ -321,7 +321,7 @@
                             <div class="tal_alert hidden">
                                 <p>Full details on Points / Coupons / Gifts Cards are display in our Help Center.</p>
                                 <p>
-                                    <a href="/points-and-coupons-hc22.html" target="_blank">Visit Help Center Now</a>
+                                    <a href="" target="_blank">Visit Help Center Now</a>
                                 </p>
 
                                 <div class="tal_alert_btm">
@@ -334,7 +334,7 @@
                                             <p>(Please allow 24 hours for a response).</p>
                                         </li>
                                         <li>
-                                            <a href="/?com=article&amp;t=saleForm&amp;isAfter=0&amp;topic=23" target="_blank">Email Us Now</a>
+                                            <a href="" target="_blank">Email Us Now</a>
                                         </li>
                                     </ol>
                                 </div>
@@ -359,7 +359,7 @@
                                             <p>(Please allow 24 hours for a response).</p>
                                         </li>
                                         <li>
-                                            <a href="/?com=article&amp;t=saleForm&amp;isAfter=0&amp;topic=24" target="_blank">Email Us Now</a>
+                                            <a href="" target="_blank">Email Us Now</a>
                                         </li>
                                     </ol>
                                 </div>
@@ -377,7 +377,7 @@
                                             <p>(Please allow 24 hours for a response).</p>
                                         </li>
                                         <li>
-                                            <a href="/?com=article&amp;t=saleForm&amp;isAfter=0&amp;topic=25" target="_blank">Email Us Now</a>
+                                            <a href="" target="_blank">Email Us Now</a>
                                         </li>
                                     </ol>
                                 </div>

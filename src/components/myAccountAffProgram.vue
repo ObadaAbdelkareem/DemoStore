@@ -17,18 +17,18 @@
 				<li>
 					<a href="javascript:;">Ad Center</a>
 					<ul class="sub-menu">
-						<li><a href="/account/index.php?com=account&amp;t=affiliateReport">Hot Deals</a></li>
-						<li><a href="/account/index.php?com=account&amp;t=affiliateBannerList">Banner</a></li>
-						<li><a href="/account/index.php?com=account&amp;t=affiliateCoupon">Coupon</a></li>
+						<li><a href="">Hot Deals</a></li>
+						<li><a href="">Banner</a></li>
+						<li><a href="">Coupon</a></li>
 					</ul>
 				</li>
-				<li><a href="/account/index.php?com=account&amp;t=reportList">Report Center</a></li>
+				<li><a href="">Report Center</a></li>
 				<li>
 					<a href="javascript:;">Strategy</a>
 					<ul class="sub-menu">
-						<li><a href="/index.php?com=account&amp;t=AffiliateStrategy&amp;cat_id=739">Introduction</a></li>
-						<li><a href="/index.php?com=account&amp;t=AffiliateStrategy&amp;cat_id=742">Tips</a></li>
-						<li><a href="/index.php?com=account&amp;t=AffiliateStrategy&amp;cat_id=741">FAQ</a></li>
+						<li><a href="">Introduction</a></li>
+						<li><a href="">Tips</a></li>
+						<li><a href="">FAQ</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -57,8 +57,8 @@
 						<p class="meta">Active commission</p>
 					</li>
 					<li class="operator-wrap">
-						<a href="/account/index.php?com=account&amp;t=withdrawDetail" class="btn btn-block">Withdrawal</a>
-						<a href="/account/index.php?com=account&amp;t=reportList#tab=report-5" class="btn">Withdrawal Report</a>
+						<a href="" class="btn btn-block">Withdrawal</a>
+						<a href="" class="btn">Withdrawal Report</a>
 					</li>
 				</ul>	
 			</div>
@@ -68,16 +68,16 @@
 			<h3 class="block-title">Order Record</h3>
 			<ul class="nav nav-tabs">
 				<li class="active">
-					<a href="javascript:;" data-tab="#order-today" data-url="/index.php?com=account&amp;t=getAffiliateOrders&amp;day=0">Today</a>
+					<a href="javascript:;" >Today</a>
 				</li>
 				<li>
-					<a href="javascript:;" data-tab="#order-ysday" data-url="/index.php?com=account&amp;t=getAffiliateOrders&amp;day=1">Yesterday</a>
+					<a href="javascript:;" >Yesterday</a>
 				</li>
 				<li>
-					<a href="javascript:;" data-tab="#order-week" data-url="/index.php?com=account&amp;t=getAffiliateOrders&amp;day=7">This Week</a>
+					<a href="javascript:;">This Week</a>
 				</li>
 				<li class="pull-right">
-					<a href="/index.php?com=account&amp;t=reportList#tab=report-1" class="more">View More &gt;&gt;</a>
+					<a href="" class="more">View More &gt;&gt;</a>
 				</li>
 			</ul>
 			<div class="tab-content">

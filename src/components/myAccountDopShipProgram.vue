@@ -99,7 +99,7 @@
 					</div>
 					<dl>
 						<dt>More information</dt>
-						<dd>If you are interested or want to receive further information, please contact <a href="mailto:dropship@newchic.com" class="mail">dropship@newchic.com</a></dd>
+						<dd>If you are interested or want to receive further information, please contact <a href="" class="mail">dropship@newchic.com</a></dd>
 					</dl>
         		</div>
         		

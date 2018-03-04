@@ -17,9 +17,9 @@
 						<div class="whole_art">
 							<h1 class="whole_title">How to Become Our Certified Wholesale Customer?</h1>
 							<p>
-								Step 1: Register an account on our website, you can <a href="/login.html" target="_blank">Click Here</a> to register.<br>
-								Step 2: After registered, then <a href="/index.php?com=account&amp;t=wholesaleProgram">Click Here</a> to submit an application for Wholesale Account.<br>
-								If any question or problem please contact us to get help, email: <a href="mailto:wholesale@newchic.com" class="link">wholesale@newchic.com</a><br>
+								Step 1: Register an account on our website, you can <a href="/LoginAndRegister" target="_blank">Click Here</a> to register.<br>
+								Step 2: After registered, then <a href="">Click Here</a> to submit an application for Wholesale Account.<br>
+								If any question or problem please contact us to get help, email: <a href="" class="link">wholesale@newchic.com</a><br>
 							</p>
 						</div>
 						<div class="whole_art">

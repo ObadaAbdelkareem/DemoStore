@@ -23,7 +23,7 @@
               </div>
               <ul class="list-inline sub-desc">
                 <li>
-                  <a href="#customer-reviews-wrap">
+                  <a href="">
                     <div class="star-wrap">
                       <span class="star">
                       <i style="width:0%;"></i>
@@ -37,7 +37,7 @@
               <div style="display: none; visibility: hidden;">
                 <ul class="info  clearfix margin-bottom-10">
                   <li class="review">
-                    <a href="#reviews" rel="nofollow">
+                    <a href="" rel="nofollow">
                     <i>
                     <i style="width:0%"></i>
                     </i>  
@@ -46,7 +46,7 @@
                   </li>
                   <li class="write">
                     <span>|</span>
-                    <a href="https://www.newchic.com/index.php?com=review&amp;t=write_review&amp;products_id=1178309" onclick="set_product_detail_ga('Write a Review Top')" rel="nofollow"><i></i>Write a review</a>
+                    <a href="" onclick="set_product_detail_ga('Write a Review Top')" rel="nofollow"><i></i>Write a review</a>
                   </li>
                   <li class="write">
                   </li>
@@ -299,7 +299,7 @@
                             </div>
                             <div class="my-inventory hidden" data-id="1178309" data-poa="SKU715138">
                               <!--href="/?com=account&t=dropshipPayment" target="_blank"-->
-                              <a class="add_inven btn-set-alarm" data-href="/account/dropshipPayment.html" href="javascript:void(0);" data-toggle="tooltip" data-skin="tooltip-pro-inventory" data-placement="bottom" data-already-title="this item is already in &quot;my inventory&quot;" data-original-title="Check the stock at My Inventory" data-pid="1178309" data-sku="SKU715138">+ Add To inventory</a>
+                              <a class="add_inven btn-set-alarm" data-href="" href="javascript:void(0);" data-toggle="tooltip" data-skin="tooltip-pro-inventory" data-placement="bottom" data-already-title="this item is already in &quot;my inventory&quot;" data-original-title="Check the stock at My Inventory" data-pid="1178309" data-sku="SKU715138">+ Add To inventory</a>
                             </div>
                             <div class="each" style="display:none;"><em class="price" oriprice=""></em> Each</div>
                           </div>
@@ -368,14 +368,14 @@
                                   <li>Return shipping fee is paid by buyer.</li>
                                 </ol>
                                 <p>
-                                  <a href="/return-and-refund-hc162.html">Learn More</a>
+                                  <a href="/returnAndRefund">Learn More</a>
                                 </p>
                               </li>
                               <li>
                                 <p><b>2. Delivery:</b></p>
                                 <p>We will offer you a gift for the order's tracking code on orders over US$30.</p>
                                 <p>Total delivery time = Processing time + Shipping time .</p>
-                                <p><a href="/shipping-methods-hc160.html">Learn More</a></p>
+                                <p><a href="/shippingMethods">Learn More</a></p>
                               </li>
                             </ul>
                           </dd>
@@ -541,7 +541,7 @@
                 </li>
                 <li class="share_polyvore">
                   <!--<script type="text/javascript" src="//static.newchic.com/default/js/add_to_polyvore.js"></script>-->
-                  <a href="http://www.polyvore.com" name="addToPolyvore" id="addToPolyvore" data-product-url="https://www.newchic.com/athletic-and-casual-shoes-3596/p-1178309.html?utm_source=share_polyvore" data-image-url="https://img1.newchic.com/thumb/view/oaupload/newchic/images/A1/48/ca9ea25e-82ae-4d63-837f-11539e2b431e.jpg" data-name="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" data-price="" class="cando middle_sharePolyvore_button_171116" data-point-id="17319014051" data-ga-tag="middle_nc-icon nc-icon-polyvore_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-polyvore"></i></a>
+                  <a href="" name="addToPolyvore" id="addToPolyvore" data-product-url="https://www.newchic.com/athletic-and-casual-shoes-3596/p-1178309.html?utm_source=share_polyvore" data-image-url="https://img1.newchic.com/thumb/view/oaupload/newchic/images/A1/48/ca9ea25e-82ae-4d63-837f-11539e2b431e.jpg" data-name="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" data-price="" class="cando middle_sharePolyvore_button_171116" data-point-id="17319014051" data-ga-tag="middle_nc-icon nc-icon-polyvore_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-polyvore"></i></a>
                 </li>
                 <li class="share_twitter">
                   <a href="javascript:;" onclick="shareTwitter(this);" target="_blank" class="cando middle_shareTwitter_button_171116" data-point-id="17319014050" data-target="_blank" data-ga-tag="middle_nc-icon nc-icon-twitter_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-twitter"></i></a>
@@ -610,7 +610,7 @@
                 <ul class="list clearfix" style="width: 2440px; left: 0px; position: relative; overflow: hidden; padding: 0px; margin: 0px;">
                   <li class="item" style="float: left; width: 224px;">
                     <div class="img">
-                      <a href="https://www.newchic.com/athletic-and-casual-shoes-3596/p-1178308.html?rmmds=detail_bottom_alsolike" data-ga-tag="middle_item_image_180122" data-ga-ac="click">
+                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click">
                       <img src="https://img.banggood.com/images/oaupload/newchic/images/B0/C0/fb7c35f2-6076-48da-9e81-3fa618ff8358.jpg" alt="">
                       </a>
                     </div>
@@ -620,7 +620,7 @@
                   </li>
                   <li class="item" style="float: left; width: 224px;">
                     <div class="img">
-                      <a href="https://www.newchic.com/athletic-and-casual-shoes-3596/p-1135067.html?rmmds=detail_bottom_alsolike" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
+                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
                       <img src="https://img.banggood.com/images/oaupload/newchic/images/0D/B9/0e0e0d09-0ba1-49cc-a114-4025322ac239.jpg" alt="">
                       </a>
                     </div>
@@ -630,7 +630,7 @@
                   </li>
                   <li class="item" style="float: left; width: 224px;">
                     <div class="img">
-                      <a href="https://www.newchic.com/athletic-and-casual-shoes-3596/p-1214918.html?rmmds=detail_bottom_alsolike" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
+                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
                       <img src="https://img.banggood.com/images/oaupload/newchic/images/63/2E/a738c397-4834-4c1a-9b93-618c300f6c0a.jpg" alt="">
                       </a>
                     </div>
@@ -640,7 +640,7 @@
                   </li>
                   <li class="item" style="float: left; width: 224px;">
                     <div class="img">
-                      <a href="https://www.newchic.com/athletic-and-casual-shoes-3596/p-1207249.html?rmmds=detail_bottom_alsolike" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
+                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
                       <img src="https://img.banggood.com/images/oaupload/newchic/images/AB/2F/96fd20a8-b32d-4757-9af3-420c69162eea.jpg" alt="">
                       </a>
                     </div>
@@ -650,7 +650,7 @@
                   </li>
                   <li class="item" style="float: left; width: 224px;">
                     <div class="img">
-                      <a href="https://www.newchic.com/athletic-and-casual-shoes-3596/p-1034120.html?rmmds=detail_bottom_alsolike" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
+                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
                       <img src="https://img.banggood.com/images/oaupload/newchic/images/5E/54/733ee3ca-97ad-be48-4607-a1f3066c06e1.jpg" alt="">
                       </a>
                     </div>
@@ -660,7 +660,7 @@
                   </li>
                   <li class="item" style="float: left; width: 224px;">
                     <div class="img">
-                      <a href="https://www.newchic.com/athletic-and-casual-shoes-3596/p-1134326.html?rmmds=detail_bottom_alsolike" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
+                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
                       <img src="https://img.banggood.com/images/oaupload/newchic/images/D5/CF/4d1f8018-6f52-42c9-bd0c-f67a91c60a24.jpg" alt="">
                       </a>
                     </div>
@@ -670,7 +670,7 @@
                   </li>
                   <li class="item" style="float: left; width: 224px;">
                     <div class="img">
-                      <a href="https://www.newchic.com/athletic-and-casual-shoes-3596/p-1200083.html?rmmds=detail_bottom_alsolike" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
+                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
                       <img src="https://img.banggood.com/images/oaupload/newchic/images/C5/08/56efd479-0715-4823-9deb-79ce8be05f0a.jpeg" alt="">
                       </a>
                     </div>
@@ -680,7 +680,7 @@
                   </li>
                   <li class="item" style="float: left; width: 224px;">
                     <div class="img">
-                      <a href="https://www.newchic.com/athletic-and-casual-shoes-3596/p-1215061.html?rmmds=detail_bottom_alsolike" data-ga-tag="middle_item_image_180122" data-ga-ac="click">
+                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click">
                       <img src="https://img.banggood.com/images/oaupload/newchic/images/19/1F/eb28b822-0a15-4252-80af-ea66a53bb573.jpg" alt="">
                       </a>
                     </div>
@@ -690,7 +690,7 @@
                   </li>
                   <li class="item" style="float: left; width: 224px;">
                     <div class="img">
-                      <a href="https://www.newchic.com/athletic-and-casual-shoes-3596/p-1259575.html?rmmds=detail_bottom_alsolike" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
+                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
                       <img src="https://img.banggood.com/images/oaupload/newchic/images/20/96/86938c09-e5ab-4775-944e-63d620c46a9b.jpg" alt="">
                       </a>
                     </div>
@@ -700,7 +700,7 @@
                   </li>
                   <li class="item" style="float: left; width: 224px;">
                     <div class="img">
-                      <a href="https://www.newchic.com/athletic-and-casual-shoes-3596/p-1256674.html?rmmds=detail_bottom_alsolike" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
+                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
                       <img src="https://img.banggood.com/images/oaupload/newchic/images/B7/7D/d1e84fea-0251-4fa8-abb7-24315d28f728.jpg" alt="">
                       </a>
                     </div>
@@ -734,7 +734,7 @@
             </li>
             <li class="write-wrap">
               <div class="text-right">
-                <a href="/index.php?com=review&amp;t=write_review&amp;products_id=1178309" class="btn btn-large" data-ga-tag="down_text-right_button_180122" data-ga-ac="click" target="_self">WRITE A REVIEW</a>
+                <a href="" class="btn btn-large" data-ga-tag="down_text-right_button_180122" data-ga-ac="click" target="_self">WRITE A REVIEW</a>
                 <p class="text-muted">The first 3 reviews will receive double points</p>
               </div>
             </li>
@@ -746,7 +746,7 @@
           <div class="ask-wrap clearfix">
             <div class="pull-left font-14">For any pre-sale questions, please contact our customer service and receive a response within 24 hours</div>
             <div class="pull-right">
-              <a href="https://www.newchic.com/athletic-and-casual-shoes-3596/p-1178309/ask.html" onclick="set_product_detail_ga('Ask a question')" class="btn btn-roseo" data-ga-tag="down_btn btn-roseo_button_180122" data-ga-ac="click">Ask a question</a>
+              <a href="" onclick="set_product_detail_ga('Ask a question')" class="btn btn-roseo" data-ga-tag="down_btn btn-roseo_button_180122" data-ga-ac="click">Ask a question</a>
             </div>
           </div>
           <div class="qa-list-wrap haven_data" style="position: relative;">

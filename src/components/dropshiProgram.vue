@@ -2,7 +2,7 @@
   <div class="wrap">
 	<div class="content-box dropship-desc-contaner">
 		<div class="dropship-desc-banner">
-			<a href="/index.php?com=account&amp;t=dropship#tab=join" target="_self">
+			<a href="" target="_self">
 				<img src="../../static/assets/images/dropship-desc-banner.jpg" alt="">
 			</a>
 		</div>
@@ -67,7 +67,7 @@
 			<dt>» How to Be a Dropshipper</dt>
 			<dd>
 				<ul class="list-decimal">
-					<li>Fill <a href="index.php?com=account&amp;t=dropship#tab=join">Dropship application</a>.</li>
+					<li>Fill <a href="">Dropship application</a>.</li>
 					<li><p>Receive a confirmation E-mail when your dropship account is activated.</p>
   						<p>If not get any Email after 24h ( 48h on weekend ), please Email to 
    <a href="javascript:;">dropship@newchic.com</a>.</p></li>
@@ -79,9 +79,9 @@
 			<dd>
 				<p>If you want to learn more information, you can</p>
 				<ul class="list-decimal">
-					<li>View <a href="/dropship-program-hc101.html">Dropship FAQs</a></li>
-					<li>Email us at <a href="mailto:dropship@newchic.com">dropship@newchic.com</a></li>
-					<li> Skype:<a href="mailto:dropship@newchic.com">dropship@newchic.com</a></li>
+					<li>View <a href="">Dropship FAQs</a></li>
+					<li>Email us at <a href="">dropship@newchic.com</a></li>
+					<li> Skype:<a href="">dropship@newchic.com</a></li>
 				</ul>
 			</dd>
 		</dl>

@@ -4,7 +4,7 @@
 	<h4 class="registration_title">Welcome to <font>Newchic</font>, stay with latest fashion trend.</h4>
 		<div class="sign_other">
                 <span class="log_facebook"><i></i>Log in with Facebook</span>
-                <a href="https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=https%3A%2F%2Fwww.newchic.com%2Flogin.html&amp;response_type=token&amp;scope=email+profile&amp;client_id=695973700438-sppj1t7csdvbivn2i2d4bv6cgktbp3uo.apps.googleusercontent.com&amp;prompt=select_account&amp;state=https%3A%2F%2Fwww.newchic.com%2F"><span id="google_sign_in" class="log_google"><i></i>Log in with Google</span></a>
+                <a href=""><span id="google_sign_in" class="log_google"><i></i>Log in with Google</span></a>
                 <!-- <h2><span>25% OFF</span> First order</h2> -->
                </div>
     <div class="registration_log">
@@ -47,7 +47,7 @@
             <input type="hidden" id="isback" value="0">
             <input type="hidden" id="orders_by_orders" name="orders_by_orders" value="">
             </form>
-        	<p class="forgetPas"><a href="/account/findpwd1.html">Forgot your password?</a></p>
+        	<p class="forgetPas"><a href="">Forgot your password?</a></p>
         </div>
         <div class="registration">
             <h5>Register</h5>
@@ -82,7 +82,7 @@
                 </div>
                 <p class="register_tips">
 					<span class="checkbox"><input type="checkbox" class="check_on" id="agree" checked="checked" name="agree" value="1"></span>
-					I agree to Newchic <a href="http://www.newchic.com/terms-and-conditions-hc97.html" target="_blank">Terms of Use</a>
+					I agree to Newchic <a href="" target="_blank">Terms of Use</a>
 				</p>
 				
                 <span class="error" style="display:block;clear:both;" id="agreetip" msg="By using our services, you are agreeing to Newchic Terms of Use"></span>

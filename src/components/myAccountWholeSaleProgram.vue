@@ -2,7 +2,7 @@
   <div class="order_form_right">
         	        	
         	
-           		<a href="/index.php?com=article&amp;t=wholesaleShow" target="_self"><div class="banner wholesale-join-banner"></div></a>
+           		<a href="" target="_self"><div class="banner wholesale-join-banner"></div></a>
            	
 				<div class="apply-wholesale-container">
 															<form class="form-apply-wholesale form-container" novalidate="novalidate">
@@ -287,7 +287,7 @@
 						<dt></dt>
 						<dd>
 							<label>
-								<div class="checker"><span><input type="checkbox" name="agree" data-msg-required="By using our services, you are agreeing to Newchic Terms of Use"></span></div> I agree to Newchic.com <a href="https://www.newchic.com/terms-and-conditions-hc174.html" target="_blank" class="link">Terms of Use</a>
+								<div class="checker"><span><input type="checkbox" name="agree" data-msg-required="By using our services, you are agreeing to Newchic Terms of Use"></span></div> I agree to Newchic.com <a href="" target="_blank" class="link">Terms of Use</a>
 							</label>
 													</dd>
 						<dt></dt>

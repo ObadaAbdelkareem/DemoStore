@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="fb_banner wrap">
-        <a href="http://www.newchic.com/" target="_blank"><img class="banner" src="../../static/assets/images/banner_newchic2.jpg"></a>
+        <a href="" target="_blank"><img class="banner" src="../../static/assets/images/banner_newchic2.jpg"></a>
     </div>
     
     <div class="wrap">
@@ -19,7 +19,7 @@
                         experience. After this survey is completed, you will be granted <span class="font_wei600">30 newchic points</span> that will automatically
                         be added
                         to your account. You can check your points at
-                        <a href="https://www.newchic.com/account/points.html" class="color_org" style="text-decoration: underline" target="_blank">My Points</a>.
+                        <a href="" class="color_org" style="text-decoration: underline" target="_blank">My Points</a>.
                     </p>
                     <p class="padd_btm6">
                         Thank you for your time and cooperation.
@@ -352,28 +352,28 @@
                                 </li>
                                 <li style="padding-bottom: 112px;padding-top: 45px;">
                                     We have put <span style="font-weight: 600">30 points</span> in your Newchic account.
-                                    <a href="https://www.newchic.com/index.php?com=account&amp;t=points" style="text-decoration: underline; color: #333">To see</a>
+                                    <a href="" style="text-decoration: underline; color: #333">To see</a>
                                 </li>
                             </ul>
                         </form>
                         <div class="app_btm" style="text-align: center;">
-                            <a href="http://newsletter.newchic.com/a/hBYWRlUB9Mmy1B9Wg81AAHyFWJ7/www38" target="_blank"><img src="http://img.newchic.com/email/facebook.png"></a>
-                            <a href="http://newsletter.newchic.com/a/hBYWRlUB9Mmy1B9Wg81AAHyFWJ7/www39" target="_blank"><img src="http://img.newchic.com/email/instagram.png"></a>
-                            <a href="http://newsletter.newchic.com/a/hBYWRlUB9Mmy1B9Wg81AAHyFWJ7/www37" target="_blank"><img src="http://img.newchic.com/email/twitter.png"></a>
-                            <a href="http://newsletter.newchic.com/a/hBYWRlUB9Mmy1B9Wg81AAHyFWJ7/www40" target="_blank"><img src="http://img.newchic.com/email/pinterest.png"></a>
-                            <a href="http://newsletter.newchic.com/a/hBYWRlUB9Mmy1B9Wg81AAHyFWJ7/www4" target="_blank"><img src="http://img.newchic.com/email/polyvore.png"></a>
+                            <a href="" target="_blank"><img src="http://img.newchic.com/email/facebook.png"></a>
+                            <a href="" target="_blank"><img src="http://img.newchic.com/email/instagram.png"></a>
+                            <a href="" target="_blank"><img src="http://img.newchic.com/email/twitter.png"></a>
+                            <a href="" target="_blank"><img src="http://img.newchic.com/email/pinterest.png"></a>
+                            <a href="" target="_blank"><img src="http://img.newchic.com/email/polyvore.png"></a>
                             <p style="font-size: 14px; padding-top: 16px;">Copyright © 2014-2017 Newchic.com. All Rights Reserved.</p>
                         </div>
                         <ul style="padding-top: 20px;">
                             <li style="text-align: right;  float: left; list-style:none; width: 50%;">
                                 <p style="padding-right: 10px;">
-                                    <a href="https://newchic.app.link/appmail-Download-iOS" target="_blank"><img src="http://img.newchic.com/email/newchic31_app01.jpg"></a>
+                                    <a href="" target="_blank"><img src="http://img.newchic.com/email/newchic31_app01.jpg"></a>
 
                                 </p>
                             </li>
                             <li style="text-align: left;float: right; list-style:none;width: 50%">
                                 <p style="padding-left: 10px;">
-                                    <a href="https://newchic.app.link/appmail-Download-Android" target="_blank"><img src="http://img.newchic.com/email/newchic31_app02.jpg"></a>
+                                    <a href="" target="_blank"><img src="http://img.newchic.com/email/newchic31_app02.jpg"></a>
 
                                 </p>
                             </li>
@@ -389,7 +389,7 @@
     <div class="mask"></div>
     <div class="popup">
         <h3 class="title">Submitted successfully, thank you for your cooperation! </h3>
-        <a href="http://www.newchic.com/" class="link">Go Shopping Now &gt;</a>
+        <a href="" class="link">Go Shopping Now &gt;</a>
         <a href="javascript:;" class="btn_close">Close</a>
     </div>
 

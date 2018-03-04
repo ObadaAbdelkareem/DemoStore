@@ -48,8 +48,8 @@
 		</div>
 	</div>
 	<div class="blogger_btn">
-		<div class="form_submit"><input type="buttom" onclick="window.location.href = '/index.php?com=blog&amp;t=promotion&amp;step=2'" name="">I agree</div>
-		<div class="form_submit gray"><input type="buttom" onclick="window.location.href = 'https://www.newchic.com/'" name="">No,Thanks</div>
+		<div class="form_submit"><input type="buttom"  name="">I agree</div>
+		<div class="form_submit gray"><input type="buttom"  name="">No,Thanks</div>
 	</div>
 </div>
 </template>
