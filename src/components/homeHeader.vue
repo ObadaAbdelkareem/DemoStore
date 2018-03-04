@@ -175,10 +175,10 @@
                                                         data-language-id="LC_HELP_CENTER">
                                                         <span class="nc-icon nc-icon-why"></span>Help Center</router-link>
                                                 </li>
-                                                <li class="live-chat">
+                                               <!-- <li class="live-chat">
                                                     <a class="a_1" rel="nofollow" href="javascript:void(0);" data-language-id="LC_LIVE_CHAT">
                                                         <span class="nc-icon-Customerservice-m nc-icon"></span>Live chat</a>
-                                                    <!-- chat tips Begin-->
+                                                    
                                                     <div class="chat-tips-container">
                                                         <h1>After-Sales</h1>
                                                         <p>1.For After-Sale issues such as defective/ missing/ wrong products,
@@ -191,8 +191,8 @@
                                                             <a href="javascript:;" class="open-live-chat" onclick="set_home_ga('Home - Start online chat')">Start online chat.</a>
                                                         </p>
                                                     </div>
-                                                    <!-- chat tips End -->
-                                                </li>
+                                                    
+                                                </li> -->
                                             </ul>
                                         </div>
                                     </div>
