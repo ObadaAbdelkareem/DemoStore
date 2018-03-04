@@ -7,10 +7,10 @@
 			<li>
 				<dl>
 					<dt><h3 data-language-id="LC_COMPANY_INFORMATION">Company Information</h3></dt>
-					<dd><router-link to="/helpCenter" rel="nofollow" data-language-id="LC_ABOUNT_NEWCHIC">About Newchic</router-link></dd>
-					<dd><router-link to="/helpCenter/privacyPolicy" rel="nofollow" data-language-id="LC_PRIVACY_POLICY">Privacy Policy</router-link></dd>
-					<dd><router-link to="/helpCenter/returnAndRefund" rel="nofollow" data-language-id="LC_RETURN_POLICY">Return Policy</router-link></dd>
-					<dd><router-link to="/helpCenter/termsAndConditions" rel="nofollow" data-language-id="LC_TERMS_CONDITIONS">Terms And Conditions</router-link></dd>
+					<dd><router-link to="/helpCenter" rel="nofollow" v-on:click.native="scrollTop" data-language-id="LC_ABOUNT_NEWCHIC">About Newchic</router-link></dd>
+					<dd><router-link to="/helpCenter/privacyPolicy" rel="nofollow" v-on:click.native="scrollTop" data-language-id="LC_PRIVACY_POLICY">Privacy Policy</router-link></dd>
+					<dd><router-link to="/helpCenter/returnAndRefund" rel="nofollow" v-on:click.native="scrollTop" data-language-id="LC_RETURN_POLICY">Return Policy</router-link></dd>
+					<dd><router-link to="/helpCenter/termsAndConditions" rel="nofollow" v-on:click.native="scrollTop" data-language-id="LC_TERMS_CONDITIONS">Terms And Conditions</router-link></dd>
 					<!-- <dd><a href="" rel="nofollow" data-language-id="LC_PROPERTY_CLAIMS" target="_self">Intellectual Property Claims</a></dd> -->
 				</dl>
 			</li>
@@ -18,20 +18,20 @@
 				<dl>
 					<dt><h3 data-language-id="LC_CUSTOMER_SERVICE">Customer Service</h3></dt>
 					<!-- <dd><a href="/index.php?com=order" rel="nofollow" data-language-id="LC_TRACK_ORDER">Track Order</a></dd> -->
-					<dd><router-link to="/helpCenter/shippingFAQ" rel="nofollow" data-language-id="LC_SHIPPING_FAQ">Shipping FAQ</router-link></dd>
-					<dd><router-link to="/helpCenter/orderFAQ" rel="nofollow" data-language-id="LC_ORDRE_FAQ" target="_self">Order FAQ</router-link></dd>
-					<dd><router-link to="/helpCenter/shippingMethods" rel="nofollow" data-language-id="LC_SHIPPING_METHODS">Shipping Methods</router-link></dd>
-					<dd><router-link to="/helpCenter/paymentMethods" rel="nofollow" data-language-id="LC_PAYMENT_METHODS" target="_self">Payment Methods</router-link></dd>
+					<dd><router-link to="/helpCenter/shippingFAQ" rel="nofollow" v-on:click.native="scrollTop" data-language-id="LC_SHIPPING_FAQ">Shipping FAQ</router-link></dd>
+					<dd><router-link to="/helpCenter/orderFAQ" rel="nofollow" v-on:click.native="scrollTop" data-language-id="LC_ORDRE_FAQ" target="_self">Order FAQ</router-link></dd>
+					<dd><router-link to="/helpCenter/shippingMethods" rel="nofollow" v-on:click.native="scrollTop" data-language-id="LC_SHIPPING_METHODS">Shipping Methods</router-link></dd>
+					<dd><router-link to="/helpCenter/paymentMethods" rel="nofollow" v-on:click.native="scrollTop" data-language-id="LC_PAYMENT_METHODS" target="_self">Payment Methods</router-link></dd>
 					<!-- <dd><a href="/help_center" rel="nofollow" data-language-id="LC_SUPPORT_CENTER">Support Center</a></dd> -->
 				</dl>
 			</li>
 			<li>
 				<dl>
 					<dt><h3 data-language-id="LC_COOPERATION">Cooperation</h3></dt>
-					<dd><router-link to="/bloggerProgram" rel="nofollow" data-language-id="LC_BLOGGER_PROGRAM">Blogger Program</router-link></dd>
-					<dd><router-link to="/affiliateProgram" rel="nofollow" data-language-id="LA_AFFILIATE_PROGRAM">Affiliate Program</router-link></dd>
-					<dd><router-link to="/showVipIllustrate" rel="nofollow" data-language-id="LA_VIP_PROGRAM">VIP Program</router-link></dd>
-					<dd><router-link to="/dropshiProgram" rel="nofollow" data-language-id="LA_DROPSHIP_PROGRAM">Dropship Program</router-link></dd>					<dd><router-link to="/helpCenter/wholesaleProgram" rel="nofollow" data-language-id="LA_WS_PROGRAM">Wholesale Program</router-link></dd>				</dl>
+					<dd><router-link to="/bloggerProgram" rel="nofollow" v-on:click.native="scrollTop" data-language-id="LC_BLOGGER_PROGRAM">Blogger Program</router-link></dd>
+					<dd><router-link to="/affiliateProgram" rel="nofollow" v-on:click.native="scrollTop" data-language-id="LA_AFFILIATE_PROGRAM">Affiliate Program</router-link></dd>
+					<dd><router-link to="/showVipIllustrate" rel="nofollow" v-on:click.native="scrollTop" data-language-id="LA_VIP_PROGRAM">VIP Program</router-link></dd>
+					<dd><router-link to="/dropshiProgram" rel="nofollow" v-on:click.native="scrollTop" data-language-id="LA_DROPSHIP_PROGRAM">Dropship Program</router-link></dd>					<dd><router-link to="/helpCenter/wholesaleProgram" rel="nofollow" data-language-id="LA_WS_PROGRAM">Wholesale Program</router-link></dd>				</dl>
 			</li>
 			<li class="last">
 				<div class="clearfix">
@@ -563,7 +563,11 @@ export default {
     
   },
   methods: {
-    
+    scrollTop()
+    {
+       
+         $('html').animate({ scrollTop: 0 }, 400);
+    }
   }
 }
 
