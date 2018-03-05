@@ -204,7 +204,7 @@
                                 </div>
                                 <div class="top_search_container">
                                     <div class="search text-left">
-                                        <form class="search_form_db" id="search_form" method="post" action="/new/index.php">
+                                        <div class="search_form_db" id="search_form">
                                             <!--<input type="hidden" name="keywords" value="" id="keywords" />-->
                                             <input type="hidden" name="com" value="search">
                                             <input type="hidden" name="t" value="display">
@@ -235,14 +235,14 @@
                                             <div class="inputbox">
                                                 <!--<span class="tips">Search products</span>-->
                                                 <input type="text" placeholder="Search products" value="" class="serach_keyword colors_gray" name="keywords" id="keywords"
-                                                    autocomplete="off" url="/new/2018V-day.html?icn=seo&amp;utmid=2810">
-                                                <input type="hidden" value="en-GB" class="serach_keyword" name="lang">
-                                                <i id="submit_btn" onclick=""></i>
+                                                    autocomplete="off">
+                                                <!-- <input type="hidden" value="en-GB" class="serach_keyword" name="lang">-->
+                                                 <i id="submit_btn" onclick=""></i> 
                                                 <ul class="search_result_list text-left" id="search_result_list">
                                                 </ul>
                                                 <!--   -->
                                             </div>
-                                        </form>
+                                        </div>
                                         <!-- <ul class="search_result_list" id="search_result_list">
                         </ul> -->
                                     </div>
@@ -468,25 +468,25 @@ export default {
     return {
       categories: [
           {code:"Women", subCategories: [
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
@@ -494,25 +494,25 @@ export default {
                 ]}
           ]},
           {code:"Men", subCategories: [
-   {main: 'sub main', items: [
+   {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
@@ -520,25 +520,25 @@ export default {
                 ]}
           ]},
           {code:"Bags", subCategories: [
-   {main: 'sub main', items: [
+   {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
@@ -546,25 +546,25 @@ export default {
                 ]}
           ]},
           {code:"Shoes", subCategories: [
-   {main: 'sub main', items: [
+   {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
@@ -572,25 +572,25 @@ export default {
                 ]}
           ]},
           {code:"Beauty", subCategories: [
-   {main: 'sub main', items: [
+   {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
@@ -598,25 +598,25 @@ export default {
                 ]}
           ]},
           {code:"Jewelry & Watch", subCategories: [
-   {main: 'sub main', items: [
+   {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
@@ -624,25 +624,25 @@ export default {
                 ]}
           ]},
           {code:"Home & Garden", subCategories: [
-   {main: 'sub main', items: [
+   {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
@@ -650,25 +650,25 @@ export default {
                 ]}
           ]},
           {code:"Kids", subCategories: [
-   {main: 'sub main', items: [
+   {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
@@ -676,25 +676,25 @@ export default {
                 ]}
           ]},
           {code:"Accessories", subCategories: [
-   {main: 'sub main', items: [
+   {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
 
                 ]},
-                {main: 'sub main', items: [
+                {main: '', items: [
                     'test',
                     'test',
                     'test',
