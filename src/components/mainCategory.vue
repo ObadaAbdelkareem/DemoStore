@@ -813,7 +813,7 @@ export default {
   name: 'mainCategory',
   data () {
     return {
-      products: {}
+      products:[]
     }
   },
   beforeMount () {
@@ -821,12 +821,17 @@ export default {
   },
   created(){
 
-    this.$http.post('http://127.0.0.1:8000/api/v1/products',{body:
-     {
-         'Authorization':'Bearer ZjQxYTRkMTZmYTQxNzZmZjVhYWFlMWVhZmM4MDBkOTAwOTEyYWI4NDJjNDFlYzYxMDMxZTVjZDZlMjgzNzhjOA',
-         'Content-Type': 'multipart/form-data'
-         }}).then(response =>{
+    const header = {
+        //'Accept': 'application/json',
+        'Authorization': 'Bearer MDUwMWQ1NTI4N2U4NzgxYWJlZDg2N2Y2ODNhZWU1MDQwOGVjZDE5MTY1YTRkZjhkZjFlNmE4ODgwYWJjMDVmZg',
+        //'referer': 'fnd.alarabexpress.com'
+        'Content-Type': 'application/json'
+      }  
+    this.$http.get('http://bknd.alarabexpress.com/api/v1/products',{headers: header}).then(response =>{
+            this.products= response.body ;
             console.log(response);
+             console.log(this.products);
+
         });
        
   },
