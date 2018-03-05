@@ -657,7 +657,7 @@
             <div class="preOrder_cont">
                 <div class="tab_cont">
                   <ul class="clearfixes newlst_box" style="width: 1240px;">
-    <li class="wom_lst_detail active" v-for="product of products">
+    <li class="wom_lst_detail active" v-for="product of products" :key="product.name">
         <div class="wom_lst_all use_wom_lst">
             <div class="wom_lst_off">
                 <p class="wom_lst_num">
@@ -668,16 +668,16 @@
             </div>
             <div class="wom_lst_pic wom_lst_square">
                 <router-link to="/ProductPage" target="_self">
-                    <img :src="product.image"
-                        :alt="product.title" class="lazy reals" style="display: inline;">
+                    <img :src="`http://bknd.alarabexpress.com/media/cache/sylius_shop_product_thumbnail/`+product.images[0].path"
+                        :alt="product.name" class="lazy reals" style="display: inline;">
                 </router-link>
             </div>
             <div class="wom_lst_btm">
                 <h1 class="wom_lst_name ellipsis">
                     <i data-title="Slash Prices for Clearance Goods" data-skin="wom_lst_tips" data-placement="top" data-toggle="tooltip"
                         class="wom_lst_icon wom_icon_clearance"></i>
-                    <router-link to="/ProductPage" :title="product.title"
-                        target="_self">{{product.title}}</router-link>
+                    <router-link to="/ProductPage" :title="product.name"
+                        target="_self">{{product.name}}</router-link>
                 </h1>
                 <p class="wom_price_lst">
                     <span class="price">{{product.price}} $</span>
@@ -690,7 +690,7 @@
                 </p>
             </div>
         </div>
-        <div class="wom_lst_all alert_wom_lst hidden" style="display: none;">
+        <!-- <div class="wom_lst_all alert_wom_lst hidden" style="display: none;">
             <div class="wom_lst_off">
                 <p class="wom_lst_num">
                     <span>59</span>
@@ -784,22 +784,18 @@
                     </span>
                 </p>
             </div>
-        </div>
+        </div> -->
     </li>
 </ul>
                 </div>
             </div>
         </div>
-        <div class="category_content clearfixes wrap_right" style="margin-top: 40px">
+        <div class="category_content clearfixes wrap_right" v-if="pages.length > 1" style="margin-top: 40px">
             <div class="page_num ">
-                <span class="selected">1</span>
-                <a href="">2</a>
-                <a href="">3</a>
-                <a href="">4</a>
-                <a href="">5</a>
-                <span>...</span>
-                <a href="">96</a>
-                <a href="" onclick="set_bottom_next_page_ga('')">»</a>
+                <router-link to="?page=1">1</router-link>
+                <router-link :to="`?page=`+page" v-for="page of pages" :key="page">{{page}}</router-link>
+               
+                <router-link :to="`?page=`+currentPage" v-on:click.native="getTheNextPage">»</router-link>
             </div>
         </div>
     </div>
@@ -813,7 +809,9 @@ export default {
   name: 'mainCategory',
   data () {
     return {
-      products:[]
+      products:[],
+      pages: [],
+      currentPage: 1,
     }
   },
   beforeMount () {
@@ -827,17 +825,50 @@ export default {
         //'referer': 'fnd.alarabexpress.com'
         'Content-Type': 'application/json'
       }  
-    this.$http.get('http://bknd.alarabexpress.com/api/v1/products',{headers: header}).then(response =>{
-            this.products= response.body ;
-            console.log(response);
-             console.log(this.products);
+    this.$http.get('http://bknd.alarabexpress.com/api/v1/products/',{headers: header}).then(response =>{
+       
+       this.total = response.data.total;
+        for(let i = 2; i <=  response.data.pages; i++)
+        {
+            this.pages.push(i);
+        }
+         console.log("data", response.data);
+            this.products= response.data._embedded.items;
+            console.log("products",this.products);
 
         });
        
   },
   methods: {
-    
-  }
+    getTheNextPage(){
+         this.currentPage =  this.currentPage + 1 > this.pages.length + 1 ? this.currentPage : this.currentPage + 1;
+         
+    }
+  },
+  watch: {
+    	'$route': function(newRoute, oldRoute) {
+            const header = {
+        //'Accept': 'application/json',
+        'Authorization': 'Bearer MDUwMWQ1NTI4N2U4NzgxYWJlZDg2N2Y2ODNhZWU1MDQwOGVjZDE5MTY1YTRkZjhkZjFlNmE4ODgwYWJjMDVmZg',
+        //'referer': 'fnd.alarabexpress.com'
+        'Content-Type': 'application/json'
+      }
+      this.currentPage =  parseInt(newRoute.query.page);
+            this.$http.get('http://bknd.alarabexpress.com/api/v1/products/?page='+newRoute.query.page+'&limit=10',{headers: header}).then(response =>{
+       
+       
+       
+         console.log("data", response.data);
+            this.products= response.data._embedded.items;
+            console.log("products",this.products);
+
+        });
+            
+      },
+    },
+    route: {
+    	canReuse: true,
+    }
 }
 </script>
 
