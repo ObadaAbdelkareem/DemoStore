@@ -289,9 +289,9 @@
                           <div class="goods_main_quantity relative">
                             <div class="quantity_box">
                               <div style="float:left; position:relative;">
-                                <span class="prev gray" onclick="$.ZSquantityPrev(this)" data-ga-tag="top_quantity_box_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-minus"></i></span>
-                                <input type="text" value="1" oldqty="1" name="qty" id="qty" maximum="26" autocomplete="off" clearstock="0" limitproduct="" buylimit="" wsbuymin="" maxlength="5" data-ga-tag="top_quantity_box_text_180122" data-ga-ac="focus">
-                                <span class="next" onclick="$.ZSquantityNext(this)" data-ga-tag="top_quantity_box_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-plus"></i></span>
+                                <span class="prev gray" v-on:click="ZSquantityPrev" data-ga-tag="top_quantity_box_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-minus"></i></span>
+                                <input type="text"  v-model="qty" name="qty" id="qty" maximum="26" autocomplete="off" clearstock="0" limitproduct="" buylimit="" wsbuymin="" maxlength="5" data-ga-tag="top_quantity_box_text_180122" data-ga-ac="focus">
+                                <span class="next" v-on:click="ZSquantityNext" data-ga-tag="top_quantity_box_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-plus"></i></span>
                               </div>
                             </div>
                             <div class="pro-detail-ds-download hidden" data-sku="SKU715138" data-category="0" data-price-code="" data-country="223">
@@ -343,7 +343,7 @@
                       </div>
                       <div class="goods_main_buy normall_buy">
                         <div class="buy_btn clearfixes" style="height:auto">
-                          <span class="addcart  " onclick="$.addToCart(this);" msg="%d item(s) added to bag" mtitle="Add to bag" mbtn="View bag" mbtn1="Close" product_sku="SKU715138" stitle="Sold out" data-ga-tag="top_addcart_button_180122" data-ga-ac="click"><b><i></i>Add to bag</b></span>
+                          <span class="addcart  " v-on:click="addToCart" msg="%d item(s) added to bag" mtitle="Add to bag" mbtn="View bag" mbtn1="Close" product_sku="SKU715138" stitle="Sold out" data-ga-tag="top_addcart_button_180122" data-ga-ac="click"><b><i></i>Add to bag</b></span>
                           <span class="addwish " onclick="$.addToWish();" data-ga-tag="top_addwish_button_180122" data-ga-ac="click"><b id="uy"><i id="gh" data="Adds" data-num="220" class="nc-icon nc-icon-heart-linear"></i> (<b class="count">220</b>)</b></span><span id="xiangou_tip" style="display:none;">You have already bought this product. </span>
                         </div>
                       </div>
@@ -1021,7 +1021,7 @@
       <script type="text/javascript" src="//static.newchic.com/default/js/activity.js?v=279.0.3"></script>
 -->
       </div>
-</div>
+
 </template>
 
 <script>
@@ -1183,14 +1183,56 @@ export default {
   },
   data () {
     return {
+      qty: 1,
+     
     }
   },
   beforeMount () {
    
 
   },
+  created(){
+     const header = {
+        //'Accept': 'application/json',
+        'Authorization': 'Bearer MDUwMWQ1NTI4N2U4NzgxYWJlZDg2N2Y2ODNhZWU1MDQwOGVjZDE5MTY1YTRkZjhkZjFlNmE4ODgwYWJjMDVmZg',
+        //'referer': 'fnd.alarabexpress.com'
+        'Content-Type': 'application/json'
+      }
+          this.$http.get('http://bknd.alarabexpress.com/api/v1/products/'+this.$route.query.product,{headers: header}).then(response => {
+       
+            console.log("product", response.data);
+     });
+  },
   methods: {
-  }
+    addToCart()
+    {
+      console.log("adding to cart");
+      const header = {
+        //'Accept': 'application/json',
+        'Authorization': 'Bearer MDUwMWQ1NTI4N2U4NzgxYWJlZDg2N2Y2ODNhZWU1MDQwOGVjZDE5MTY1YTRkZjhkZjFlNmE4ODgwYWJjMDVmZg',
+        //'referer': 'fnd.alarabexpress.com'
+        'Content-Type': 'application/json'
+      }
+         const item =  {
+             variant: this.$route.query.product,
+             quantity: this.qty
+          }
+          console.log("item", item);
+          this.$http.post('http://bknd.alarabexpress.com/api/v1/carts/122/items/',item,{headers: header}).then(response => {
+       
+            console.log("post response",response);
+     });
+    },
+    ZSquantityPrev()
+    {
+      this.qty--;
+    },
+    ZSquantityNext()
+    {
+      this.qty++;
+    }
+  },
+  
 }
 </script>
 

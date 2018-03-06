@@ -667,7 +667,7 @@
                 <p class="off">OFF</p>
             </div>
             <div class="wom_lst_pic wom_lst_square">
-                <router-link to="/ProductPage" target="_self">
+                <router-link :to="`/ProductPage?product=`+product.code" target="_self">
                     <img :src="`http://bknd.alarabexpress.com/media/cache/sylius_shop_product_thumbnail/`+product.images[0].path"
                         :alt="product.name" class="lazy reals" style="display: inline;">
                 </router-link>
@@ -676,7 +676,7 @@
                 <h1 class="wom_lst_name ellipsis">
                     <i data-title="Slash Prices for Clearance Goods" data-skin="wom_lst_tips" data-placement="top" data-toggle="tooltip"
                         class="wom_lst_icon wom_icon_clearance"></i>
-                    <router-link to="/ProductPage" :title="product.name"
+                    <router-link :to="`/ProductPage?product=`+product.code" :title="product.name"
                         target="_self">{{product.name}}</router-link>
                 </h1>
                 <p class="wom_price_lst">
