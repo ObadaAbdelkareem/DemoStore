@@ -802,6 +802,9 @@
                 <a href="" onclick="set_bottom_next_page_ga('')">»</a>
             </div>
         </div>
+        <!--<div> 
+        <img :src="products._embedded.items[0].images[0].path" alt="">
+        </div>-->
     </div>
     <!--content end-->
 
@@ -829,8 +832,10 @@ export default {
       }  
     this.$http.get('http://bknd.alarabexpress.com/api/v1/products',{headers: header}).then(response =>{
             this.products= response.body ;
-            console.log(response);
-             console.log(this.products);
+            // console.log(response);
+            //  console.log(products._embedded.items[0].images[0].path);
+            // console.log('obada');
+             console.log(this.products._embedded.items[0].images[0].path);
 
         });
        
