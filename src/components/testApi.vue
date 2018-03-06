@@ -41,10 +41,10 @@
       //    })
       // var myUrl ='http://bknd.alarabexpress.com/api/oauth/v2/token' ;
       // var finalURL = proxy + myUrl;
-        this.$http.post('http://bknd.alarabexpress.com/api/oauth/v2/token',dataTest,{headers: header}).then(response =>{
-            //this.TestArray = response.body 
-            console.log(response.body )
-        })
+        // this.$http.post('http://bknd.alarabexpress.com/api/oauth/v2/token',dataTest,{headers: header}).then(response =>{
+        //     //this.TestArray = response.body 
+        //     console.log(response.body )
+        // })
         var url = 'http://bknd.alarabexpress.com/api/v1/products/' ; 
         //var myUrl = proxy + url ; 
         this.$http.get(url,{headers: header}).then(response =>{
