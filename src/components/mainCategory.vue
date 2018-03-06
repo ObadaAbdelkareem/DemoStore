@@ -667,10 +667,14 @@
                 <p class="off">OFF</p>
             </div>
             <div class="wom_lst_pic wom_lst_square">
+
                 <router-link :to="`/ProductPage?product=`+product.code" target="_self">
-                    <img :src="`http://bknd.alarabexpress.com/media/cache/sylius_shop_product_thumbnail/`+product.images[0].path"
+                    <img :src="`http://bknd.alarabexpress.com/media/cache/sylius_shop_product_thumbnail/b8/85/9183edcf8f242f8b098b46edd431.jpeg`"
+
                         :alt="product.name" class="lazy reals" style="display: inline;">
                 </router-link>
+
+                <!--"`http://bknd.alarabexpress.com/media/cache/sylius_shop_product_thumbnail/`+product.images[0].path"-->
             </div>
             <div class="wom_lst_btm">
                 <h1 class="wom_lst_name ellipsis">
@@ -804,7 +808,6 @@
 
 </template>
 <script>
-
 export default {
   name: 'mainCategory',
   data () {
@@ -818,7 +821,6 @@ export default {
     
   },
   created(){
-
     const header = {
         //'Accept': 'application/json',
         'Authorization': 'Bearer MDUwMWQ1NTI4N2U4NzgxYWJlZDg2N2Y2ODNhZWU1MDQwOGVjZDE5MTY1YTRkZjhkZjFlNmE4ODgwYWJjMDVmZg',
@@ -835,7 +837,6 @@ export default {
          console.log("data", response.data);
             this.products= response.data._embedded.items;
             console.log("products",this.products);
-
         });
        
   },
@@ -861,7 +862,6 @@ export default {
          console.log("data", response.data);
             this.products= response.data._embedded.items;
             console.log("products",this.products);
-
         });
             
       },
@@ -873,5 +873,4 @@ export default {
 </script>
 
 <style>
-
 </style>
