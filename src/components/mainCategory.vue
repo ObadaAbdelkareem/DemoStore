@@ -669,7 +669,7 @@
             <div class="wom_lst_pic wom_lst_square">
 
                 <router-link :to="`/ProductPage?product=`+product.code" target="_self">
-                    <img :src="`http://bknd.alarabexpress.com/media/cache/sylius_shop_product_thumbnail/b8/85/9183edcf8f242f8b098b46edd431.jpeg`"
+                    <img :src="`http://bknd.alarabexpress.com/media/cache/sylius_shop_product_thumbnail/`+product.images[1].path"
 
                         :alt="product.name" class="lazy reals" style="display: inline;">
                 </router-link>
