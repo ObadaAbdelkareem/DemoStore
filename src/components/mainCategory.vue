@@ -667,11 +667,16 @@
                 <p class="off">OFF</p>
             </div>
             <div class="wom_lst_pic wom_lst_square">
-                <router-link to="/ProductPage" target="_self">
+               <!-- <router-link to="/ProductPage" target="_self">
                     <img :src="`http://bknd.alarabexpress.com/media/image/`+product.images[0].path"
                         :alt="product.name" class="lazy reals" style="display: inline;">
                 </router-link>
+-->
+             <router-link :to="`/ProductPage?product=`+product.code" target="_self">
+                    <img :src="`http://bknd.alarabexpress.com/media/image/`+product.images[0].path"
 
+                        :alt="product.name" class="lazy reals" style="display: inline;">
+                </router-link>
                 <!--"`http://bknd.alarabexpress.com/media/cache/sylius_shop_product_thumbnail/`+product.images[0].path"-->
             </div>
             <div class="wom_lst_btm">
@@ -824,7 +829,9 @@ export default {
         'Authorization': 'Bearer MDUwMWQ1NTI4N2U4NzgxYWJlZDg2N2Y2ODNhZWU1MDQwOGVjZDE5MTY1YTRkZjhkZjFlNmE4ODgwYWJjMDVmZg',
         //'referer': 'fnd.alarabexpress.com'
         'Content-Type': 'application/json'
-      }  
+      }
+      // http://bknd.alarabexpress.com/api/v1/products/017f6142-77b0-3496-a31e-3dc08494da93/variants/
+
     this.$http.get('http://bknd.alarabexpress.com/api/v1/products/',{headers: header}).then(response =>{
        
        this.total = response.data.total;
