@@ -368,7 +368,7 @@
                                                     data-string1="Weekly New" data-string2="Lingerie New Arrival" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Lingerie New Arrival
                                                     <img src="../../static/assets/images/head_new.png" alt=""> </router-link>
-                                                <router-link onclick="set_navigation_ga('Weekly New_trending_2')" to="/trending/vintage" data-point-id="17325000059"
+                                                <router-link onclick="set_navigation_ga('Weekly New_trending_2')" to="/Trending/VintagePrintedDresses" data-point-id="17325000059"
                                                     data-string1="Weekly New" data-string2="Vintage Printed Dresses" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Vintage Printed Dresses
                                                     <img src="../../static/assets/images/head_new.png" alt=""> </router-link>
@@ -384,11 +384,11 @@
                                                     data-string1="Weekly New" data-string2="Hiking Jacket" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Hiking Jacket
                                                     <img src="../../static/assets/images/head_hot.png" alt=""> </router-link> -->
-                                                <router-link onclick="set_navigation_ga('Weekly New_trending_6')" to="/trending/fashion" data-point-id="17325000059"
+                                                <router-link onclick="set_navigation_ga('Weekly New_trending_6')" to="/Trending/FashionSportShoes" data-point-id="17325000059"
                                                     data-string1="Weekly New" data-string2="Fashion Sport Shoes" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Fashion Sport Shoes
                                                     <img src="../../static/assets/images/head_hot.png" alt=""> </router-link>
-                                                <router-link onclick="set_navigation_ga('Weekly New_trending_7')" to="/trending/daily" data-point-id="17325000059"
+                                                <router-link onclick="set_navigation_ga('Weekly New_trending_7')" to="/Trending/DailyFashionApparel" data-point-id="17325000059"
                                                     data-string1="Weekly New" data-string2="Daily Fashion Apparel" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Daily Fashion Apparel
                                                     <img src="../../static/assets/images/head_new.png" alt=""> </router-link>
@@ -396,7 +396,7 @@
                                                     data-string1="Weekly New" data-string2="Retro Cloisonne Watch" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Retro Cloisonne Watch
                                                     <img src="../../static/assets/images/head_new.png" alt=""> </a> -->
-                                                <router-link onclick="set_navigation_ga('Weekly New_trending_9')" to="/trending/men" data-point-id="17325000059"
+                                                <router-link onclick="set_navigation_ga('Weekly New_trending_9')" to="/Trending/MensNewArrival" data-point-id="17325000059"
                                                     data-string1="Weekly New" data-string2="Men's New Arrival" data-string3="en-GB"
                                                     data-rmmds="head_trend" class=" ">Men's New Arrival
                                                     <img src="../../static/assets/images/head_hot.png" alt=""> </router-link>
