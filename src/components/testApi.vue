@@ -16,7 +16,15 @@
          TestArray: ''
     }
   },
-       created(){
+      created: function () {
+        var me = this 
+         Category.getByCode(41).then(function(response){
+          me.TestArray=response.data
+          console.log(response.data)
+        })
+        
+      }
+      // async created(){
       //   var data = {
       //   client_id: 'demo_client', //'3rj21qm124u80k8ss408s0sw4g8w48o0884wk88o0ws008ko0o',
       //   client_secret: 'secret_demo_client',// '3cbaxbya9e04k80gwog8gogo0cckkk0444800gk884w8g0kwsk', /* 3rfGlYVTbbuNdej0AR7eFPy927x0R4Aga7OJoJml */
@@ -49,23 +57,30 @@
         //     //this.TestArray = response.body 
         //     console.log(response.body )
         // })
-       // var url = 'http://bknd.alarabexpress.com/api/v1/products/' ; 
-        //var myUrl = proxy + url ; 
-        // this.$http.get(url,{headers: header}).then(response =>{
-        //     this.TestArray = response.body 
-        // })
+      //  var url = 'http://bknd.alarabexpress.com/api/v1/products/' ; 
+      //   var myUrl = proxy + url ; 
+      //   this.$http.get(url,{headers: header}).then(response =>{
+      //       this.TestArray = response.body 
+      //   })
         // const response =  Category.getAll()
        //Category.getAll().then(response => {
       // JSON responses are automatically parsed.
       // this.TestArray = response.data
       // console.log(response)
 
-      const [cat] =  Promise.all([
-                        Category.getAll()
-                    ])
-          console.log(cat.data)
-          this.TestArray = cat.data       
+      // const [cat] =  Promise.all([
+      //                   Category.getAll()
+      //               ])
+      //     console.log(cat.data)
+               
 
+
+      //  const category = await Category.getAll()
+        // this.TestArray = category.data  
+
+
+        // const catBycode = await Category.getByCode(41) 
+        // this.TestArray=catBycode.data
           // try {
                   
           //           let response = await Category.getAll()
@@ -98,7 +113,7 @@
     // });
     // axios.get('https://woo.alarabexpress.com/wp-json/wc/v2/products/categories',{headers: header}); //, { httpsAgent: agent }
 
-  }
+  //}
   }
 </script>
 

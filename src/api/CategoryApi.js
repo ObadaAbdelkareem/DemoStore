@@ -12,11 +12,11 @@ export default {
         return header     
     },
     getAll () {
-            const header = {
-                 'authorization': 'Basic Y2tfNzI3NDcwMWRjODc2MjczNmU3ODY3NWNmOWU5MWZjZjVhMWY3MWM4Nzpjc18wOWFlMTZiMjRhNDc4NTlkZDQ3NTFmNWVmMDAxNGZmMTI4MTczMmIz'
-            }
+            // const header = {
+            //      'authorization': 'Basic Y2tfNzI3NDcwMWRjODc2MjczNmU3ODY3NWNmOWU5MWZjZjVhMWY3MWM4Nzpjc18wOWFlMTZiMjRhNDc4NTlkZDQ3NTFmNWVmMDAxNGZmMTI4MTczMmIz'
+            // }
 
-            return axios.get(appConfig.apiUrl + '/products/categories',{headers: header})
+            return axios.get(appConfig.apiUrl + '/products/categories',{headers: this.getheader()})
         //     .then(response =>{
         //    // this.TestArray = response.body 
         //    test = response.data
@@ -26,6 +26,6 @@ export default {
     },
 
     getByCode (code) {
-        return axios.get(appConfig.apiUrl + '/taxons/' + code + '?locale=' + appConfig.apiLocale)
+        return axios.get(appConfig.apiUrl + '/products/categories/'+code,{headers: this.getheader()})
     }
 }   
