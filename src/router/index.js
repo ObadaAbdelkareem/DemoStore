@@ -42,6 +42,11 @@ import myAccountReffProgram from '@/components/myAccountReffProgram'
 import myAccountDopShipProgram from '@/components/myAccountDopShipProgram'
 import contactUs from '@/components/contactUs'
 import Survey from '@/components/Survey'
+import LingerieNewArrival from '@/components/LingerieNewArrival'
+import VintagePrintedDresses from '@/components/VintagePrintedDresses'
+import FashionSportShoes from '@/components/FashionSportShoes'
+import DailyFashionApparel from '@/components/DailyFashionApparel'
+import MensNewArrival from '@/components/MensNewArrival'
 
 
 // import sliderimage from '@/components/sliderimage'
@@ -369,6 +374,31 @@ export default new Router({
       path: '/account/ReffProgram',
       name: 'myAccountReffProgram',
       component: myAccountReffProgram
+    },
+    {
+      path: '/Trending/LingerieNewArrival',
+     name: 'LingerieNewArrival',
+     component: LingerieNewArrival
+    },
+    {
+      path: '/Trending/VintagePrintedDresses',
+     name: 'VintagePrintedDresses',
+     component: VintagePrintedDresses
+    },
+    {
+      path: '/Trending/DailyFashionApparel',
+     name: 'DailyFashionApparel',
+     component: DailyFashionApparel
+    },
+    {
+      path: '/Trending/FashionSportShoes',
+     name: 'FashionSportShoes',
+     component: FashionSportShoes
+    },
+    {
+      path: '/Trending/MensNewArrival',
+     name: 'MensNewArrival',
+     component: MensNewArrival
     },
     { path: '*', component: NotFound },
     { path: '/testApi' , component : testApi}

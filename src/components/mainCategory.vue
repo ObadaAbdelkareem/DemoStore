@@ -667,11 +667,18 @@
                 <p class="off">OFF</p>
             </div>
             <div class="wom_lst_pic wom_lst_square">
-               <!-- <router-link to="/ProductPage" target="_self">
+
+
+                <!-- <router-link :to="`/ProductPage?product=`+product.code" target="_self">
+                    <img :src="`http://bknd.alarabexpress.com/media/cache/sylius_shop_product_thumbnail/`+product.images[1].path" -->
+
+
+                <router-link to="/ProductPage" target="_self">
                     <img :src="`http://bknd.alarabexpress.com/media/image/`+product.images[0].path"
+
                         :alt="product.name" class="lazy reals" style="display: inline;">
                 </router-link>
--->
+
              <router-link :to="`/ProductPage?product=`+product.code" target="_self">
                     <img :src="`http://bknd.alarabexpress.com/media/image/`+product.images[0].path"
 
