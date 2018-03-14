@@ -444,266 +444,261 @@
 
 </template>
 <script>
- //require('../../static/assets/js/ZScommon.js')
- //import channelHover from '../../static/assets/js/ZScommon.js'
- //import customers_mini_cart_timers from '../../static/assets/js/ZScommon.js'
- 
-// var ZScommon = require('../../static/assets/js/ZScommon.js')
+import Category from '@/api/CategoryApi.js'
+
 export default {
   name: 'homeHeader',
-  created () {
-      // $(function () {
-      //   $.customers_mini_cart_timers()
-      //   })
-      //   if(window.cartHasDeals){ 
-      //     $(function () {
-      //     $.getDealsCountDown({
-      //       productId: $('.flash-deals-prodcts:first').data('products_id')
-      //       })
-      //       })
-      //   } 
-    // channelHover(100)
-  },
+
+  created: function () {
+        var me = this 
+         Category.getAll().then(function(response){
+          me.Categories=response.data
+          console.log(response.data)
+        })
+        
+      },
   data () {
     return {
-      categories: [
-          {code:"Women", subCategories: [
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+        Categories : [] 
+//       categories: [
+//           {code:"Women", subCategories: [
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]}
-          ]},
-          {code:"Men", subCategories: [
-   {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]}
+//           ]},
+//           {code:"Men", subCategories: [
+//    {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]}
-          ]},
-          {code:"Bags", subCategories: [
-   {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]}
+//           ]},
+//           {code:"Bags", subCategories: [
+//    {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]}
-          ]},
-          {code:"Shoes", subCategories: [
-   {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]}
+//           ]},
+//           {code:"Shoes", subCategories: [
+//    {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]}
-          ]},
-          {code:"Beauty", subCategories: [
-   {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]}
+//           ]},
+//           {code:"Beauty", subCategories: [
+//    {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]}
-          ]},
-          {code:"Jewelry & Watch", subCategories: [
-   {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]}
+//           ]},
+//           {code:"Jewelry & Watch", subCategories: [
+//    {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]}
-          ]},
-          {code:"Home & Garden", subCategories: [
-   {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]}
+//           ]},
+//           {code:"Home & Garden", subCategories: [
+//    {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]}
-          ]},
-          {code:"Kids", subCategories: [
-   {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]}
+//           ]},
+//           {code:"Kids", subCategories: [
+//    {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]}
-          ]},
-          {code:"Accessories", subCategories: [
-   {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]}
+//           ]},
+//           {code:"Accessories", subCategories: [
+//    {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]},
-                {main: '', items: [
-                    'test',
-                    'test',
-                    'test',
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
 
-                ]}
-          ]}
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]}
+//           ]}
           
 
-      ]
+//       ]
     }
   },
   beforeMount () {
