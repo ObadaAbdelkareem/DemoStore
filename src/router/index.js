@@ -64,6 +64,15 @@ import SalesSwimsuitNewArrivals from '@/components/SalesSwimsuitNewArrivals'
 import SalesEightyThreeOff from '@/components/SalesEightyThreeOff'
 import SalesWinFiftyPerGiftCard from '@/components/SalesWinFiftyPerGiftCard'
 import SalesUnderPercentage from '@/components/SalesUnderPercentage'
+import HomePageSlideOne from '@/components/HomePageSlideOne'
+import HomePageSlideTwo from '@/components/HomePageSlideTwo'
+import HomePageSlideThree from '@/components/HomePageSlideThree'
+import HomePageSlideFour from '@/components/HomePageSlideFour'
+import HomePageSmallBannerThree from '@/components/HomePageSmallBannerThree'
+import HomePageSmallBannerFive from '@/components/HomePageSmallBannerFive'
+import ProductHasBeenBoughtErrorPage from '@/components/ProductHasBeenBoughtErrorPage'
+import ProductDidnotBoughtYetErrorPage from '@/components/ProductDidnotBoughtYetErrorPage'
+import ProductAskQuestion from '@/components/ProductAskQuestion'
 
 
 // import sliderimage from '@/components/sliderimage'
@@ -502,6 +511,51 @@ export default new Router({
             path: '/Sales/Trending/SalesUnderPercentage',
             name: 'SalesUnderPercentage',
             component: SalesUnderPercentage
+        },
+        {
+            path: '/Home/Slides/HomePageSlideOne',
+            name: 'HomePageSlideOne',
+            component: HomePageSlideOne
+        },
+        {
+            path: '/Home/Slides/HomePageSlideTwo',
+            name: 'HomePageSlideTwo',
+            component: HomePageSlideTwo
+        },
+        {
+            path: '/Home/Slides/HomePageSlideThree',
+            name: 'HomePageSlideThree',
+            component: HomePageSlideThree
+        },
+        {
+            path: '/Home/Slides/HomePageSlideFour',
+            name: 'HomePageSlideFour',
+            component: HomePageSlideFour
+        },
+        {
+            path: '/Home/Banners/HomePageSmallBannerThree',
+            name: 'HomePageSmallBannerThree',
+            component: HomePageSmallBannerThree
+        },
+        {
+            path: '/Home/Banners/HomePageSmallBannerFive',
+            name: 'HomePageSmallBannerFive',
+            component: HomePageSmallBannerFive
+        },
+        {
+            path: '/ProductHasBeenBoughtErrorPage',
+            name: 'ProductHasBeenBoughtErrorPage',
+            component: ProductHasBeenBoughtErrorPage
+        },
+        {
+            path: '/ProductDidnotBoughtYetErrorPage',
+            name: 'ProductDidnotBoughtYetErrorPage',
+            component: ProductDidnotBoughtYetErrorPage
+        },
+        {
+            path: '/ProductAskQuestion',
+            name: 'ProductAskQuestion',
+            component: ProductAskQuestion
         },
         {path: '*', component: NotFound},
         {path: '/testApi', component: testApi}
