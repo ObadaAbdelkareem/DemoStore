@@ -410,10 +410,10 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li v-for="category of categories">
+                                <li v-for="category of Categories"> <!--params: { id: category.id }-->
                                     <b>
-                                        <router-link to="/mainCategory" onclick="set_home_ga('Home - Women');set_navigation_ga('Women');"
-                                            target="_self">{{category.code}}</router-link>
+                                        <router-link :to="{ path: '/mainCategory/'+category.id}" onclick="set_home_ga('Home - Women');set_navigation_ga('Women');"
+                                            target="_self">{{category.name}}</router-link>
                                     </b>
                                     <i style="left: 23px; margin-left: -4px; display: none;"></i>
                                     <div style="width: 1351px; left: -207.5px; display: none;">

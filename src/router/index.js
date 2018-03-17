@@ -118,7 +118,7 @@ export default new Router({
       component: ShoppingPage
     },
     {
-      path: '/mainCategory',
+      path: '/mainCategory/:id',
       name: 'mainCategory',
       component: mainCategory
     },
