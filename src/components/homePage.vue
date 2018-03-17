@@ -11,6 +11,7 @@ import homeHeader from '@/components/homeHeader.vue'
 import imagesliderHomePage from '@/components/imagesliderHomePage.vue'
 import categoryHomePage from '@/components/categoryHomePage.vue'
 import homefooter from '@/components/homefooter.vue'
+import homePageService from '@/api/homePageService.js'
 
 export default {
   name: 'homePage',
@@ -23,8 +24,15 @@ export default {
     },
   data () {
     return {
-
     }
+  },
+  created: function(){
+    // console.log(this.Test)
+    // homePageService.getUsers().then(function(response){
+    //   console.log(response.data)
+    //   console.log(this)
+    //   console.log(this.Test)
+    // })
   }
 }
 </script> 

@@ -143,7 +143,7 @@ export default new Router({
       component: LoginRegister
     },
     {
-      path: '/ProductPage',
+      path: '/ProductPage/:productId',
       name: 'ProductPage',
       component: ProductPage
     },

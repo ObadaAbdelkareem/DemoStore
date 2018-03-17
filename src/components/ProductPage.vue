@@ -18,7 +18,7 @@
             <div class="goods_main">
               <div itemprop="name" class="goods_title">
                 <h1 class="title">
-                  Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes
+                  {{productData.name}}
                 </h1>
               </div>
               <ul class="list-inline sub-desc">
@@ -32,7 +32,7 @@
                     <span>0.0 </span>
                   </a>
                 </li>
-                <li class="text-muted">SKU715138</li>
+                <li class="text-muted">SKU{{productData.sku}}</li>
               </ul>
               <div style="display: none; visibility: hidden;">
                 <ul class="info  clearfix margin-bottom-10">
@@ -51,7 +51,7 @@
                   <li class="write">
                   </li>
                   <li class="sku" id="showSku">
-                    <span class="text-muted">SKU715138</span> 
+                    <span class="text-muted">SKU{{productData.sku}}</span> 
                   </li>
                   <!--<script>$(function(){
                     if($.cookie('showSku')){$('#showSku').show();}
@@ -73,8 +73,8 @@
                     <div class="child_list shopping_content">
                       <div class="goods_main_list" style="margin-left:0;">
                         <!-- <span class="title">Price</span> -->
-                        <div class="block-wrap price-info-wrap">
-                          <div class="price-wrap">
+                        <div class="block-wrap price-info-wrap" v-html="productData.price_html">
+                          <!-- <div class="price-wrap">
                             <span class="currency"><strong>US$</strong></span><span class="price_number" oriprice="26.25" ori_min_price="" ori_max_price="" now_price_max="" now_price_min="">26.25</span>
                             <span class="price-old price_old" oriprice="51.03">US$51.03</span>
                             <span class="coupon">-49%</span>
@@ -82,7 +82,7 @@
                           <div class="discount-wrap">
                             <ul>
                             </ul>
-                          </div>
+                          </div> -->
                         </div>
                         <!--<script>
                           (function () {
@@ -129,7 +129,7 @@
                           })();
                           
                         </script>-->
-                        <div class="none">
+                        <!-- <div class="none">
                           <div class="goods_main_price clearfix">
                             <div class="price_number" oriprice="26.25" ori_min_price="" ori_max_price="" now_price_max="" now_price_min="">26.25</div>
                             <div class="price_other">
@@ -139,7 +139,7 @@
                               </div>
                             </div>
                           </div>
-                        </div>
+                        </div> -->
                       </div>
                       <!--special product start-->
                       <div class="none">
@@ -152,7 +152,7 @@
                           <h1>Please&nbsp;select&nbsp;attributes</h1>
                           <i class="nc-icon nc-icon-close"></i>
                         </div>
-                        <div class="goods_main_list">
+                        <!-- <div class="goods_main_list">
                           <span class="title ">Color:</span>
                           <div class="goods_main_attr clearfix" option_id="379" attr_data="0">
                             <ul class="color clearfix">
@@ -179,16 +179,16 @@
                               </li>
                             </ul>
                           </div>
-                        </div>
-                        <div class="goods_main_list">
+                        </div> -->
+                        <div class="goods_main_list" v-for="att in productData.attributes">
                           <span class="title size_list_box">
                             <ul class="cy_list" data-ga-tag="top_cy_title-active_datalist_180122" data-ga-ac="mouseenter">
-                              <li class="cy_title active"><a href="javascript:void(0);" size="US" id="sizeText">Size(US)</a><i class="nc-icon nc-icon-down"></i>  </li>
+                              <li class="cy_title active"><a href="javascript:void(0);" size="US" id="sizeText">{{att.name}}</a>  </li><!--<i class="nc-icon nc-icon-down"></i>-->
                             </ul>
-                            <div class="list" style="display: none;">
+                            <!-- <div class="list" style="display: none;">
                               <ul>
                                 <li class="active"><a href="javascript:void(0);" size="US">Size(US)</a></li>
-                                <li><a size="UK" href="javascript:void(0);">Size(UK)</a></li>
+                                 <li><a size="UK" href="javascript:void(0);">Size(UK)</a></li>
                                 <li><a size="AU" href="javascript:void(0);">Size(AU)</a></li>
                                 <li><a size="EU" href="javascript:void(0);">Size(EU)</a></li>
                                 <li><a size="CA" href="javascript:void(0);">Size(CA)</a></li>
@@ -198,81 +198,14 @@
                                 <li><a size="JA" href="javascript:void(0);">Size(JA)</a></li>
                                 <li><a size="BR" href="javascript:void(0);">Size(BR)</a></li>
                               </ul>
-                            </div>
+                            </div> -->
                           </span>
                           <div class="goods_main_attr clearfix" option_id="380" attr_data="0">
                             <ul class="size clearfix">
-                              <li value_id="17083" value_name="36" class="bag " data-ga-tag="top_size-clearfix1_button_180122" data-ga-ac="click">US 5</li>
-                              <li value_id="17294" value_name="37" class="bag " data-ga-tag="top_size-clearfix1_button_180122" data-ga-ac="click">US 6</li>
-                              <li value_id="17082" value_name="38" class="bag " data-ga-tag="top_size-clearfix1_button_180122" data-ga-ac="click">US 7</li>
-                              <li value_id="17295" value_name="39" class="bag " data-ga-tag="top_size-clearfix1_button_180122" data-ga-ac="click">US 8</li>
-                              <li value_id="17296" value_name="40" class="bag " data-ga-tag="top_size-clearfix1_button_180122" data-ga-ac="click">US 9</li>
+                              <li v-for="option in att.options" :value_id="option" :value_name="option" class="bag " data-ga-tag="top_size-clearfix1_button_180122" data-ga-ac="click">{{option}}</li>
                             </ul>
-                            <span class=" size_chart size_chart_anchor" style="cursor:pointer;" data-ga-tag="top_size_chart size_chart_anchor_button_180122" data-ga-ac="click"><a href="javascript:void(0);"><i class="nc-icon nc-icon-rule "></i> Size Guide</a> &gt;</span>
-                            <span style="display:none;" id="shoes_chart">
-                            </span>
                           </div>
                         </div>
-                        <span id="size_US_36" data-classid="380" class="size_US" size="36" data="US 5" style="display:none">Fits US size US 5, Tag size 36</span>
-                        <span id="size_US_37" data-classid="380" class="size_US" size="37" data="US 6" style="display:none">Fits US size US 6, Tag size 37</span>
-                        <span id="size_US_38" data-classid="380" class="size_US" size="38" data="US 7" style="display:none">Fits US size US 7, Tag size 38</span>
-                        <span id="size_US_39" data-classid="380" class="size_US" size="39" data="US 8" style="display:none">Fits US size US 8, Tag size 39</span>
-                        <span id="size_US_40" data-classid="380" class="size_US" size="40" data="US 9" style="display:none">Fits US size US 9, Tag size 40</span>
-                        <span id="size_CA_36" data-classid="380" class="size_CA" size="36" data="CA 5" style="display:none">Fits CA size CA 5, Tag size 36</span>
-                        <span id="size_CA_37" data-classid="380" class="size_CA" size="37" data="CA 6" style="display:none">Fits CA size CA 6, Tag size 37</span>
-                        <span id="size_CA_38" data-classid="380" class="size_CA" size="38" data="CA 7" style="display:none">Fits CA size CA 7, Tag size 38</span>
-                        <span id="size_CA_39" data-classid="380" class="size_CA" size="39" data="CA 8" style="display:none">Fits CA size CA 8, Tag size 39</span>
-                        <span id="size_CA_40" data-classid="380" class="size_CA" size="40" data="CA 9" style="display:none">Fits CA size CA 9, Tag size 40</span>
-                        <span id="size_UK_36" data-classid="380" class="size_UK" size="36" data="UK 2.5" style="display:none">Fits UK size UK 2.5, Tag size 36</span>
-                        <span id="size_UK_37" data-classid="380" class="size_UK" size="37" data="UK 3.5" style="display:none">Fits UK size UK 3.5, Tag size 37</span>
-                        <span id="size_UK_38" data-classid="380" class="size_UK" size="38" data="UK 4.5" style="display:none">Fits UK size UK 4.5, Tag size 38</span>
-                        <span id="size_UK_39" data-classid="380" class="size_UK" size="39" data="UK 5.5" style="display:none">Fits UK size UK 5.5, Tag size 39</span>
-                        <span id="size_UK_40" data-classid="380" class="size_UK" size="40" data="UK 6.5" style="display:none">Fits UK size UK 6.5, Tag size 40</span>
-                        <span id="size_AU_36" data-classid="380" class="size_AU" size="36" data="AU 3.5" style="display:none">Fits AU size AU 3.5, Tag size 36</span>
-                        <span id="size_AU_37" data-classid="380" class="size_AU" size="37" data="AU 4.5" style="display:none">Fits AU size AU 4.5, Tag size 37</span>
-                        <span id="size_AU_38" data-classid="380" class="size_AU" size="38" data="AU 5.5" style="display:none">Fits AU size AU 5.5, Tag size 38</span>
-                        <span id="size_AU_39" data-classid="380" class="size_AU" size="39" data="AU 6.5" style="display:none">Fits AU size AU 6.5, Tag size 39</span>
-                        <span id="size_AU_40" data-classid="380" class="size_AU" size="40" data="AU 7.5" style="display:none">Fits AU size AU 7.5, Tag size 40</span>
-                        <span id="size_JP_36" data-classid="380" class="size_JP" size="36" data="JP 22" style="display:none">Fits JP size JP 22, Tag size 36</span>
-                        <span id="size_JP_37" data-classid="380" class="size_JP" size="37" data="JP 23" style="display:none">Fits JP size JP 23, Tag size 37</span>
-                        <span id="size_JP_38" data-classid="380" class="size_JP" size="38" data="JP 24" style="display:none">Fits JP size JP 24, Tag size 38</span>
-                        <span id="size_JP_39" data-classid="380" class="size_JP" size="39" data="JP 25" style="display:none">Fits JP size JP 25, Tag size 39</span>
-                        <span id="size_JP_40" data-classid="380" class="size_JP" size="40" data="JP 26" style="display:none">Fits JP size JP 26, Tag size 40</span>
-                        <span id="size_MX_36" data-classid="380" class="size_MX" size="36" data="MX " style="display:none">Fits MX size MX , Tag size 36</span>
-                        <span id="size_MX_37" data-classid="380" class="size_MX" size="37" data="MX " style="display:none">Fits MX size MX , Tag size 37</span>
-                        <span id="size_MX_38" data-classid="380" class="size_MX" size="38" data="MX " style="display:none">Fits MX size MX , Tag size 38</span>
-                        <span id="size_MX_39" data-classid="380" class="size_MX" size="39" data="MX 5" style="display:none">Fits MX size MX 5, Tag size 39</span>
-                        <span id="size_MX_40" data-classid="380" class="size_MX" size="40" data="MX 6" style="display:none">Fits MX size MX 6, Tag size 40</span>
-                        <span id="size_RU_36" data-classid="380" class="size_RU" size="36" data="RU 36" style="display:none">Fits RU size RU 36, Tag size 36</span>
-                        <span id="size_RU_37" data-classid="380" class="size_RU" size="37" data="RU 37" style="display:none">Fits RU size RU 37, Tag size 37</span>
-                        <span id="size_RU_38" data-classid="380" class="size_RU" size="38" data="RU 38" style="display:none">Fits RU size RU 38, Tag size 38</span>
-                        <span id="size_RU_39" data-classid="380" class="size_RU" size="39" data="RU 39" style="display:none">Fits RU size RU 39, Tag size 39</span>
-                        <span id="size_RU_40" data-classid="380" class="size_RU" size="40" data="RU 40" style="display:none">Fits RU size RU 40, Tag size 40</span>
-                        <span id="size_EU_36" data-classid="380" class="size_EU" size="36" data="EU 36" style="display:none">Fits EU size EU 36, Tag size 36</span>
-                        <span id="size_EU_37" data-classid="380" class="size_EU" size="37" data="EU 37" style="display:none">Fits EU size EU 37, Tag size 37</span>
-                        <span id="size_EU_38" data-classid="380" class="size_EU" size="38" data="EU 38" style="display:none">Fits EU size EU 38, Tag size 38</span>
-                        <span id="size_EU_39" data-classid="380" class="size_EU" size="39" data="EU 39" style="display:none">Fits EU size EU 39, Tag size 39</span>
-                        <span id="size_EU_40" data-classid="380" class="size_EU" size="40" data="EU 40" style="display:none">Fits EU size EU 40, Tag size 40</span>
-                        <span id="size_FR_36" data-classid="380" class="size_FR" size="36" data="FR 36" style="display:none">Fits FR size FR 36, Tag size 36</span>
-                        <span id="size_FR_37" data-classid="380" class="size_FR" size="37" data="FR 37" style="display:none">Fits FR size FR 37, Tag size 37</span>
-                        <span id="size_FR_38" data-classid="380" class="size_FR" size="38" data="FR 38" style="display:none">Fits FR size FR 38, Tag size 38</span>
-                        <span id="size_FR_39" data-classid="380" class="size_FR" size="39" data="FR 39" style="display:none">Fits FR size FR 39, Tag size 39</span>
-                        <span id="size_FR_40" data-classid="380" class="size_FR" size="40" data="FR 40" style="display:none">Fits FR size FR 40, Tag size 40</span>
-                        <span id="size_IT_36" data-classid="380" class="size_IT" size="36" data="IT 36" style="display:none">Fits IT size IT 36, Tag size 36</span>
-                        <span id="size_IT_37" data-classid="380" class="size_IT" size="37" data="IT 37" style="display:none">Fits IT size IT 37, Tag size 37</span>
-                        <span id="size_IT_38" data-classid="380" class="size_IT" size="38" data="IT 38" style="display:none">Fits IT size IT 38, Tag size 38</span>
-                        <span id="size_IT_39" data-classid="380" class="size_IT" size="39" data="IT 39" style="display:none">Fits IT size IT 39, Tag size 39</span>
-                        <span id="size_IT_40" data-classid="380" class="size_IT" size="40" data="IT 40" style="display:none">Fits IT size IT 40, Tag size 40</span>
-                        <span id="size_JA_36" data-classid="380" class="size_JA" size="36" data="JA 23" style="display:none">Fits JA size JA 23, Tag size 36</span>
-                        <span id="size_JA_37" data-classid="380" class="size_JA" size="37" data="JA 23.5" style="display:none">Fits JA size JA 23.5, Tag size 37</span>
-                        <span id="size_JA_38" data-classid="380" class="size_JA" size="38" data="JA 24" style="display:none">Fits JA size JA 24, Tag size 38</span>
-                        <span id="size_JA_39" data-classid="380" class="size_JA" size="39" data="JA 24.5" style="display:none">Fits JA size JA 24.5, Tag size 39</span>
-                        <span id="size_JA_40" data-classid="380" class="size_JA" size="40" data="JA 25" style="display:none">Fits JA size JA 25, Tag size 40</span>
-                        <span id="size_BR_36" data-classid="380" class="size_BR" size="36" data="BR 33" style="display:none">Fits BR size BR 33, Tag size 36</span>
-                        <span id="size_BR_37" data-classid="380" class="size_BR" size="37" data="BR 34" style="display:none">Fits BR size BR 34, Tag size 37</span>
-                        <span id="size_BR_38" data-classid="380" class="size_BR" size="38" data="BR 35" style="display:none">Fits BR size BR 35, Tag size 38</span>
-                        <span id="size_BR_39" data-classid="380" class="size_BR" size="39" data="BR 36" style="display:none">Fits BR size BR 36, Tag size 39</span>
-                        <span id="size_BR_40" data-classid="380" class="size_BR" size="40" data="BR 36.5" style="display:none">Fits BR size BR 36.5, Tag size 40</span>
                         <input type="hidden" id="table_type" value="_shoesType">
                       </div>
                       <div class="goods_main_list shipping-time-wrap ">
@@ -480,51 +413,21 @@
                 <span class="next" data-ga-tag="top_next_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-down"></i></span>
                 <div class="img-box">
                   <ul class="img-list" data-ga-tag="top_img-list_image_180122" data-ga-ac="mouseenter" style="margin-top: -79px;">
-                    <li class="item">
-                      <div class="img" style="position: relative;"><img data-big-img="https://img2.newchic.com/thumb/large/oaupload/newchic/images/A1/48/ca9ea25e-82ae-4d63-837f-11539e2b431e.jpg" data-original="https://img.newchic.com/thumb/wap/oaupload/newchic/images/A1/48/ca9ea25e-82ae-4d63-837f-11539e2b431e.jpg" src="https://img.newchic.com/thumb/wap/oaupload/newchic/images/A1/48/ca9ea25e-82ae-4d63-837f-11539e2b431e.jpg" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" class="reals" style="display: inline;"></div>
-                    </li>
-                    <li class="item">
-                      <div class="img" style="position: relative;"><img data-big-img="https://img1.newchic.com/thumb/large/oaupload/newchic/images/8C/D0/0b70b810-0cf8-4a0d-9471-2ac06c8b041e.jpg" data-original="https://img1.newchic.com/thumb/wap/oaupload/newchic/images/8C/D0/0b70b810-0cf8-4a0d-9471-2ac06c8b041e.jpg" src="https://img1.newchic.com/thumb/wap/oaupload/newchic/images/8C/D0/0b70b810-0cf8-4a0d-9471-2ac06c8b041e.jpg" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" class="reals" style="display: inline;"></div>
-                    </li>
-                    <li class="item">
-                      <div class="img" style="position: relative;"><img data-big-img="https://img.newchic.com/thumb/large/oaupload/newchic/images/66/01/ac7b4bfd-a9ec-40a4-a8ff-0473a0fd7144.jpg" data-original="https://img1.newchic.com/thumb/wap/oaupload/newchic/images/66/01/ac7b4bfd-a9ec-40a4-a8ff-0473a0fd7144.jpg" src="https://img1.newchic.com/thumb/wap/oaupload/newchic/images/66/01/ac7b4bfd-a9ec-40a4-a8ff-0473a0fd7144.jpg" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" class="reals" style="display: inline;"></div>
-                    </li>
-                    <li class="item">
-                      <div class="img" style="position: relative;"><img data-big-img="https://img2.newchic.com/thumb/large/oaupload/newchic/images/8A/0F/534dd75e-4c9a-4674-a6e5-488af7ef8870.jpg" data-original="https://img2.newchic.com/thumb/wap/oaupload/newchic/images/8A/0F/534dd75e-4c9a-4674-a6e5-488af7ef8870.jpg" src="https://img2.newchic.com/thumb/wap/oaupload/newchic/images/8A/0F/534dd75e-4c9a-4674-a6e5-488af7ef8870.jpg" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" class="reals" style="display: inline;"></div>
-                    </li>
-                    <li class="item">
-                      <div class="img" style="position: relative;"><img data-big-img="https://img.newchic.com/thumb/large/oaupload/newchic/images/E4/0C/772f3309-8cfc-45b3-b561-1363a35fe83c.jpg" data-original="https://img1.newchic.com/thumb/wap/oaupload/newchic/images/E4/0C/772f3309-8cfc-45b3-b561-1363a35fe83c.jpg" src="https://img1.newchic.com/thumb/wap/oaupload/newchic/images/E4/0C/772f3309-8cfc-45b3-b561-1363a35fe83c.jpg" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" class="reals" style="display: inline;"></div>
-                    </li>
-                    <li class="item">
-                      <div class="img" style="position: relative;"><img data-big-img="https://img2.newchic.com/thumb/large/oaupload/newchic/images/66/36/e76cc8e3-7fe7-4826-9457-4a4ead6c21e3.jpg" data-original="https://img1.newchic.com/thumb/wap/oaupload/newchic/images/66/36/e76cc8e3-7fe7-4826-9457-4a4ead6c21e3.jpg" src="https://img1.newchic.com/thumb/wap/oaupload/newchic/images/66/36/e76cc8e3-7fe7-4826-9457-4a4ead6c21e3.jpg" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" class="reals" style="display: inline;"></div>
-                    </li>
-                    <li class="item active">
-                      <div class="img" style="position: relative;"><img data-big-img="https://img.newchic.com/thumb/large/oaupload/newchic/images/EB/D3/a0e0b071-94e3-485f-b371-85c7eb28cbbe.jpg" data-original="https://img2.newchic.com/thumb/wap/oaupload/newchic/images/EB/D3/a0e0b071-94e3-485f-b371-85c7eb28cbbe.jpg" src="https://img2.newchic.com/thumb/wap/oaupload/newchic/images/EB/D3/a0e0b071-94e3-485f-b371-85c7eb28cbbe.jpg" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" class="reals" style="display: inline;"></div>
-                    </li>
-                    <li class="item">
-                      <div class="img" style="position: relative;"><img data-big-img="https://img2.newchic.com/thumb/large/oaupload/newchic/images/3F/AA/2ed68026-e167-4a2a-b203-b2f47133e9f8.jpg" data-original="https://img.newchic.com/thumb/wap/oaupload/newchic/images/3F/AA/2ed68026-e167-4a2a-b203-b2f47133e9f8.jpg" src="https://img.newchic.com/thumb/wap/oaupload/newchic/images/3F/AA/2ed68026-e167-4a2a-b203-b2f47133e9f8.jpg" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" class="reals" style="display: inline;"></div>
-                    </li>
-                    <li class="item">
-                      <div class="img" style="position: relative;"><img data-big-img="https://img2.newchic.com/thumb/large/oaupload/newchic/images/E9/B8/a081e30e-ba8d-46b1-89fe-2070f0e4d38c.jpg" data-original="https://img.newchic.com/thumb/wap/oaupload/newchic/images/E9/B8/a081e30e-ba8d-46b1-89fe-2070f0e4d38c.jpg" src="https://img.newchic.com/thumb/wap/oaupload/newchic/images/E9/B8/a081e30e-ba8d-46b1-89fe-2070f0e4d38c.jpg" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" class="reals" style="display: inline;"></div>
-                    </li>
-                    <li class="item">
-                      <div class="img" style="position: relative;"><img data-big-img="https://img.newchic.com/thumb/large/oaupload/newchic/images/E6/3A/6da3fcf6-9f55-4dc4-9b45-8149762d19e6.jpg" data-original="https://img2.newchic.com/thumb/wap/oaupload/newchic/images/E6/3A/6da3fcf6-9f55-4dc4-9b45-8149762d19e6.jpg" src="https://img2.newchic.com/thumb/wap/oaupload/newchic/images/E6/3A/6da3fcf6-9f55-4dc4-9b45-8149762d19e6.jpg" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" class="reals" style="display: inline;"></div>
-                    </li>
-                    <li class="item">
-                      <div class="img" style="position: relative;"><img data-big-img="https://img.newchic.com/thumb/large/oaupload/newchic/images/F2/7A/c1166538-4ef3-4065-860d-5ef0b3a41c69.jpg" data-original="https://img.newchic.com/thumb/wap/oaupload/newchic/images/F2/7A/c1166538-4ef3-4065-860d-5ef0b3a41c69.jpg" src="https://img.newchic.com/thumb/wap/oaupload/newchic/images/F2/7A/c1166538-4ef3-4065-860d-5ef0b3a41c69.jpg" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" class="reals" style="display: inline;"></div>
+                    <li class="item active" v-for="pImage in productData.images">
+                      <div class="img" style="position: relative;"><img :data-big-img="pImage.src" :data-original="pImage.src" :src="pImage.src" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" class="reals" style="display: inline;"></div>
                     </li>
                   </ul>
                 </div>
               </div>
               <div class="pull-left" style="position: relative;margin-top: 0px">
-                <div class="img-big-container" style="margin-top: 0">
-                  <div class="img">
-                    <img itemprop="image" src="https://img.newchic.com/thumb/large/oaupload/newchic/images/EB/D3/a0e0b071-94e3-485f-b371-85c7eb28cbbe.jpg" data-original="https://img2.newchic.com/thumb/large/oaupload/newchic/images/A1/48/ca9ea25e-82ae-4d63-837f-11539e2b431e.jpg" class="big reals" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" style="display: inline;">
+                <div class="img-big-container" style="margin-top: 0" v-for="pImage in productData.images">
+                  <div class="img"><!-- todo(neirat): test images magnifier -->
+                    <img itemprop="image" :src="pImage.src" :data-original="pImage.src" class="big reals" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" style="display: inline;">
                   </div>
                 </div>
               </div>
             </div>
-            <div class="share-wrap">
+            <!-- <div class="share-wrap">
               <ul class="list-inline">
                 <li class="share_fb share-facebook">
                   <a href="javascript:void(0);" onclick="shareFacebook();" class="middle_shareFb_button_171116" data-point-id="17319014048" data-ga-tag="middle_nc-icon nc-icon-facebook_button_180122" data-ga-ac="click">
@@ -540,14 +443,13 @@
                   <a href="javascript:;" onclick="shareTumblr(this);" target="_blank" class="cando middle_shareTumblr_button_171116" data-point-id="17319014049" data-target="_blank" data-ga-tag="middle_nc-icon nc-icon-tumblr_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-tumblr"></i></a>
                 </li>
                 <li class="share_polyvore">
-                  <!--<script type="text/javascript" src="//static.newchic.com/default/js/add_to_polyvore.js"></script>-->
                   <a href="" name="addToPolyvore" id="addToPolyvore" data-product-url="https://www.newchic.com/athletic-and-casual-shoes-3596/p-1178309.html?utm_source=share_polyvore" data-image-url="https://img1.newchic.com/thumb/view/oaupload/newchic/images/A1/48/ca9ea25e-82ae-4d63-837f-11539e2b431e.jpg" data-name="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" data-price="" class="cando middle_sharePolyvore_button_171116" data-point-id="17319014051" data-ga-tag="middle_nc-icon nc-icon-polyvore_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-polyvore"></i></a>
                 </li>
                 <li class="share_twitter">
                   <a href="javascript:;" onclick="shareTwitter(this);" target="_blank" class="cando middle_shareTwitter_button_171116" data-point-id="17319014050" data-target="_blank" data-ga-tag="middle_nc-icon nc-icon-twitter_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-twitter"></i></a>
                 </li>
               </ul>
-            </div>
+            </div> -->
             <!--end-->    
           </div>
         </div>
@@ -558,47 +460,28 @@
           <div class="block-title">Description</div>
           <div class="desc-content expand" style="max-height: 10000px;">
             <div style="display: inline-block; padding-right: 20px;">
-              <br>
-              <strong style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 25.6px;">Brand: NO</strong><br>
-              <br>
-              <span style="font-size:16px;">Shoe&nbsp;Type: Sport Shoes<br>
-              Toe Type:<span style=" line-height: 17.13068199157715px;"> Round Toe</span><br>
-              Closure&nbsp;Type: Lace Up<br>
-              Heel Type: Flat<br>
-              Heel&nbsp;Height: 2.5cm<br>
-              Gender: Female<br>
-              Occasion:&nbsp;<span style=" line-height: 17.13068199157715px;">Casual, Sport</span><br style="font-size: 16px;">
-              Season: <span style=" line-height: 17.13068199157715px;">Spring, Summer, Autumn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><br>
-              Color:&nbsp;<span style=" line-height: 17.13068199157715px;">Black1, Grey1, Rose1, Black2,<br>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grey2, Rose2, White</span><br>
-              <br>
-              Material:<br>
-              Upper&nbsp;Material: Mesh<br>
-              Outsole&nbsp;Material: Rubber<br>
-              <br>
-              <strong>Package&nbsp;included:</strong><br>
-              1*pair&nbsp;of&nbsp;shoes(without box)</span>
+              <span v-html="productData.description"></span>
             </div>
-            <img alt="casual shoes" src="https://other.newchic.com/images/oaupload/newchic/images/C2/4E/e72ef90f-9a4c-44dd-870f-4cae16010128.jpg" style="font-size: 16.3636px; width: 400px; height: 400px;"><br>
+            <!-- <img alt="casual shoes" src="https://other.newchic.com/images/oaupload/newchic/images/C2/4E/e72ef90f-9a4c-44dd-870f-4cae16010128.jpg" style="font-size: 16.3636px; width: 400px; height: 400px;"><br> -->
             <br>
             <div>
               &nbsp;
             </div>
-            <div>
+            <!-- <div>
               <span style="font-size:16px;"><strong><span style="color:#ff3366;">Please Note:</span></strong><br>
               1.</span><span style="font-size: 16px;">Please see the Size Reference to find the correct size.</span>
             </div>
             <div>
               <span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 25.6px;">2.The size of these shoes are smaller than ordinary, we suggest buying a bigger one size.</span>
-            </div>
+            </div> -->
             <div id="specification">{ "id" : "Specification", "title" : [], "data" : []}</div>
             <div id="specification_end"></div>
             <!--补加某些分类的描述-->
             <!--补加某些分类的描述EDN-->
           </div>
-          <div class="view-more">
+          <!-- <div class="view-more">
             <a href="javascript:;" class="btn-view-more" data-show="View more" data-hide="Hide" data-ga-tag="middle_nc-icon font-12 nc-icon-down-double_button_180122" data-ga-ac="click"><span>Hide</span> <i class="nc-icon font-12 nc-icon-up-double"></i></a>
-          </div>
+          </div> -->
         </div>
         <div class="also-like-wrap">
           <div class="block-title">You might also like</div>
@@ -1026,14 +909,15 @@
 
 <script>
 import homeHeader from '@/components/homeHeader.vue'
+import productApi from '@/api/ProductApi.js'
 
 export default {
   name: 'ProductPage',
   components : {
   homeHeader
   },
-  created () {
-    /*
+  /*created () {
+    
     $.fn.zoom = function(options) {
     var _option = {
         align: "left", // 当前展示图片的位置，则放大的图片在其相对的位置
@@ -1178,12 +1062,15 @@ export default {
         });
     });
 };
-*/
 
-  },
+  },*/
+
   data () {
     return {
       qty: 1,
+      productId: 0,
+      productData: {}
+
      
     }
   },
@@ -1192,16 +1079,25 @@ export default {
 
   },
   created(){
-     const header = {
-        //'Accept': 'application/json',
-        'Authorization': 'Bearer MDUwMWQ1NTI4N2U4NzgxYWJlZDg2N2Y2ODNhZWU1MDQwOGVjZDE5MTY1YTRkZjhkZjFlNmE4ODgwYWJjMDVmZg',
-        //'referer': 'fnd.alarabexpress.com'
-        'Content-Type': 'application/json'
-      }
-          this.$http.get('http://bknd.alarabexpress.com/api/v1/products/'+this.$route.query.product,{headers: header}).then(response => {
+    var me = this;
+    this.productId = this.$route.params.productId
+    productApi.getProductById(this.$route.params.productId).then(function(response){
+      console.log(response.data.name);
+      me.productData = response.data
+    }, function(err){
+      console.log(err);
+    })
+    //debugger;
+    //  const header = {
+    //     //'Accept': 'application/json',
+    //     'Authorization': 'Bearer MDUwMWQ1NTI4N2U4NzgxYWJlZDg2N2Y2ODNhZWU1MDQwOGVjZDE5MTY1YTRkZjhkZjFlNmE4ODgwYWJjMDVmZg',
+    //     //'referer': 'fnd.alarabexpress.com'
+    //     'Content-Type': 'application/json'
+    //   }
+    //       this.$http.get('http://bknd.alarabexpress.com/api/v1/products/'+this.$route.query.productId,{headers: header}).then(response => {
        
-            console.log("product", response.data);
-     });
+    //         console.log("product", response.data);
+    //  });
   },
   methods: {
     addToCart()
