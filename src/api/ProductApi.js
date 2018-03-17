@@ -11,18 +11,13 @@ export default {
             }
         return header     
     },
-    getAll () {
-            // const header = {
-            //      'authorization': 'Basic Y2tfNzI3NDcwMWRjODc2MjczNmU3ODY3NWNmOWU5MWZjZjVhMWY3MWM4Nzpjc18wOWFlMTZiMjRhNDc4NTlkZDQ3NTFmNWVmMDAxNGZmMTI4MTczMmIz'
-            // }
+    getProductCategory (CategoryID) {
+
+        //?parent=0   
+        
 ///https://woo.alarabexpress.com/wp-json/wc/v2/products/categories?parent=<Category ID>
-            return axios.get(appConfig.apiUrl + '/products/categories?parent=0',{headers: this.getheader()})
-        //     .then(response =>{
-        //    // this.TestArray = response.body 
-        //    test = response.data
-        //   //  console.log(response.data)
-        // })
-        // return test
+            return axios.get(appConfig.apiUrl + '/products?category='+CategoryID,{headers: this.getheader()})
+        
     },
 
     getByCode (code) {
