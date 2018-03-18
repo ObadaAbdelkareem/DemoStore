@@ -13,10 +13,10 @@ axios.interceptors.request.use(function (config) {
 axios.interceptors.response.use((response) => { // intercept the global error
     return response
   }, function (error) {
-    if (error.response.status === 401) { 
+    if (error.status === 401) { 
       //todo(neirat): do auth.logout() and redirect to login page
     }
-    if (error.response.status === 404) {
+    if (error.status === 404) {
       //todo(neirat): show 404 error page
       return
     }

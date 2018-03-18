@@ -216,7 +216,7 @@
                                                 </div>
                                                 <div class="nav_category_list" style="display:none;">
                                                     <dl>
-                                                         <dd v-for="category of categories">{{category.code}}</dd>
+                                                         <dd v-for="category of categories">{{category.name}}</dd>
 
                                                         <!-- <dd cid="0">All categories</dd>
                                                         <dd cid="3578">Women</dd>
@@ -410,7 +410,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li v-for="category of Categories"> <!--params: { id: category.id }-->
+                                <li v-for="category of categories"> <!--params: { id: category.id }-->
                                     <b>
                                         <router-link :to="{ path: '/mainCategory/'+category.id}" onclick="set_home_ga('Home - Women');set_navigation_ga('Women');"
                                             target="_self">{{category.name}}</router-link>
@@ -451,16 +451,44 @@ export default {
 
   created: function () {
         var me = this 
-         Category.getAll().then(function(response){
-          me.Categories=response.data
-          console.log(response.data)
-        })
+        //  Category.getAll().then(function(response){
+        //   me.Categories=response.data
+        //   console.log(response.data)
+        // })
         
+        Category.getSubCategory().then(function(response){
+           var allCat = response.data;
+           me.categories = [];
+           for(var i = 0 ; i < allCat.length ; i++){
+               if(allCat[i].parent ==0){
+                allCat[i].subCategories = [{main:'',items:[]}]
+                me.categories.push(allCat[i]);
+               }
+           }
+           for(var i = 0 ; i < allCat.length ; i++){
+               if(allCat[i].parent ==0){
+                   continue;
+               }
+               for(var j = 0 ; j<me.categories.length ; j++){
+                   console.log(me.categories[j])
+                   if(allCat[i].parent == me.categories[j].id){
+                       me.categories[j].subCategories[0].items.push(allCat[i]);
+                       break;
+                   }
+               }
+           }
+           
+	var $cate_nav = $('.cate_nav');
+    if ($cate_nav.length) {
+        var cssTop = $cate_nav.offset().top + 58;
+        $('.single_enter').css('top', cssTop);
+    }
+        })
       },
   data () {
     return {
 
-        Categories : [] 
+        categories:[]
 //       categories: [
 //           {code:"Women", subCategories: [
 //                 {main: '', items: [
