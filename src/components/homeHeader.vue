@@ -451,11 +451,6 @@ export default {
 
   created: function () {
         var me = this 
-        //  Category.getAll().then(function(response){
-        //   me.Categories=response.data
-        //   console.log(response.data)
-        // })
-        
         Category.getSubCategory().then(function(response){
            var allCat = response.data;
            me.categories = [];
@@ -470,19 +465,16 @@ export default {
                    continue;
                }
                for(var j = 0 ; j<me.categories.length ; j++){
-                   console.log(me.categories[j])
                    if(allCat[i].parent == me.categories[j].id){
-                       me.categories[j].subCategories[0].items.push(allCat[i]);
+                       me.categories[j].subCategories[0].items.push(allCat[i].name);
                        break;
                    }
                }
            }
-           
-	var $cate_nav = $('.cate_nav');
-    if ($cate_nav.length) {
-        var cssTop = $cate_nav.offset().top + 58;
-        $('.single_enter').css('top', cssTop);
-    }
+           setTimeout(function(){
+                
+                channelHover(100)
+            }, 1000);
         })
       },
   data () {
@@ -738,6 +730,9 @@ export default {
 
   },
   methods: {
+  },
+  mounted(){
+
   }
 }
 </script>

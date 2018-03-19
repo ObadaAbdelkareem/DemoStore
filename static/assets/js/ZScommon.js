@@ -3192,7 +3192,7 @@
 
 
   	//主导航栏hover延时处理
-  	$(function channelHover(time) {
+  	function channelHover(time) {
   	    $(".channel li").HoverDelay({
   	        hoverDuring: time,
   	        outDuring: time,
@@ -3251,7 +3251,7 @@
   	            }
   	        }
   	    });
-  	})
+  	}
 
   	//给标签随机加颜色
   	function rankTags(obj) {
