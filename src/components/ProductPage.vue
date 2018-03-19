@@ -169,7 +169,7 @@
                                 <div><img src="https://img2.newchic.com/thumb/other_items/oaupload/newchic/images/74/52/881c110a-ad63-40b0-ab46-500782068e39.jpg" title="Black 2" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" viewimage="https://img2.newchic.com/thumb/view/oaupload/newchic/images/74/52/881c110a-ad63-40b0-ab46-500782068e39.jpg" largeimage="https://img2.newchic.com/thumb/large/oaupload/newchic/images/74/52/881c110a-ad63-40b0-ab46-500782068e39.jpg"></div>
                               </li>
                               <li value_id="16975" class="bag " data-ga-tag="top_color-clearfix1_image_180122" data-ga-ac="click">
-                                <div><img src="https://img1.newchic.com/thumb/other_items/oaupload/newchic/images/E9/B8/a081e30e-ba8d-46b1-89fe-2070f0e4d38c.jpg" title="Grey2" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" viewimage="https://img.newchic.com/thumb/view/oaupload/newchic/images/E9/B8/a081e30e-ba8d-46b1-89fe-2070f0e4d38c.jpg" largeimage="https://img.newchic.com/thumb/large/oaupload/newchic/images/E9/B8/a081e30e-ba8d-46b1-89fe-2070f0e4d38c.jpg"></div>
+                                <rn 54 NC Points rn 54 NC Points div><img src="https://img1.newchic.com/thumb/other_items/oaupload/newchic/images/E9/B8/a081e30e-ba8d-46b1-89fe-2070f0e4d38c.jpg" title="Grey2" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" viewimage="https://img.newchic.com/thumb/view/oaupload/newchic/images/E9/B8/a081e30e-ba8d-46b1-89fe-2070f0e4d38c.jpg" largeimage="https://img.newchic.com/thumb/large/oaupload/newchic/images/E9/B8/a081e30e-ba8d-46b1-89fe-2070f0e4d38c.jpg"></rn>
                               </li>
                               <li value_id="26391" class="bag " data-ga-tag="top_color-clearfix1_image_180122" data-ga-ac="click">
                                 <div><img src="https://img.newchic.com/thumb/other_items/oaupload/newchic/images/9C/D0/7fe47f3b-b551-4228-9278-9cfdd7cba98b.jpg" title="Rose 2" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" viewimage="https://img1.newchic.com/thumb/view/oaupload/newchic/images/9C/D0/7fe47f3b-b551-4228-9278-9cfdd7cba98b.jpg" largeimage="https://img2.newchic.com/thumb/large/oaupload/newchic/images/9C/D0/7fe47f3b-b551-4228-9278-9cfdd7cba98b.jpg"></div>
@@ -181,7 +181,7 @@
                           </div>
                         </div> -->
                         <div class="goods_main_list" v-for="att in productData.attributes">
-                          <span class="title size_list_box">
+                          <span class="title size_list_box"><!-- todo(neirat): what about points -->
                             <ul class="cy_list" data-ga-tag="top_cy_title-active_datalist_180122" data-ga-ac="mouseenter">
                               <li class="cy_title active"><a href="javascript:void(0);" size="US" id="sizeText">{{att.name}}</a>  </li><!--<i class="nc-icon nc-icon-down"></i>-->
                             </ul>
@@ -413,21 +413,23 @@
                 <span class="next" data-ga-tag="top_next_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-down"></i></span>
                 <div class="img-box">
                   <ul class="img-list" data-ga-tag="top_img-list_image_180122" data-ga-ac="mouseenter" style="margin-top: -79px;">
-                    <li class="item active" v-for="pImage in productData.images">
-                      <div class="img" style="position: relative;"><img :data-big-img="pImage.src" :data-original="pImage.src" :src="pImage.src" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" class="reals" style="display: inline;"></div>
+                    <li class="item" v-for="image in productData.images">
+                      <div class="img" style="position: relative;">
+                        <img :data-big-img="image.src" :data-original="image.src" :src="image.src" :alt="image.name" class="reals" style="display: inline;">
+                      </div>
                     </li>
                   </ul>
                 </div>
               </div>
               <div class="pull-left" style="position: relative;margin-top: 0px">
-                <div class="img-big-container" style="margin-top: 0" v-for="pImage in productData.images">
-                  <div class="img"><!-- todo(neirat): test images magnifier -->
-                    <img itemprop="image" :src="pImage.src" :data-original="pImage.src" class="big reals" alt="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" style="display: inline;">
+                <div class="img-big-container" style="margin-top: 0">
+                  <div class="img">
+                    <img itemprop="image" id="defaultPicZoom" src="" data-original="" class="big reals" alt="loading" style="display: inline;">
                   </div>
                 </div>
               </div>
             </div>
-            <!-- <div class="share-wrap">
+            <div class="share-wrap">
               <ul class="list-inline">
                 <li class="share_fb share-facebook">
                   <a href="javascript:void(0);" onclick="shareFacebook();" class="middle_shareFb_button_171116" data-point-id="17319014048" data-ga-tag="middle_nc-icon nc-icon-facebook_button_180122" data-ga-ac="click">
@@ -443,13 +445,14 @@
                   <a href="javascript:;" onclick="shareTumblr(this);" target="_blank" class="cando middle_shareTumblr_button_171116" data-point-id="17319014049" data-target="_blank" data-ga-tag="middle_nc-icon nc-icon-tumblr_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-tumblr"></i></a>
                 </li>
                 <li class="share_polyvore">
+                  <!--<script type="text/javascript" src="//static.newchic.com/default/js/add_to_polyvore.js"></script>-->
                   <a href="" name="addToPolyvore" id="addToPolyvore" data-product-url="https://www.newchic.com/athletic-and-casual-shoes-3596/p-1178309.html?utm_source=share_polyvore" data-image-url="https://img1.newchic.com/thumb/view/oaupload/newchic/images/A1/48/ca9ea25e-82ae-4d63-837f-11539e2b431e.jpg" data-name="Breathable Sneakers Knitted Strech Fabric Lace Up Sport Shoes" data-price="" class="cando middle_sharePolyvore_button_171116" data-point-id="17319014051" data-ga-tag="middle_nc-icon nc-icon-polyvore_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-polyvore"></i></a>
                 </li>
                 <li class="share_twitter">
                   <a href="javascript:;" onclick="shareTwitter(this);" target="_blank" class="cando middle_shareTwitter_button_171116" data-point-id="17319014050" data-target="_blank" data-ga-tag="middle_nc-icon nc-icon-twitter_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-twitter"></i></a>
                 </li>
               </ul>
-            </div> -->
+            </div>
             <!--end-->    
           </div>
         </div>
@@ -484,7 +487,7 @@
           </div> -->
         </div>
         <div class="also-like-wrap">
-          <div class="block-title">You might also like</div>
+          <div class="block-title">You might also like</div><!-- todo(neirat): crossed link-->
           <div class="list-wrap">
             <span class="btn-slide prev prevStop" data-ga-tag="middle_btn-slide prev prevStop_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-left"></i></span>
             <span class="btn-slide next" data-ga-tag="middle_btn-slide next_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-right"></i></span>
@@ -910,168 +913,21 @@
 <script>
 import homeHeader from '@/components/homeHeader.vue'
 import productApi from '@/api/ProductApi.js'
+import ProductZoomer from 'vue-product-zoomer'
 
 export default {
   name: 'ProductPage',
   components : {
-  homeHeader
+  homeHeader,
+  ProductZoomer
   },
-  /*created () {
-    
-    $.fn.zoom = function(options) {
-    var _option = {
-        align: "left", // 当前展示图片的位置，则放大的图片在其相对的位置
-        thumb_image_width: 300, // 当前展示图片的宽
-        thumb_image_height: 400, // 当前展示图片的高
-        source_image_width: 1440, // 放大图片的宽
-        source_image_height: 1920, // 放大图片的高
-        zoom_area_width: 480, // 放大图片的展示区域的宽
-        zoom_area_height: "justify", // 放大图片的展示区域的高
-
-        scale_width: 200,
-        scale_height: 200,
-
-        speed: 600,
-        keyboard: true,
-        right_to_left: false
-    };
-
-    if (options) {
-        $.extend(_option, options);
-    }
-
-    var $div = $(this);
-    var $img = $('img.big', $div);
-    var scxy = _option.scale_width / _option.scale_height;
-    _option.zoom_area_height = _option.zoom_area_width / scxy;
-    _option.source_image_width = _option.zoom_area_width / (_option.scale_width / _option.thumb_image_width);
-    _option.source_image_height = _option.zoom_area_height / (_option.scale_height / _option.thumb_image_height);
-
-    var $etalage_magnifier, $etalage_magnifier_img, $etalage_zoom_area, $etalage_zoom_img;
-
-    // 遮罩显示的区域
-    if (!$(".etalage_magnifier").length) {
-        $etalage_magnifier = $('<div class="etalage_magnifier"><img src="" /></div>');
-        $etalage_magnifier_img = $etalage_magnifier.find('img');
-        console.log($etalage_magnifier_img);
-        $div.append($etalage_magnifier);
-
-        $etalage_magnifier.css({
-            top: top,
-            left: left
-        });
-        $etalage_magnifier_img.attr('src', $img.data('original')).css({
-            width: _option.thumb_image_width,
-            height: _option.thumb_image_height
-        });
-        $etalage_magnifier.css({
-            width: _option.scale_width,
-            height: _option.scale_height
-        });
-    }
-
-    // 大图
-    if (!$('.etalage_zoom_area').length) {
-        $etalage_zoom_area = $('<div class="etalage_zoom_area"><img class="etalage_zoom_img" /></div>');
-        $etalage_zoom_img = $etalage_zoom_area.find('.etalage_zoom_img');
-        var top = 0,
-            left = 0;
-
-        $div.append($etalage_zoom_area);
-
-        if (_option.align == "left") {
-            top = 0;
-            left = 0 + _option.thumb_image_width + _option.zoom_area_distance;
-        }
-
-        $etalage_zoom_area.css({
-            top: top,
-            left: left
-        });
-        $etalage_zoom_img.css({
-            width: _option.source_image_width,
-            height: _option.source_image_height
-        });
-    }
-
-
-    $etalage_zoom_area.css({
-        width: _option.zoom_area_width,
-        height: _option.zoom_area_height
-    });
-
-    $div.add($etalage_magnifier).mousemove(function(event) {
-        var xpos = event.pageX - $div.offset().left,
-            ypos = event.pageY - $div.offset().top,
-            magwidth = _option.scale_width,
-            magheight = _option.scale_height,
-            magx = 0,
-            magy = 0,
-            bigposx = 0,
-            bigposy = 0;
-
-        if (xpos < _option.thumb_image_width / 2) {
-            magx = xpos > magwidth / 2 ? xpos - magwidth / 2 : 0;
-        } else {
-            magx = xpos + magwidth / 2 > _option.thumb_image_width ? _option.thumb_image_width - magwidth : xpos - magwidth / 2;
-        }
-        if (ypos < _option.thumb_image_height / 2) {
-            magy = ypos > magheight / 2 ? ypos - magheight / 2 : 0;
-        } else {
-            magy = ypos + magheight / 2 > _option.thumb_image_height ? _option.thumb_image_height - magheight : ypos - magheight / 2;
-        }
-        var scalex = magx / _option.thumb_image_width;
-        var scaley = magy / _option.thumb_image_height;
-        bigposx = _option.source_image_width * scalex;
-        bigposy = _option.source_image_height * scaley;
-
-        $etalage_magnifier.css({
-            'left': magx,
-            'top': magy
-        });
-        $etalage_magnifier_img.css({
-            'left': -magx,
-            'top': -magy
-        });
-
-        $etalage_zoom_img.css({
-            'left': -bigposx,
-            'top': -bigposy
-        });
-        if (!$etalage_magnifier_img.is(':visible')) {
-            $(this).trigger('mouseenter');
-        }
-    }).mouseenter(function(event) {
-        // $img = $('img.big', $div);
-        $etalage_zoom_img.attr("src", $img.data('original'));
-        $etalage_magnifier_img.attr('src', $img.data('original'));
-        $etalage_zoom_area.css({
-            "background-image": "none"
-        }).stop(true, true).fadeIn(400);
-        $etalage_magnifier.stop(true, true).animate({
-            'opacity': 0.6
-        }, _option.speed * 0.7).show();
-
-
-    }).mouseleave(function(event) {
-        $etalage_zoom_area.stop(true, true).fadeOut(400);
-        $etalage_magnifier.stop(true, true).animate({
-            'opacity': 0
-        }, _option.speed * 0.7, function() {
-            $(this).hide();
-        });
-    });
-};
-
-  },*/
+  
 
   data () {
     return {
       qty: 1,
       productId: 0,
-      productData: {}
-
-     
+      productData: {},     
     }
   },
   beforeMount () {
@@ -1082,8 +938,15 @@ export default {
     var me = this;
     this.productId = this.$route.params.productId
     productApi.getProductById(this.$route.params.productId).then(function(response){
-      console.log(response.data.name);
+      console.log(response.data);
       me.productData = response.data
+      $('#defaultPicZoom').attr('src',me.productData.images[0].src);
+      $('#defaultPicZoom').attr('data-original',me.productData.images[0].src);
+      
+      setTimeout(function(){    //
+         //Slide.prototype.init();
+         init_zoom_img();
+      }, 100);
     }, function(err){
       console.log(err);
     })
