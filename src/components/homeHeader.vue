@@ -474,7 +474,7 @@ export default {
            setTimeout(function(){
                 
                 channelHover(100)
-            }, 1000);
+            }, 100);
         })
       },
   data () {
