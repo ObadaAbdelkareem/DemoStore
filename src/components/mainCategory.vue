@@ -673,13 +673,13 @@
                     <img :src="`http://bknd.alarabexpress.com/media/cache/sylius_shop_product_thumbnail/`+product.images[1].path" -->
 
 
-                <router-link to="/ProductPage" target="_self">
-                    <img :src="`http://bknd.alarabexpress.com/media/image/`+product.images[0].path"
+                <router-link :to="{ path: '/ProductPage/'+product.id}" target="_self">
+                    <img :src="product.images[0].src"
 
                         :alt="product.name" class="lazy reals" style="display: inline;">
                 </router-link>
 
-             <router-link :to="`/ProductPage?product=`+product.code" target="_self">
+             <router-link :to="{ path: '/ProductPage/'+product.id}" target="_self">
                     <img :src="`http://bknd.alarabexpress.com/media/image/`+product.images[0].path"
 
                         :alt="product.name" class="lazy reals" style="display: inline;">
@@ -818,6 +818,10 @@
 
 </template>
 <script>
+  import Product from '@/api/ProductApi.js'
+
+  import appConfig from '@/config'
+
 export default {
   name: 'mainCategory',
   data () {
@@ -831,25 +835,31 @@ export default {
     
   },
   created(){
-    const header = {
-        //'Accept': 'application/json',
-        'Authorization': 'Bearer MDUwMWQ1NTI4N2U4NzgxYWJlZDg2N2Y2ODNhZWU1MDQwOGVjZDE5MTY1YTRkZjhkZjFlNmE4ODgwYWJjMDVmZg',
-        //'referer': 'fnd.alarabexpress.com'
-        'Content-Type': 'application/json'
-      }
-      // http://bknd.alarabexpress.com/api/v1/products/017f6142-77b0-3496-a31e-3dc08494da93/variants/
+    // const header = {
+    //     //'Accept': 'application/json',
+    //     'Authorization': 'Bearer MDUwMWQ1NTI4N2U4NzgxYWJlZDg2N2Y2ODNhZWU1MDQwOGVjZDE5MTY1YTRkZjhkZjFlNmE4ODgwYWJjMDVmZg',
+    //     //'referer': 'fnd.alarabexpress.com'
+    //     'Content-Type': 'application/json'
+    //   }
+    //   // http://bknd.alarabexpress.com/api/v1/products/017f6142-77b0-3496-a31e-3dc08494da93/variants/
 
-    this.$http.get('http://bknd.alarabexpress.com/api/v1/products/',{headers: header}).then(response =>{
-       
-       this.total = response.data.total;
-        for(let i = 2; i <=  response.data.pages; i++)
-        {
-            this.pages.push(i);
-        }
-         console.log("data", response.data);
-            this.products= response.data._embedded.items;
-            console.log("products",this.products);
-        });
+    // this.$http.get('http://bknd.alarabexpress.com/api/v1/products/',{headers: header}).then(response =>{
+        var id=Object.values(this.$route.params)[0];
+        var me = this 
+         Product.getProductCategory(id).then(function(response){
+          me.products=response.data
+          console.log(response.data)
+        })
+             console.log(id)
+    //    this.total = response.data.total;
+    //     for(let i = 2; i <=  response.data.pages; i++)
+    //     {
+    //         this.pages.push(i);
+    //     }
+    //      console.log("data", response.data);
+    //         this.products= response.data._embedded.items;
+    //         console.log("products",this.products);
+    //     });
        
   },
   methods: {
@@ -858,26 +868,26 @@ export default {
          
     }
   },
-  watch: {
-    	'$route': function(newRoute, oldRoute) {
-            const header = {
-        //'Accept': 'application/json',
-        'Authorization': 'Bearer MDUwMWQ1NTI4N2U4NzgxYWJlZDg2N2Y2ODNhZWU1MDQwOGVjZDE5MTY1YTRkZjhkZjFlNmE4ODgwYWJjMDVmZg',
-        //'referer': 'fnd.alarabexpress.com'
-        'Content-Type': 'application/json'
-      }
-      this.currentPage =  parseInt(newRoute.query.page);
-            this.$http.get('http://bknd.alarabexpress.com/api/v1/products/?page='+newRoute.query.page+'&limit=10',{headers: header}).then(response =>{
+//   watch: {
+//     	'$route': function(newRoute, oldRoute) {
+//             const header = {
+//         //'Accept': 'application/json',
+//         'Authorization': 'Bearer MDUwMWQ1NTI4N2U4NzgxYWJlZDg2N2Y2ODNhZWU1MDQwOGVjZDE5MTY1YTRkZjhkZjFlNmE4ODgwYWJjMDVmZg',
+//         //'referer': 'fnd.alarabexpress.com'
+//         'Content-Type': 'application/json'
+//       }
+//       this.currentPage =  parseInt(newRoute.query.page);
+//             this.$http.get('http://bknd.alarabexpress.com/api/v1/products/?page='+newRoute.query.page+'&limit=10',{headers: header}).then(response =>{
        
        
        
-         console.log("data", response.data);
-            this.products= response.data._embedded.items;
-            console.log("products",this.products);
-        });
+//          console.log("data", response.data);
+//             this.products= response.data._embedded.items;
+//             console.log("products",this.products);
+//         });
             
-      },
-    },
+//       },
+//     },
     route: {
     	canReuse: true,
     }

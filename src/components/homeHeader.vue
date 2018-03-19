@@ -219,8 +219,32 @@
                                                         <i></i>
                                                         <!-- <u class="xian">|</u> -->
                                                     </div>
-                                                    <div class="nav_category_list" style="display:none;">
-                                                        <dl>
+                                                    
+                                                </li> -->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="logo">
+                                    <router-link to="/" onclick="set_home_ga('Home - Newchic')" target="_self">
+                                        <img src="../../static/assets/images/logo.png">
+                                    </router-link>
+                                </div>
+                                <div class="top_search_container">
+                                    <div class="search text-left">
+                                        <div class="search_form_db" id="search_form">
+                                            <!--<input type="hidden" name="keywords" value="" id="keywords" />-->
+                                            <input type="hidden" name="com" value="search">
+                                            <input type="hidden" name="t" value="display">
+                                            <div class="search_list">
+                                                <div class="sel_flg">
+                                                    <span>All categories</span>
+                                                    <i></i>
+                                                    <!-- <u class="xian">|</u> -->
+                                                </div>
+                                                <div class="nav_category_list" style="display:none;">
+                                                    <dl>
+                                                         <dd v-for="category of categories">{{category.name}}</dd>
 
 
                                                             <dd cid="0">All categories</dd>
@@ -451,17 +475,16 @@
                                             </span>
                                             </div>
                                         </div>
-                                    </li>
-                                    <li v-for="category of categories">
-                                        <b>
-                                            <router-link to="/mainCategory"
-                                                         onclick="set_home_ga('Home - Women');set_navigation_ga('Women');"
-                                                         target="_self">{{category.code}}
-                                            </router-link>
-                                        </b>
-                                        <i style="left: 23px; margin-left: -4px; display: none;"></i>
-                                        <div style="width: 1351px; left: -207.5px; display: none;">
-                                            <div class="wrap clearfixes">
+                                    </div>
+                                </li>
+                                <li v-for="category of categories"> <!--params: { id: category.id }-->
+                                    <b>
+                                        <router-link :to="{ path: '/mainCategory/'+category.id}" onclick="set_home_ga('Home - Women');set_navigation_ga('Women');"
+                                            target="_self">{{category.name}}</router-link>
+                                    </b>
+                                    <i style="left: 23px; margin-left: -4px; display: none;"></i>
+                                    <div style="width: 1351px; left: -207.5px; display: none;">
+                                        <div class="wrap clearfixes">
                                             <span class="menu" v-for="subcat of category.subCategories">
                                                 <a href="" class="title" onclick="set_navigation_ga('Women_1-1')"
                                                    v>{{subcat.main}}</a>
@@ -491,278 +514,297 @@
 
 </template>
 <script>
-    //require('../../static/assets/js/ZScommon.js')
-    //import channelHover from '../../static/assets/js/ZScommon.js'
-    //import customers_mini_cart_timers from '../../static/assets/js/ZScommon.js'
+import Category from '@/api/CategoryApi.js'
 
-    // var ZScommon = require('../../static/assets/js/ZScommon.js')
-    export default {
-        name: 'homeHeader',
-        created() {
-            // $(function () {
-            //   $.customers_mini_cart_timers()
-            //   })
-            //   if(window.cartHasDeals){
-            //     $(function () {
-            //     $.getDealsCountDown({
-            //       productId: $('.flash-deals-prodcts:first').data('products_id')
-            //       })
-            //       })
-            //   }
-            // channelHover(100)
-        },
-        data() {
-            return {
-//      categories: [
-//          {code:"Women", subCategories: [
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]}
-//          ]},
-//          {code:"Men", subCategories: [
-//   {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]}
-//          ]},
-//          {code:"Bags", subCategories: [
-//   {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]}
-//          ]},
-//          {code:"Shoes", subCategories: [
-//   {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]}
-//          ]},
-//          {code:"Beauty", subCategories: [
-//   {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]}
-//          ]},
-//          {code:"Jewelry & Watch", subCategories: [
-//   {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]}
-//          ]},
-//          {code:"Home & Garden", subCategories: [
-//   {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]}
-//          ]},
-//          {code:"Kids", subCategories: [
-//   {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]}
-//          ]},
-//          {code:"Accessories", subCategories: [
-//   {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]},
-//                {main: '', items: [
-//                    'test',
-//                    'test',
-//                    'test',
-//
-//                ]}
-//          ]}
-//
-//
-//      ]
-            }
-        },
-        beforeMount() {
-            // MoltinService.getHomepageProducts().then((response) => {
-            //   this.products = response
-            //   console.log(response)
-            // })
-            // channelHover(100)
+export default {
+  name: 'homeHeader',
 
-        },
-        methods: {}
+  created: function () {
+        var me = this 
+        Category.getSubCategory().then(function(response){
+           var allCat = response.data;
+           me.categories = [];
+           for(var i = 0 ; i < allCat.length ; i++){
+               if(allCat[i].parent ==0){
+                allCat[i].subCategories = [{main:'',items:[]}]
+                me.categories.push(allCat[i]);
+               }
+           }
+           for(var i = 0 ; i < allCat.length ; i++){
+               if(allCat[i].parent ==0){
+                   continue;
+               }
+               for(var j = 0 ; j<me.categories.length ; j++){
+                   if(allCat[i].parent == me.categories[j].id){
+                       me.categories[j].subCategories[0].items.push(allCat[i].name);
+                       break;
+                   }
+               }
+           }
+           setTimeout(function(){
+                
+                channelHover(100)
+            }, 100);
+        })
+      },
+  data () {
+    return {
+
+        categories:[]
+//       categories: [
+//           {code:"Women", subCategories: [
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]}
+//           ]},
+//           {code:"Men", subCategories: [
+//    {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]}
+//           ]},
+//           {code:"Bags", subCategories: [
+//    {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]}
+//           ]},
+//           {code:"Shoes", subCategories: [
+//    {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]}
+//           ]},
+//           {code:"Beauty", subCategories: [
+//    {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]}
+//           ]},
+//           {code:"Jewelry & Watch", subCategories: [
+//    {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]}
+//           ]},
+//           {code:"Home & Garden", subCategories: [
+//    {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]}
+//           ]},
+//           {code:"Kids", subCategories: [
+//    {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]}
+//           ]},
+//           {code:"Accessories", subCategories: [
+//    {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]},
+//                 {main: '', items: [
+//                     'test',
+//                     'test',
+//                     'test',
+
+//                 ]}
+//           ]}
+          
+
+//       ]
     }
+  },
+  beforeMount () {
+    // MoltinService.getHomepageProducts().then((response) => {
+    //   this.products = response
+    //   console.log(response)
+    // })
+    // channelHover(100)
+
+  },
+  methods: {
+  },
+  mounted(){
+
+  }
+}
 </script>
 <style>
 </style>

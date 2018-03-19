@@ -93,12 +93,97 @@ import testApi from '@/components/testApi'
 Vue.use(Router)
 
 export default new Router({
-    routes: [
-        /*{
-          path: '/',
-          name: 'Home',
-          component: Home
-        },*/
+  routes: [
+    /*{
+      path: '/',
+      name: 'Home',
+      component: Home
+    },*/
+    {
+      path: '/cart',
+      name: 'Cart',
+      component: Cart
+    },
+    {
+      path: '/survey',
+      name: 'Survey',
+      component: Survey
+    },
+    {
+      path: '/checkout',
+      name: 'Checkout',
+      component: Checkout
+    },
+    {
+      path: '/products/:slug',
+      name: 'Product',
+      component: Product
+    },
+    {
+      path: '/payments/:orderId',
+      name: 'Payment',
+      component: Payment
+    },
+    {
+      path: '/homeHeader',
+      name: 'header',
+      component: homeHeader
+    },
+    {
+      path: '/imagesliderHomePage',
+      name: 'imagesliderHomePage',
+      component: imagesliderHomePage
+    },
+    {
+      path: '/categoryHomePage',
+      name: 'categoryHomePage',
+      component: categoryHomePage
+    },
+    {
+      path: '/ShoppingPage',
+      name: 'ShoppingPage',
+      component: ShoppingPage
+    },
+    {
+      path: '/mainCategory/:id',
+      name: 'mainCategory',
+      component: mainCategory
+    },
+    {
+      path: '/',
+      name: 'homePage',
+      component: homePage
+    },
+    {
+      path: '/PlaceOrder',
+      name: 'PlaceOrder',
+      component: PlaceOrder
+    },
+    {
+      path: '/PaymentDetailsVisaMaster',
+      name: 'PaymentDetailsVisaMaster',
+      component: PaymentDetailsVisaMaster
+    },
+    {
+      path: '/LoginRegister',
+      name: 'LoginRegister',
+      component: LoginRegister
+    },
+    {
+      path: '/ProductPage/:productId',
+      name: 'ProductPage',
+      component: ProductPage
+    },
+    {
+      path: '/homefooter',
+      name: 'homefooter',
+      component: homefooter
+    },
+    {
+      path: '/helpCenter',
+      name: 'help_center',
+      component: HelpCenter,
+      children: [
         {
             path: '/cart',
             name: 'Cart',
