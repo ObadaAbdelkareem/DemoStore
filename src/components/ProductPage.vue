@@ -913,13 +913,11 @@
 <script>
 import homeHeader from '@/components/homeHeader.vue'
 import productApi from '@/api/ProductApi.js'
-import ProductZoomer from 'vue-product-zoomer'
 
 export default {
   name: 'ProductPage',
   components : {
-  homeHeader,
-  ProductZoomer
+  homeHeader
   },
   
 
