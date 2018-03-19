@@ -16,9 +16,9 @@
             </a>
           </div>
           <div class="column-2 clearfix" style="margin-top: 20px;">
-            <a href="" title="" onclick="" target="_blank" data-target="_self">
+            <router-link to="/Home/Banners/HomePageSmallBannerThree" >
             <img data-original="../../static/assets/images/322_1516617899_789.jpg" src="../../static/assets/images/322_1516617515_842.jpg" class="fall_lazy">
-            </a>
+            </router-link>
             <a href="" title="" onclick="" target="_blank" data-target="_self" class="last-child">
             <img data-original="../../static/assets/images/2017112203093242-0.jpg" src="../../static/assets/images/2017111321081534-0.jpg" class="fall_lazy">
             </a>
@@ -27,9 +27,9 @@
             <a href="" onclick="" target="_blank">
             <img data-original="../../static/assets/images/2017101603491281-0.jpg" src="../../static/assets/images/2017101603491281-0.jpg" class="fall_lazy reals" style="display: inline;">
             </a>
-            <a href="" onclick="" target="_blank">
+            <router-link to="/Home/Banners/HomePageSmallBannerFive">
             <img data-original="../../static/assets/images/2017121601065175-0.jpg" src="../../static/assets/images/2017121601065175-0.jpg" class="fall_lazy reals" style="display: inline;">
-            </a>
+            </router-link>
             <a href="" onclick="" target="_blank" class="last-child">
             <img data-original="../../static/assets/images/2017111003392669-0.jpg" src="../../static/assets/images/2017111003392669-0.jpg" class="fall_lazy reals" style="display: inline;">
             </a>

@@ -746,7 +746,7 @@
           <div class="ask-wrap clearfix">
             <div class="pull-left font-14">For any pre-sale questions, please contact our customer service and receive a response within 24 hours</div>
             <div class="pull-right">
-              <a href="" onclick="set_product_detail_ga('Ask a question')" class="btn btn-roseo" data-ga-tag="down_btn btn-roseo_button_180122" data-ga-ac="click">Ask a question</a>
+              <router-link to="/ProductAskQuestion"  class="btn btn-roseo" data-ga-tag="down_btn btn-roseo_button_180122">Ask a question</router-link>
             </div>
           </div>
           <div class="qa-list-wrap haven_data" style="position: relative;">
