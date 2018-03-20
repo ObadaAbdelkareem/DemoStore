@@ -419,8 +419,12 @@
                                     <div style="width: 1351px; left: -207.5px; display: none;">
                                         <div class="wrap clearfixes">
                                             <span class="menu" v-for="subcat of category.subCategories">
-                                                <a href="" class="title" onclick="set_navigation_ga('Women_1-1')" v>{{subcat.main}}</a>
-                                                <a href="" onclick="set_navigation_ga('Women_1-2')" v-for="item of subcat.items">{{item}}</a>
+                                              <!--  <a href="" class="title" onclick="set_navigation_ga('Women_1-1')" v>{{subcat.main}}</a>
+                                           <a href="" onclick="set_navigation_ga('Women_1-2')" v-for="item of subcat.items">{{item}}</a>-->
+                                                <span v-for="item of subcat.items"> 
+                                                 <router-link :to="{ path: '/mainCategory/'+item.id}" onclick="set_home_ga('Home - Women');set_navigation_ga('Women');"
+                                            target="_self">{{item.name}}</router-link>
+                                                </span>
                                             </span>
                                             <span class="banner_menu">
                                                 <a href="" class="bold" onclick="set_navigation_ga('Women_banner')">
@@ -466,7 +470,7 @@ export default {
                }
                for(var j = 0 ; j<me.categories.length ; j++){
                    if(allCat[i].parent == me.categories[j].id){
-                       me.categories[j].subCategories[0].items.push(allCat[i].name);
+                       me.categories[j].subCategories[0].items.push(allCat[i]);
                        break;
                    }
                }
