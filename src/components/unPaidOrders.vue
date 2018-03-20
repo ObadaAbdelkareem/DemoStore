@@ -82,8 +82,21 @@
 </template>
 
 <script>
+import myAccountApi from '@/api/myAccountApi.js'
+
 export default {
   name: 'unPaidOrders',
+  data()
+  {
+	  return {
+		  unPaidOrders:[]}
+  },
+  created(){
+	  var me = this
+	  myAccountApi.getUnPaidOrder().then(function(response){
+		  me.unPaidOrders = response.data;
+	  })
+  },
   mounted(){
        if(getQueryString('orderlist_link_171216')){
         ga('send', 'event', '', 'checkOutSuccess', 'orderlist_link_171216');
