@@ -180,7 +180,7 @@
                             </ul>
                           </div>
                         </div> -->
-                        <div class="goods_main_list" v-for="att in productData.attributes">
+                        <div class="goods_main_list" v-for="(att, attIndex) in productData.attributes" v-if="showAttributes">
                           <span class="title size_list_box"><!-- todo(neirat): what about points -->
                             <ul class="cy_list" data-ga-tag="top_cy_title-active_datalist_180122" data-ga-ac="mouseenter">
                               <li class="cy_title active"><a href="javascript:void(0);" size="US" id="sizeText">{{att.name}}</a>  </li><!--<i class="nc-icon nc-icon-down"></i>-->
@@ -202,7 +202,8 @@
                           </span>
                           <div class="goods_main_attr clearfix" option_id="380" attr_data="0">
                             <ul class="size clearfix">
-                              <li v-for="option in att.options" :value_id="option" :value_name="option" class="bag " data-ga-tag="top_size-clearfix1_button_180122" data-ga-ac="click">{{option}}</li>
+                              <li v-for="option in att.options" v-if="showOption(option, attIndex)" :value_id="option" :value_name="option"  v-on:click="selectAttrOption(att.name, option)" v-bind:class="{ active: (selectedAttrs[att.name] == option) }">
+                                {{option}}</li>
                             </ul>
                           </div>
                         </div>
@@ -925,7 +926,13 @@ export default {
     return {
       qty: 1,
       productId: 0,
-      productData: {},     
+      productData: {},
+      selectedAttrs: {},
+      parsedVariations: {},
+      allVariations: [],
+      isOptionShown:{},
+      showAttributes: false,
+      selectedVariation: null
     }
   },
   beforeMount () {
@@ -936,7 +943,6 @@ export default {
     var me = this;
     this.productId = this.$route.params.productId
     productApi.getProductById(this.$route.params.productId).then(function(response){
-      console.log(response.data);
       me.productData = response.data
       $('#defaultPicZoom').attr('src',me.productData.images[0].src);
       $('#defaultPicZoom').attr('data-original',me.productData.images[0].src);
@@ -947,6 +953,24 @@ export default {
       }, 100);
     }, function(err){
       console.log(err);
+    })
+
+    productApi.getProductVariationsById(this.$route.params.productId).then(function(response){
+      for(var i = 0 ; i < response.data.length ; i++){
+        var varName = "";
+        for(var j = 0 ; j < response.data[i].attributes.length ; j++){
+          varName += response.data[i].attributes[j].option;
+          
+        }
+        me.parsedVariations[varName] = {
+          id: response.data[i].id,
+          image: response.data[i].image,
+          attributes: response.data[i].attributes
+        }
+      }
+      me.allVariations = response.data;
+      me.showAttributes = true;
+
     })
     //debugger;
     //  const header = {
@@ -987,6 +1011,57 @@ export default {
     ZSquantityNext()
     {
       this.qty++;
+    },
+    selectAttrOption(att, op){
+      this.selectedAttrs[att] = op
+      this.selectedAttrs = JSON.parse(JSON.stringify(this.selectedAttrs))
+
+      if(Object.keys(this.selectedAttrs).length == this.productData.attributes.length){
+        console.log("all selected")
+        for (var vrt in this.parsedVariations) {
+          if (this.parsedVariations.hasOwnProperty(vrt)) {
+              var isShow = true;
+              for(var selectedAtt in this.selectedAttrs){
+                if (this.selectedAttrs.hasOwnProperty(selectedAtt)){
+                  if(!(vrt.indexOf(this.selectedAttrs[selectedAtt])>=0)){
+                    isShow = false;
+                    break;
+                  }
+                }
+              }
+              if(isShow){
+                this.selectedVariation = this.parsedVariations[vrt]
+                console.log(this.selectedVariation.id)
+                break;
+              }
+          }
+        }
+      }
+
+    },
+    showOption(optValue, indx){
+      if(indx ==0){
+        return true;
+      }
+      for (var vrt in this.parsedVariations) {
+        if (this.parsedVariations.hasOwnProperty(vrt)) {
+          if(vrt.indexOf(optValue)>=0){
+            var isShow = true;
+            for(var selectedAtt in this.selectedAttrs){
+              if (this.selectedAttrs.hasOwnProperty(selectedAtt)){
+                if(!(vrt.indexOf(this.selectedAttrs[selectedAtt])>=0)){
+                  isShow = false;
+                  break;
+                }
+              }
+            }
+            if(isShow){
+              return true
+            }
+          }
+        }
+      }
+      return false;
     }
   },
   

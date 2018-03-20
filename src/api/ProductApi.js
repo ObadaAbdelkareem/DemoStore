@@ -20,5 +20,9 @@ export default {
 
     getProductById (id) {
         return axios.get(appConfig.apiUrl + '/products/'+id)
+    },
+
+    getProductVariationsById (id) {
+        return axios.get(appConfig.apiUrl + '/products/'+ id + '/variations')
     }
 }   
