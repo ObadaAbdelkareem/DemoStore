@@ -79,8 +79,20 @@
 </template>
 
 <script>
+import myAccountApi from '@/api/CustomerApi.js'
 export default {
-   name: 'myAccountPoints'
+   name: 'myAccountPoints',
+   data(){
+	   return {
+		   myAccountPoints:[]
+		   }
+   },
+   created(){
+	   var me=this
+	   myAccountApi.getMyPoint().then(function(response){
+		     me.myAccountPoints = response.data;
+	   })
+   }
 }
 </script>
 

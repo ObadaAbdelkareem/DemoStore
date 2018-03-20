@@ -493,108 +493,22 @@
             <span class="btn-slide next" data-ga-tag="middle_btn-slide next_button_180122" data-ga-ac="click"><i class="nc-icon nc-icon-right"></i></span>
             <div class="list-box">
               <div class="tempWrap" style="overflow:hidden; position:relative; width:1220px">
+                
                 <ul class="list clearfix" style="width: 2440px; left: 0px; position: relative; overflow: hidden; padding: 0px; margin: 0px;">
-                  <li class="item" style="float: left; width: 224px;">
+                  <li class="item" style="float: left; width: 224px;" v-for="product in productCrossedSell">
                     <div class="img">
-                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click">
-                      <img src="https://img.banggood.com/images/oaupload/newchic/images/B0/C0/fb7c35f2-6076-48da-9e81-3fa618ff8358.jpg" alt="">
+                      <a href="" :data-ga-tag="product.name" data-ga-ac="click">
+                      
+                      <img :src="product.images[0].src" alt="">
                       </a>
                     </div>
                     <p class="text-center">
-                      <span class="price" oriprice="24.71"> US$24.71</span>
+                      <span class="price" :oriprice="product.price"> {{product.price}}</span>
                     </p>
-                  </li>
-                  <li class="item" style="float: left; width: 224px;">
-                    <div class="img">
-                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
-                      <img src="https://img.banggood.com/images/oaupload/newchic/images/0D/B9/0e0e0d09-0ba1-49cc-a114-4025322ac239.jpg" alt="">
-                      </a>
-                    </div>
-                    <p class="text-center">
-                      <span class="price" oriprice="22.73"> US$22.73</span>
-                    </p>
-                  </li>
-                  <li class="item" style="float: left; width: 224px;">
-                    <div class="img">
-                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
-                      <img src="https://img.banggood.com/images/oaupload/newchic/images/63/2E/a738c397-4834-4c1a-9b93-618c300f6c0a.jpg" alt="">
-                      </a>
-                    </div>
-                    <p class="text-center">
-                      <span class="price" oriprice="29.48"> US$29.48</span>
-                    </p>
-                  </li>
-                  <li class="item" style="float: left; width: 224px;">
-                    <div class="img">
-                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
-                      <img src="https://img.banggood.com/images/oaupload/newchic/images/AB/2F/96fd20a8-b32d-4757-9af3-420c69162eea.jpg" alt="">
-                      </a>
-                    </div>
-                    <p class="text-center">
-                      <span class="price" oriprice="30.07"> US$30.07</span>
-                    </p>
-                  </li>
-                  <li class="item" style="float: left; width: 224px;">
-                    <div class="img">
-                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
-                      <img src="https://img.banggood.com/images/oaupload/newchic/images/5E/54/733ee3ca-97ad-be48-4607-a1f3066c06e1.jpg" alt="">
-                      </a>
-                    </div>
-                    <p class="text-center">
-                      <span class="price" oriprice="20.45"> US$20.45</span>
-                    </p>
-                  </li>
-                  <li class="item" style="float: left; width: 224px;">
-                    <div class="img">
-                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
-                      <img src="https://img.banggood.com/images/oaupload/newchic/images/D5/CF/4d1f8018-6f52-42c9-bd0c-f67a91c60a24.jpg" alt="">
-                      </a>
-                    </div>
-                    <p class="text-center">
-                      <span class="price" oriprice="23.36"> US$23.36</span>
-                    </p>
-                  </li>
-                  <li class="item" style="float: left; width: 224px;">
-                    <div class="img">
-                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
-                      <img src="https://img.banggood.com/images/oaupload/newchic/images/C5/08/56efd479-0715-4823-9deb-79ce8be05f0a.jpeg" alt="">
-                      </a>
-                    </div>
-                    <p class="text-center">
-                      <span class="price" oriprice="40.58"> US$40.58</span>
-                    </p>
-                  </li>
-                  <li class="item" style="float: left; width: 224px;">
-                    <div class="img">
-                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click">
-                      <img src="https://img.banggood.com/images/oaupload/newchic/images/19/1F/eb28b822-0a15-4252-80af-ea66a53bb573.jpg" alt="">
-                      </a>
-                    </div>
-                    <p class="text-center">
-                      <span class="price" oriprice="27.14"> US$27.14</span>
-                    </p>
-                  </li>
-                  <li class="item" style="float: left; width: 224px;">
-                    <div class="img">
-                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
-                      <img src="https://img.banggood.com/images/oaupload/newchic/images/20/96/86938c09-e5ab-4775-944e-63d620c46a9b.jpg" alt="">
-                      </a>
-                    </div>
-                    <p class="text-center">
-                      <span class="price" oriprice="31.43"> US$31.43</span>
-                    </p>
-                  </li>
-                  <li class="item" style="float: left; width: 224px;">
-                    <div class="img">
-                      <a href="" data-ga-tag="middle_item_image_180122" data-ga-ac="click" target="_self">
-                      <img src="https://img.banggood.com/images/oaupload/newchic/images/B7/7D/d1e84fea-0251-4fa8-abb7-24315d28f728.jpg" alt="">
-                      </a>
-                    </div>
-                    <p class="text-center">
-                      <span class="price" oriprice="29.86"> US$29.86</span>
-                    </p>
-                  </li>
+                  </li> <!--  todo ali  --> 
+                
                 </ul>
+                
               </div>
             </div>
           </div>
@@ -925,7 +839,8 @@ export default {
     return {
       qty: 1,
       productId: 0,
-      productData: {},     
+      productData: {},
+      productCrossedSell:[],   
     }
   },
   beforeMount () {
@@ -945,6 +860,16 @@ export default {
          //Slide.prototype.init();
          init_zoom_img();
       }, 100);
+
+      //**get scross sell me.productData.cross_sell_ids	*/
+      //* todo ali*/
+      for(var i = 0 ; i < me.productData.cross_sell_ids.length ; i++){
+        productApi.getProductById(me.productData.cross_sell_ids[i]).then(function(prodRes){
+          me.productCrossedSell.push(prodRes.data);
+          console.log(me.productCrossedSell);
+
+        })
+      }
     }, function(err){
       console.log(err);
     })
