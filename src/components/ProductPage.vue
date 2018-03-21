@@ -277,7 +277,7 @@
                       </div>
                       <div class="goods_main_buy normall_buy">
                         <div class="buy_btn clearfixes" style="height:auto">
-                          <span class="addcart  " v-on:click="addToCart" msg="%d item(s) added to bag" mtitle="Add to bag" mbtn="View bag" mbtn1="Close" product_sku="SKU715138" stitle="Sold out" data-ga-tag="top_addcart_button_180122" data-ga-ac="click"><b><i></i>Add to bag</b></span>
+                          <span class="addcart  " v-on:click="addCart()" msg="%d item(s) added to bag" mtitle="Add to bag" mbtn="View bag" mbtn1="Close" product_sku="SKU715138" stitle="Sold out" data-ga-tag="top_addcart_button_180122" data-ga-ac="click"><b><i></i>Add to bag</b></span>
                           <span class="addwish " onclick="$.addToWish();" data-ga-tag="top_addwish_button_180122" data-ga-ac="click"><b id="uy"><i id="gh" data="Adds" data-num="220" class="nc-icon nc-icon-heart-linear"></i> (<b class="count">220</b>)</b></span><span id="xiangou_tip" style="display:none;">You have already bought this product. </span>
                         </div>
                       </div>
@@ -828,6 +828,7 @@
 <script>
 import homeHeader from '@/components/homeHeader.vue'
 import productApi from '@/api/ProductApi.js'
+import Cart from '@/api/CartApi.js'
 
 export default {
   name: 'ProductPage',
@@ -897,6 +898,19 @@ export default {
       me.showAttributes = true;
 
     })
+
+    // Carts api 
+    Cart.addItemsToCart (28, 0, ).then(function(response){
+        //  me.TestArray=response.data
+          console.log(response.data)
+        })
+
+        //  Cart.getAll ( ).then(function(response){
+        //  me.TestArray=response.data
+        //   console.log(response.data)
+        // })
+
+
     //debugger;
     //  const header = {
     //     //'Accept': 'application/json',
@@ -910,24 +924,31 @@ export default {
     //  });
   },
   methods: {
-    addToCart()
-    {
-      console.log("adding to cart");
-      const header = {
-        //'Accept': 'application/json',
-        'Authorization': 'Bearer MDUwMWQ1NTI4N2U4NzgxYWJlZDg2N2Y2ODNhZWU1MDQwOGVjZDE5MTY1YTRkZjhkZjFlNmE4ODgwYWJjMDVmZg',
-        //'referer': 'fnd.alarabexpress.com'
-        'Content-Type': 'application/json'
-      }
-         const item =  {
-             variant: this.$route.query.product,
-             quantity: this.qty
-          }
-          console.log("item", item);
-          this.$http.post('http://bknd.alarabexpress.com/api/v1/carts/122/items/',item,{headers: header}).then(response => {
+    // addToCart()
+    // {
+    //   console.log("adding to cart");
+    //   const header = {
+    //     //'Accept': 'application/json',
+    //     'Authorization': 'Bearer MDUwMWQ1NTI4N2U4NzgxYWJlZDg2N2Y2ODNhZWU1MDQwOGVjZDE5MTY1YTRkZjhkZjFlNmE4ODgwYWJjMDVmZg',
+    //     //'referer': 'fnd.alarabexpress.com'
+    //     'Content-Type': 'application/json'
+    //   }
+    //      const item =  {
+    //          variant: this.$route.query.product,
+    //          quantity: this.qty
+    //       }
+    //       console.log("item", item);
+    //       this.$http.post('http://bknd.alarabexpress.com/api/v1/carts/122/items/',item,{headers: header}).then(response => {
        
-            console.log("post response",response);
-     });
+    //         console.log("post response",response);
+    //  });
+    // },
+    addCart() {
+
+     Cart.addItemsToCart (this.productId, this.selectedVariation.id,).then(function(response){
+        //  me.TestArray=response.data
+          console.log(response.data)
+        })
     },
     ZSquantityPrev()
     {
