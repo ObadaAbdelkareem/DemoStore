@@ -900,11 +900,11 @@ export default {
 
     })
 
-    // Carts api 
-    Cart.addItemsToCart (28, 0, ).then(function(response){
-        //  me.TestArray=response.data
-          console.log(response.data)
-        })
+    // // Carts api 
+    // Cart.addItemsToCart (28, 0, ).then(function(response){
+    //     //  me.TestArray=response.data
+    //       console.log(response.data)
+    //     })
 
         //  Cart.getAll ( ).then(function(response){
         //  me.TestArray=response.data
