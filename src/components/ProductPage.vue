@@ -891,7 +891,8 @@ export default {
         me.parsedVariations[varName] = {
           id: response.data[i].id,
           image: response.data[i].image,
-          attributes: response.data[i].attributes
+          attributes: response.data[i].attributes,
+          stock_quantity: response.data[i].stock_quantity
         }
       }
       me.allVariations = response.data;
@@ -991,6 +992,9 @@ export default {
       }
       for (var vrt in this.parsedVariations) {
         if (this.parsedVariations.hasOwnProperty(vrt)) {
+          if(this.parsedVariations[vrt].stock_quantity<1){
+            continue;
+          }
           if(vrt.indexOf(optValue)>=0){
             var isShow = true;
             for(var selectedAtt in this.selectedAttrs){
