@@ -889,7 +889,7 @@ export default {
 //       },
 //     },
     route: {
-    	canReuse: true,
+        canReuse: true,
     }
 }
 </script>

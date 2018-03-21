@@ -328,7 +328,8 @@
                                     </div>
                                     <div class="nav_login" style="float:right;">
                                         <div class="login">
-                                            <router-link to="/LoginRegister">Sign in</router-link>
+                                            <router-link v-if="!isUserLoggedIn" to="/LoginRegister">Sign in</router-link>
+                                            <router-link v-if="isUserLoggedIn" to="/myAccount">My account</router-link>
                                             <!--<span>or</span><a href="/new/login.html">Register</a>-->
                                             <input type="hidden" value="" id="head_ds_flg">
                                             <input type="hidden" value="" id="customers_name">
@@ -449,12 +450,16 @@
 </template>
 <script>
 import Category from '@/api/CategoryApi.js'
+import EventBus from '@/services/eventBus.js'
 
 export default {
   name: 'homeHeader',
 
   created: function () {
         var me = this 
+        EventBus.eventBus.$on('isUserLoggedIn', value => {
+            me.isUserLoggedIn = true;
+        });
         Category.getSubCategory().then(function(response){
            var allCat = response.data;
            me.categories = [];
@@ -484,7 +489,8 @@ export default {
   data () {
     return {
 
-        categories:[]
+        categories:[],
+        isUserLoggedIn: localStorage.userId>0
 //       categories: [
 //           {code:"Women", subCategories: [
 //                 {main: '', items: [

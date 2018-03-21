@@ -16,7 +16,7 @@
                 <div class="inputtext_box add_my_emailbox"> <i></i>
                      <div class="l_input_title"> <strong>*</strong>E-mail address</div>
                      <i></i>
-                    <input class="inputtext" name="email" id="log_email" type="text" onblur="checkEmail($(this));showerr();" autocomplete="off">
+                    <input class="inputtext" name="email" id="log_email" type="text" onblur="checkEmail($(this));showerr();" autocomplete="off" v-model="userData.username">
 
                     <br>
                    
@@ -27,7 +27,7 @@
                 <div class="inputtext_box"> 
                   <div class="l_input_title"> <strong>*</strong>Password</div>
 					<em></em>
-                	<input class="inputtext" name="pwd" type="password" onkeydown="globelQuery(event);">
+                	<input class="inputtext" name="pwd" type="password"  v-model="userData.password">
 					<br>
                     <span class="error" id="pwderr" msg1="Password field can not be empty" msg2="Password must be longer than 6 characters">
                     </span>
@@ -41,8 +41,9 @@
 				</div> 
             
             </div>
+            <div>{{errorMsg}}</div>
             <div class="ipt_b">
-            	<span class="form_submit"><input id="signbtn" type="button" onclick="return chkLogin(toLogin,'all')">Log in</span>
+            	<span class="form_submit"><input id="signbtn" type="button" v-on:click="chkLogin()">Log in</span>
             </div>
             <input type="hidden" id="isback" value="0">
             <input type="hidden" id="orders_by_orders" name="orders_by_orders" value="">
@@ -98,13 +99,40 @@
 </template>
 
 <script>
+import userAuthApi from '@/api/userAuthApi.js'
+import EventBus from '@/services/eventBus.js'
 
 export default {
   name: 'LoginRegister',
   data () {
     return {
-      
+        userData:{
+            username: "",
+            password: ""
+        },
+        errorMsg: ""
     }
+  },
+  methods:{
+      chkLogin(){
+          var me = this
+          this.errorMsg = "";
+          userAuthApi.login(this.userData).then(function(response){
+
+                var decodedToken = me.parseJwt(response.data.token)
+                localStorage.token = response.data.token;
+                localStorage.userId = decodedToken.data.user.id;
+                EventBus.eventBus.$emit('isUserLoggedIn', true);
+                me.$router.push('/');
+          }, function(err){
+              me.errorMsg = "please validate username and password"
+          })
+      },
+      parseJwt (token) {
+            var base64Url = token.split('.')[1];
+            var base64 = base64Url.replace('-', '+').replace('_', '/');
+            return JSON.parse(window.atob(base64));
+        }
   }
 }
 
