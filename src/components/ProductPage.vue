@@ -948,6 +948,7 @@ export default {
 
      Cart.addItemsToCart (this.productId, this.selectedVariation.id,).then(function(response){
         //  me.TestArray=response.data
+          console.log(response)
           console.log(response.data)
         })
     },
