@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbe7173-ade6-4b3e-9bd9-bfc4b1ce0e13" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/npm-debug.log.2275172340" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/npm-debug.log.3650725346" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/CategoryApi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/ProductApi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/headerInterceptor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProductPage.vue" afterPath="$PROJECT_DIR$/src/components/ProductPage.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/homeHeader.vue" afterPath="$PROJECT_DIR$/src/components/homeHeader.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/homePage.vue" afterPath="$PROJECT_DIR$/src/components/homePage.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/mainCategory.vue" afterPath="$PROJECT_DIR$/src/components/mainCategory.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/testApi.vue" afterPath="$PROJECT_DIR$/src/components/testApi.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/index.js" afterPath="$PROJECT_DIR$/src/router/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/assets/js/ZScommon.js" afterPath="$PROJECT_DIR$/static/assets/js/ZScommon.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,86 +20,47 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6681">
-              <caret line="707" column="38" lean-forward="false" selection-start-line="707" selection-start-column="19" selection-end-line="707" selection-end-column="38" />
+            <state relative-caret-position="245">
+              <caret line="645" column="0" lean-forward="true" selection-start-line="645" selection-start-column="0" selection-end-line="645" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeHeader.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/homeHeader.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2742">
+              <caret line="476" column="41" lean-forward="true" selection-start-line="476" selection-start-column="41" selection-end-line="476" selection-end-column="41" />
               <folding>
-                <element signature="e#15031#15204#0" expanded="false" />
-                <element signature="e#15230#15409#0" expanded="false" />
-                <element signature="e#15435#15629#0" expanded="false" />
-                <element signature="e#15655#15837#0" expanded="false" />
-                <marker date="1521482063438" expanded="true" signature="12537:12547" ph="{&quot;name&quot;: 'bloggerProgram'...}" />
-                <marker date="1521482063438" expanded="true" signature="12557:12686" ph="{&quot;name&quot;: 'affiliateProgram'...}" />
-                <marker date="1521482063438" expanded="true" signature="12696:12828" ph="{&quot;name&quot;: 'showVipIllustrate'...}" />
-                <marker date="1521482063438" expanded="true" signature="12838:12961" ph="{&quot;name&quot;: 'dropshiProgram'...}" />
-                <marker date="1521482063438" expanded="true" signature="12971:16594" ph="{&quot;name&quot;: 'myAccount'...}" />
-                <marker date="1521482063438" expanded="true" signature="13092:16584" ph="[...]" />
-                <marker date="1521482063438" expanded="true" signature="13110:13250" ph="{&quot;name&quot;: 'myAccountIndex'...}" />
-                <marker date="1521482063438" expanded="true" signature="13268:13425" ph="{&quot;name&quot;: 'myAccountPoints'...}" />
-                <marker date="1521482063438" expanded="true" signature="13443:13584" ph="{&quot;name&quot;: 'myCoupons'...}" />
-                <marker date="1521482063438" expanded="true" signature="13602:13758" ph="{&quot;name&quot;: 'myAccountWishList'...}" />
-                <marker date="1521482063438" expanded="true" signature="13776:13929" ph="{&quot;name&quot;: 'myAccountOutFits'...}" />
-                <marker date="1521482063438" expanded="true" signature="13947:14100" ph="{&quot;name&quot;: 'myAccountReviews'...}" />
-                <marker date="1521482063438" expanded="true" signature="14118:14286" ph="{&quot;name&quot;: 'myAccountPersonalInfo'...}" />
-                <marker date="1521482063438" expanded="true" signature="14304:14478" ph="{&quot;name&quot;: 'myAccountChangePassword'...}" />
-                <marker date="1521482063438" expanded="true" signature="14496:14655" ph="{&quot;name&quot;: 'myAccountQuestions'...}" />
-                <marker date="1521482063438" expanded="true" signature="14673:14838" ph="{&quot;name&quot;: 'myAccountAddressBook'...}" />
-                <marker date="1521482063438" expanded="true" signature="14856:15878" ph="{&quot;name&quot;: 'myOrders'...}" />
-                <marker date="1521482063438" expanded="true" signature="15005:15859" ph="[...]" />
-                <marker date="1521482063438" expanded="true" signature="15031:15204" ph="{&quot;name&quot;: 'ordersList'...}" />
-                <marker date="1521482063438" expanded="true" signature="15230:15409" ph="{&quot;name&quot;: 'unPaidOrders'...}" />
-                <marker date="1521482063438" expanded="true" signature="15435:15629" ph="{&quot;name&quot;: 'proccessingOrders'...}" />
-                <marker date="1521482063438" expanded="true" signature="15655:15837" ph="{&quot;name&quot;: 'shippedOrders'...}" />
-                <marker date="1521482063438" expanded="true" signature="15896:16570" ph="{&quot;name&quot;: 'myAccountPrograms'...}" />
-                <marker date="1521482063438" expanded="true" signature="16063:16552" ph="[...]" />
-                <marker date="1521482063438" expanded="true" signature="16090:16299" ph="{&quot;name&quot;: 'myAccountWholeSaleProgram'...}" />
-                <marker date="1521482063438" expanded="true" signature="16325:16529" ph="{&quot;name&quot;: 'myAccountDopShipProgram'...}" />
-                <marker date="1521482063438" expanded="true" signature="16604:16740" ph="{&quot;name&quot;: 'myAccountAffProgram'...}" />
-                <marker date="1521482063438" expanded="true" signature="16750:16889" ph="{&quot;name&quot;: 'myAccountReffProgram'...}" />
-                <marker date="1521482063438" expanded="true" signature="16899:17042" ph="{&quot;name&quot;: 'LingerieNewArrival'...}" />
-                <marker date="1521482063438" expanded="true" signature="17052:17204" ph="{&quot;name&quot;: 'VintagePrintedDresses'...}" />
-                <marker date="1521482063438" expanded="true" signature="17214:17360" ph="{&quot;name&quot;: 'DailyFashionApparel'...}" />
-                <marker date="1521482063438" expanded="true" signature="17370:17510" ph="{&quot;name&quot;: 'FashionSportShoes'...}" />
-                <marker date="1521482063438" expanded="true" signature="17520:17651" ph="{&quot;name&quot;: 'MensNewArrival'...}" />
-                <marker date="1521482063438" expanded="false" signature="17661:17804" ph="{&quot;name&quot;: 'WomenMainBannerLink'...}" />
-                <marker date="1521482063438" expanded="false" signature="17814:17967" ph="{&quot;name&quot;: 'MenArrowPantesBoxers'...}" />
-                <marker date="1521482063438" expanded="false" signature="17977:18109" ph="{&quot;name&quot;: 'MenSummerLook'...}" />
-                <marker date="1521482063438" expanded="false" signature="18119:18260" ph="{&quot;name&quot;: 'MenSportClothing'...}" />
-                <marker date="1521482063438" expanded="false" signature="18270:18420" ph="{&quot;name&quot;: 'MenSpringNewArrival'...}" />
-                <marker date="1521482063438" expanded="false" signature="18430:18556" ph="{&quot;name&quot;: 'MenTopSales'...}" />
-                <marker date="1521482063438" expanded="false" signature="18566:18709" ph="{&quot;name&quot;: 'ShoesSocofyShoes'...}" />
-                <marker date="1521482063438" expanded="false" signature="18719:18892" ph="{&quot;name&quot;: 'ShoesMenCasualLeatherShoes'...}" />
-                <marker date="1521482063438" expanded="false" signature="18902:19083" ph="{&quot;name&quot;: 'HomeGardenPersonalizedGifts'...}" />
-                <marker date="1521482063438" expanded="false" signature="19093:19244" ph="{&quot;name&quot;: 'KidsGirlsPartyDress'...}" />
-                <marker date="1521482063438" expanded="false" signature="19254:19408" ph="{&quot;name&quot;: 'KidsGirlsCasualDress'...}" />
-                <marker date="1521482063438" expanded="false" signature="19418:19600" ph="{&quot;name&quot;: 'AccessoriesWomenAccessories'...}" />
-                <marker date="1521482063438" expanded="false" signature="19610:19774" ph="{&quot;name&quot;: 'SalesVintageSocofyShoes'...}" />
-                <marker date="1521482063438" expanded="true" signature="20615:20755" ph="{&quot;name&quot;: 'HomePageSlideTwo'...}" />
-                <marker date="1521482063438" expanded="true" signature="20765:20911" ph="{&quot;name&quot;: 'HomePageSlideThree'...}" />
-                <marker date="1521482063438" expanded="true" signature="20921:21064" ph="{&quot;name&quot;: 'HomePageSlideFour'...}" />
-                <marker date="1521482063438" expanded="true" signature="21074:21239" ph="{&quot;name&quot;: 'HomePageSmallBannerThree'...}" />
-                <marker date="1521482063438" expanded="true" signature="21249:21411" ph="{&quot;name&quot;: 'HomePageSmallBannerFive'...}" />
-                <marker date="1521482063438" expanded="false" signature="21421:21588" ph="{&quot;name&quot;: 'ProductHasBeenBoughtErrorPage'...}" />
-                <marker date="1521482063438" expanded="false" signature="21598:21771" ph="{&quot;name&quot;: 'ProductDidnotBoughtYetErrorPage'...}" />
-                <marker date="1521482063438" expanded="true" signature="21781:21915" ph="{&quot;name&quot;: 'ProductAskQuestion'...}" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#0;n#p#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#3;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#li#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homeHeader.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/homeHeader.vue">
+      <file leaf-file-name="CategoryApi.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/api/CategoryApi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4768">
-              <caret line="512" column="37" lean-forward="false" selection-start-line="512" selection-start-column="37" selection-end-line="512" selection-end-column="37" />
+            <state relative-caret-position="119">
+              <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#p#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/config/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -212,11 +160,11 @@
         <option value="$PROJECT_DIR$/src/components/HomePageSmallBannerFive.vue" />
         <option value="$PROJECT_DIR$/src/components/ProductHasBeenBoughtErrorPage.vue" />
         <option value="$PROJECT_DIR$/src/components/ProductDidnotBoughtYetErrorPage.vue" />
-        <option value="$PROJECT_DIR$/src/router/index.js" />
         <option value="$PROJECT_DIR$/src/components/ProductAskQuestion.vue" />
         <option value="$PROJECT_DIR$/src/components/imagesliderHomePage.vue" />
         <option value="$PROJECT_DIR$/src/components/categoryHomePage.vue" />
         <option value="$PROJECT_DIR$/src/components/ProductPage.vue" />
+        <option value="$PROJECT_DIR$/src/router/index.js" />
         <option value="$PROJECT_DIR$/src/components/homeHeader.vue" />
       </list>
     </option>
@@ -239,7 +187,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -279,13 +227,13 @@
               <item name="DemoStore" type="b2602c69:ProjectViewProjectNode" />
               <item name="DemoStore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DemoStore" type="b2602c69:ProjectViewProjectNode" />
               <item name="DemoStore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,7 +246,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Maslamani/client" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -332,16 +280,15 @@
       <workItem from="1521308049147" duration="3002000" />
       <workItem from="1521388335319" duration="106000" />
       <workItem from="1521472928871" duration="479000" />
-      <workItem from="1521481957465" duration="618000" />
+      <workItem from="1521481957465" duration="1796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17511000" />
+    <option name="totallyTimeSpent" value="18689000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -350,7 +297,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -378,120 +325,13 @@
     <entry file="file://$PROJECT_DIR$/src/components/homeHeader.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8075">
-          <caret line="475" column="52" lean-forward="false" selection-start-line="475" selection-start-column="52" selection-end-line="475" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#p#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9435">
-          <caret line="555" column="38" lean-forward="false" selection-start-line="555" selection-start-column="19" selection-end-line="555" selection-end-column="38" />
-          <folding>
-            <element signature="e#15031#15204#0" expanded="false" />
-            <element signature="e#15230#15409#0" expanded="false" />
-            <element signature="e#15435#15629#0" expanded="false" />
-            <element signature="e#15655#15837#0" expanded="false" />
-            <marker date="1521482063438" expanded="true" signature="12537:12547" ph="{&quot;name&quot;: 'bloggerProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="12557:12686" ph="{&quot;name&quot;: 'affiliateProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="12696:12828" ph="{&quot;name&quot;: 'showVipIllustrate'...}" />
-            <marker date="1521482063438" expanded="true" signature="12838:12961" ph="{&quot;name&quot;: 'dropshiProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="12971:16594" ph="{&quot;name&quot;: 'myAccount'...}" />
-            <marker date="1521482063438" expanded="true" signature="13092:16584" ph="[...]" />
-            <marker date="1521482063438" expanded="true" signature="13110:13250" ph="{&quot;name&quot;: 'myAccountIndex'...}" />
-            <marker date="1521482063438" expanded="true" signature="13268:13425" ph="{&quot;name&quot;: 'myAccountPoints'...}" />
-            <marker date="1521482063438" expanded="true" signature="13443:13584" ph="{&quot;name&quot;: 'myCoupons'...}" />
-            <marker date="1521482063438" expanded="true" signature="13602:13758" ph="{&quot;name&quot;: 'myAccountWishList'...}" />
-            <marker date="1521482063438" expanded="true" signature="13776:13929" ph="{&quot;name&quot;: 'myAccountOutFits'...}" />
-            <marker date="1521482063438" expanded="true" signature="13947:14100" ph="{&quot;name&quot;: 'myAccountReviews'...}" />
-            <marker date="1521482063438" expanded="true" signature="14118:14286" ph="{&quot;name&quot;: 'myAccountPersonalInfo'...}" />
-            <marker date="1521482063438" expanded="true" signature="14304:14478" ph="{&quot;name&quot;: 'myAccountChangePassword'...}" />
-            <marker date="1521482063438" expanded="true" signature="14496:14655" ph="{&quot;name&quot;: 'myAccountQuestions'...}" />
-            <marker date="1521482063438" expanded="true" signature="14673:14838" ph="{&quot;name&quot;: 'myAccountAddressBook'...}" />
-            <marker date="1521482063438" expanded="true" signature="14856:15878" ph="{&quot;name&quot;: 'myOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15005:15859" ph="[...]" />
-            <marker date="1521482063438" expanded="true" signature="15031:15204" ph="{&quot;name&quot;: 'ordersList'...}" />
-            <marker date="1521482063438" expanded="true" signature="15230:15409" ph="{&quot;name&quot;: 'unPaidOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15435:15629" ph="{&quot;name&quot;: 'proccessingOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15655:15837" ph="{&quot;name&quot;: 'shippedOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15896:16570" ph="{&quot;name&quot;: 'myAccountPrograms'...}" />
-            <marker date="1521482063438" expanded="true" signature="16063:16552" ph="[...]" />
-            <marker date="1521482063438" expanded="true" signature="16090:16299" ph="{&quot;name&quot;: 'myAccountWholeSaleProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16325:16529" ph="{&quot;name&quot;: 'myAccountDopShipProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16604:16740" ph="{&quot;name&quot;: 'myAccountAffProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16750:16889" ph="{&quot;name&quot;: 'myAccountReffProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16899:17042" ph="{&quot;name&quot;: 'LingerieNewArrival'...}" />
-            <marker date="1521482063438" expanded="true" signature="17052:17204" ph="{&quot;name&quot;: 'VintagePrintedDresses'...}" />
-            <marker date="1521482063438" expanded="true" signature="17214:17360" ph="{&quot;name&quot;: 'DailyFashionApparel'...}" />
-            <marker date="1521482063438" expanded="true" signature="17370:17510" ph="{&quot;name&quot;: 'FashionSportShoes'...}" />
-            <marker date="1521482063438" expanded="true" signature="17520:17651" ph="{&quot;name&quot;: 'MensNewArrival'...}" />
-            <marker date="1521482063438" expanded="false" signature="17661:17804" ph="{&quot;name&quot;: 'WomenMainBannerLink'...}" />
-            <marker date="1521482063438" expanded="false" signature="17814:17967" ph="{&quot;name&quot;: 'MenArrowPantesBoxers'...}" />
-            <marker date="1521482063438" expanded="false" signature="17977:18109" ph="{&quot;name&quot;: 'MenSummerLook'...}" />
-            <marker date="1521482063438" expanded="false" signature="18119:18260" ph="{&quot;name&quot;: 'MenSportClothing'...}" />
-            <marker date="1521482063438" expanded="false" signature="18270:18420" ph="{&quot;name&quot;: 'MenSpringNewArrival'...}" />
-            <marker date="1521482063438" expanded="false" signature="18430:18556" ph="{&quot;name&quot;: 'MenTopSales'...}" />
-            <marker date="1521482063438" expanded="false" signature="18566:18709" ph="{&quot;name&quot;: 'ShoesSocofyShoes'...}" />
-            <marker date="1521482063438" expanded="false" signature="18719:18892" ph="{&quot;name&quot;: 'ShoesMenCasualLeatherShoes'...}" />
-            <marker date="1521482063438" expanded="false" signature="18902:19083" ph="{&quot;name&quot;: 'HomeGardenPersonalizedGifts'...}" />
-            <marker date="1521482063438" expanded="false" signature="19093:19244" ph="{&quot;name&quot;: 'KidsGirlsPartyDress'...}" />
-            <marker date="1521482063438" expanded="false" signature="19254:19408" ph="{&quot;name&quot;: 'KidsGirlsCasualDress'...}" />
-            <marker date="1521482063438" expanded="false" signature="19418:19600" ph="{&quot;name&quot;: 'AccessoriesWomenAccessories'...}" />
-            <marker date="1521482063438" expanded="false" signature="19610:19774" ph="{&quot;name&quot;: 'SalesVintageSocofyShoes'...}" />
-            <marker date="1521482063438" expanded="true" signature="20615:20755" ph="{&quot;name&quot;: 'HomePageSlideTwo'...}" />
-            <marker date="1521482063438" expanded="true" signature="20765:20911" ph="{&quot;name&quot;: 'HomePageSlideThree'...}" />
-            <marker date="1521482063438" expanded="true" signature="20921:21064" ph="{&quot;name&quot;: 'HomePageSlideFour'...}" />
-            <marker date="1521482063438" expanded="true" signature="21074:21239" ph="{&quot;name&quot;: 'HomePageSmallBannerThree'...}" />
-            <marker date="1521482063438" expanded="true" signature="21249:21411" ph="{&quot;name&quot;: 'HomePageSmallBannerFive'...}" />
-            <marker date="1521482063438" expanded="false" signature="21421:21588" ph="{&quot;name&quot;: 'ProductHasBeenBoughtErrorPage'...}" />
-            <marker date="1521482063438" expanded="false" signature="21598:21771" ph="{&quot;name&quot;: 'ProductDidnotBoughtYetErrorPage'...}" />
-            <marker date="1521482063438" expanded="true" signature="21781:21915" ph="{&quot;name&quot;: 'ProductAskQuestion'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProductPage.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12716">
-          <caret line="748" column="50" lean-forward="false" selection-start-line="748" selection-start-column="50" selection-end-line="748" selection-end-column="50" />
-          <folding>
-            <marker date="1521482063594" expanded="true" signature="58734:58737" ph="{...}" />
-            <marker date="1521482063594" expanded="true" signature="58734:58743" ph="{...}" />
-            <marker date="1521482063594" expanded="true" signature="58734:59565" ph="{&quot;name&quot;: 'ProductPage'...}" />
-            <marker date="1521482063594" expanded="true" signature="58734:59574" ph="..." />
-            <marker date="1521482063594" expanded="true" signature="58756:59559" ph="{...}" />
-            <marker date="1521482063594" expanded="true" signature="58778:59451" ph="{...}" />
-            <marker date="1521482063594" expanded="true" signature="58838:59097" ph="{&quot;Authorization&quot;: 'Bearer MDUwMWQ1NTI4N2U4NzgxYWJlZDg2N2Y2ODNhZWU1MDQwOGVjZDE5MTY1YTRkZjhkZjFlNmE4ODgwYWJjMDVmZg'...}" />
-            <marker date="1521482063594" expanded="true" signature="59121:59215" ph="{...}" />
-            <marker date="1521482063594" expanded="true" signature="59478:59503" ph="{...}" />
-            <marker date="1521482063594" expanded="true" signature="59530:59555" ph="{...}" />
-            <marker date="1521482063594" expanded="true" signature="59583:59784" ph="..." />
-            <marker date="1521482063594" expanded="true" signature="59620:59676" ph="{...}" />
-            <marker date="1521482063594" expanded="true" signature="59721:59776" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/homeHeader.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8075">
           <caret line="475" column="52" lean-forward="true" selection-start-line="475" selection-start-column="52" selection-end-line="475" selection-end-column="52" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#p#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#p#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#li#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -500,66 +340,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#15031#15204#0" expanded="false" />
-            <element signature="e#15230#15409#0" expanded="false" />
-            <element signature="e#15435#15629#0" expanded="false" />
-            <element signature="e#15655#15837#0" expanded="false" />
-            <marker date="1521482063438" expanded="true" signature="12537:12547" ph="{&quot;name&quot;: 'bloggerProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="12557:12686" ph="{&quot;name&quot;: 'affiliateProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="12696:12828" ph="{&quot;name&quot;: 'showVipIllustrate'...}" />
-            <marker date="1521482063438" expanded="true" signature="12838:12961" ph="{&quot;name&quot;: 'dropshiProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="12971:16594" ph="{&quot;name&quot;: 'myAccount'...}" />
-            <marker date="1521482063438" expanded="true" signature="13092:16584" ph="[...]" />
-            <marker date="1521482063438" expanded="true" signature="13110:13250" ph="{&quot;name&quot;: 'myAccountIndex'...}" />
-            <marker date="1521482063438" expanded="true" signature="13268:13425" ph="{&quot;name&quot;: 'myAccountPoints'...}" />
-            <marker date="1521482063438" expanded="true" signature="13443:13584" ph="{&quot;name&quot;: 'myCoupons'...}" />
-            <marker date="1521482063438" expanded="true" signature="13602:13758" ph="{&quot;name&quot;: 'myAccountWishList'...}" />
-            <marker date="1521482063438" expanded="true" signature="13776:13929" ph="{&quot;name&quot;: 'myAccountOutFits'...}" />
-            <marker date="1521482063438" expanded="true" signature="13947:14100" ph="{&quot;name&quot;: 'myAccountReviews'...}" />
-            <marker date="1521482063438" expanded="true" signature="14118:14286" ph="{&quot;name&quot;: 'myAccountPersonalInfo'...}" />
-            <marker date="1521482063438" expanded="true" signature="14304:14478" ph="{&quot;name&quot;: 'myAccountChangePassword'...}" />
-            <marker date="1521482063438" expanded="true" signature="14496:14655" ph="{&quot;name&quot;: 'myAccountQuestions'...}" />
-            <marker date="1521482063438" expanded="true" signature="14673:14838" ph="{&quot;name&quot;: 'myAccountAddressBook'...}" />
-            <marker date="1521482063438" expanded="true" signature="14856:15878" ph="{&quot;name&quot;: 'myOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15005:15859" ph="[...]" />
-            <marker date="1521482063438" expanded="true" signature="15031:15204" ph="{&quot;name&quot;: 'ordersList'...}" />
-            <marker date="1521482063438" expanded="true" signature="15230:15409" ph="{&quot;name&quot;: 'unPaidOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15435:15629" ph="{&quot;name&quot;: 'proccessingOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15655:15837" ph="{&quot;name&quot;: 'shippedOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15896:16570" ph="{&quot;name&quot;: 'myAccountPrograms'...}" />
-            <marker date="1521482063438" expanded="true" signature="16063:16552" ph="[...]" />
-            <marker date="1521482063438" expanded="true" signature="16090:16299" ph="{&quot;name&quot;: 'myAccountWholeSaleProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16325:16529" ph="{&quot;name&quot;: 'myAccountDopShipProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16604:16740" ph="{&quot;name&quot;: 'myAccountAffProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16750:16889" ph="{&quot;name&quot;: 'myAccountReffProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16899:17042" ph="{&quot;name&quot;: 'LingerieNewArrival'...}" />
-            <marker date="1521482063438" expanded="true" signature="17052:17204" ph="{&quot;name&quot;: 'VintagePrintedDresses'...}" />
-            <marker date="1521482063438" expanded="true" signature="17214:17360" ph="{&quot;name&quot;: 'DailyFashionApparel'...}" />
-            <marker date="1521482063438" expanded="true" signature="17370:17510" ph="{&quot;name&quot;: 'FashionSportShoes'...}" />
-            <marker date="1521482063438" expanded="true" signature="17520:17651" ph="{&quot;name&quot;: 'MensNewArrival'...}" />
-            <marker date="1521482063438" expanded="false" signature="17661:17804" ph="{&quot;name&quot;: 'WomenMainBannerLink'...}" />
-            <marker date="1521482063438" expanded="false" signature="17814:17967" ph="{&quot;name&quot;: 'MenArrowPantesBoxers'...}" />
-            <marker date="1521482063438" expanded="false" signature="17977:18109" ph="{&quot;name&quot;: 'MenSummerLook'...}" />
-            <marker date="1521482063438" expanded="false" signature="18119:18260" ph="{&quot;name&quot;: 'MenSportClothing'...}" />
-            <marker date="1521482063438" expanded="false" signature="18270:18420" ph="{&quot;name&quot;: 'MenSpringNewArrival'...}" />
-            <marker date="1521482063438" expanded="false" signature="18430:18556" ph="{&quot;name&quot;: 'MenTopSales'...}" />
-            <marker date="1521482063438" expanded="false" signature="18566:18709" ph="{&quot;name&quot;: 'ShoesSocofyShoes'...}" />
-            <marker date="1521482063438" expanded="false" signature="18719:18892" ph="{&quot;name&quot;: 'ShoesMenCasualLeatherShoes'...}" />
-            <marker date="1521482063438" expanded="false" signature="18902:19083" ph="{&quot;name&quot;: 'HomeGardenPersonalizedGifts'...}" />
-            <marker date="1521482063438" expanded="false" signature="19093:19244" ph="{&quot;name&quot;: 'KidsGirlsPartyDress'...}" />
-            <marker date="1521482063438" expanded="false" signature="19254:19408" ph="{&quot;name&quot;: 'KidsGirlsCasualDress'...}" />
-            <marker date="1521482063438" expanded="false" signature="19418:19600" ph="{&quot;name&quot;: 'AccessoriesWomenAccessories'...}" />
-            <marker date="1521482063438" expanded="false" signature="19610:19774" ph="{&quot;name&quot;: 'SalesVintageSocofyShoes'...}" />
-            <marker date="1521482063438" expanded="true" signature="20615:20755" ph="{&quot;name&quot;: 'HomePageSlideTwo'...}" />
-            <marker date="1521482063438" expanded="true" signature="20765:20911" ph="{&quot;name&quot;: 'HomePageSlideThree'...}" />
-            <marker date="1521482063438" expanded="true" signature="20921:21064" ph="{&quot;name&quot;: 'HomePageSlideFour'...}" />
-            <marker date="1521482063438" expanded="true" signature="21074:21239" ph="{&quot;name&quot;: 'HomePageSmallBannerThree'...}" />
-            <marker date="1521482063438" expanded="true" signature="21249:21411" ph="{&quot;name&quot;: 'HomePageSmallBannerFive'...}" />
-            <marker date="1521482063438" expanded="false" signature="21421:21588" ph="{&quot;name&quot;: 'ProductHasBeenBoughtErrorPage'...}" />
-            <marker date="1521482063438" expanded="false" signature="21598:21771" ph="{&quot;name&quot;: 'ProductDidnotBoughtYetErrorPage'...}" />
-            <marker date="1521482063438" expanded="true" signature="21781:21915" ph="{&quot;name&quot;: 'ProductAskQuestion'...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -574,66 +355,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#15031#15204#0" expanded="false" />
-            <element signature="e#15230#15409#0" expanded="false" />
-            <element signature="e#15435#15629#0" expanded="false" />
-            <element signature="e#15655#15837#0" expanded="false" />
-            <marker date="1521482063438" expanded="true" signature="12537:12547" ph="{&quot;name&quot;: 'bloggerProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="12557:12686" ph="{&quot;name&quot;: 'affiliateProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="12696:12828" ph="{&quot;name&quot;: 'showVipIllustrate'...}" />
-            <marker date="1521482063438" expanded="true" signature="12838:12961" ph="{&quot;name&quot;: 'dropshiProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="12971:16594" ph="{&quot;name&quot;: 'myAccount'...}" />
-            <marker date="1521482063438" expanded="true" signature="13092:16584" ph="[...]" />
-            <marker date="1521482063438" expanded="true" signature="13110:13250" ph="{&quot;name&quot;: 'myAccountIndex'...}" />
-            <marker date="1521482063438" expanded="true" signature="13268:13425" ph="{&quot;name&quot;: 'myAccountPoints'...}" />
-            <marker date="1521482063438" expanded="true" signature="13443:13584" ph="{&quot;name&quot;: 'myCoupons'...}" />
-            <marker date="1521482063438" expanded="true" signature="13602:13758" ph="{&quot;name&quot;: 'myAccountWishList'...}" />
-            <marker date="1521482063438" expanded="true" signature="13776:13929" ph="{&quot;name&quot;: 'myAccountOutFits'...}" />
-            <marker date="1521482063438" expanded="true" signature="13947:14100" ph="{&quot;name&quot;: 'myAccountReviews'...}" />
-            <marker date="1521482063438" expanded="true" signature="14118:14286" ph="{&quot;name&quot;: 'myAccountPersonalInfo'...}" />
-            <marker date="1521482063438" expanded="true" signature="14304:14478" ph="{&quot;name&quot;: 'myAccountChangePassword'...}" />
-            <marker date="1521482063438" expanded="true" signature="14496:14655" ph="{&quot;name&quot;: 'myAccountQuestions'...}" />
-            <marker date="1521482063438" expanded="true" signature="14673:14838" ph="{&quot;name&quot;: 'myAccountAddressBook'...}" />
-            <marker date="1521482063438" expanded="true" signature="14856:15878" ph="{&quot;name&quot;: 'myOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15005:15859" ph="[...]" />
-            <marker date="1521482063438" expanded="true" signature="15031:15204" ph="{&quot;name&quot;: 'ordersList'...}" />
-            <marker date="1521482063438" expanded="true" signature="15230:15409" ph="{&quot;name&quot;: 'unPaidOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15435:15629" ph="{&quot;name&quot;: 'proccessingOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15655:15837" ph="{&quot;name&quot;: 'shippedOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15896:16570" ph="{&quot;name&quot;: 'myAccountPrograms'...}" />
-            <marker date="1521482063438" expanded="true" signature="16063:16552" ph="[...]" />
-            <marker date="1521482063438" expanded="true" signature="16090:16299" ph="{&quot;name&quot;: 'myAccountWholeSaleProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16325:16529" ph="{&quot;name&quot;: 'myAccountDopShipProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16604:16740" ph="{&quot;name&quot;: 'myAccountAffProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16750:16889" ph="{&quot;name&quot;: 'myAccountReffProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16899:17042" ph="{&quot;name&quot;: 'LingerieNewArrival'...}" />
-            <marker date="1521482063438" expanded="true" signature="17052:17204" ph="{&quot;name&quot;: 'VintagePrintedDresses'...}" />
-            <marker date="1521482063438" expanded="true" signature="17214:17360" ph="{&quot;name&quot;: 'DailyFashionApparel'...}" />
-            <marker date="1521482063438" expanded="true" signature="17370:17510" ph="{&quot;name&quot;: 'FashionSportShoes'...}" />
-            <marker date="1521482063438" expanded="true" signature="17520:17651" ph="{&quot;name&quot;: 'MensNewArrival'...}" />
-            <marker date="1521482063438" expanded="false" signature="17661:17804" ph="{&quot;name&quot;: 'WomenMainBannerLink'...}" />
-            <marker date="1521482063438" expanded="false" signature="17814:17967" ph="{&quot;name&quot;: 'MenArrowPantesBoxers'...}" />
-            <marker date="1521482063438" expanded="false" signature="17977:18109" ph="{&quot;name&quot;: 'MenSummerLook'...}" />
-            <marker date="1521482063438" expanded="false" signature="18119:18260" ph="{&quot;name&quot;: 'MenSportClothing'...}" />
-            <marker date="1521482063438" expanded="false" signature="18270:18420" ph="{&quot;name&quot;: 'MenSpringNewArrival'...}" />
-            <marker date="1521482063438" expanded="false" signature="18430:18556" ph="{&quot;name&quot;: 'MenTopSales'...}" />
-            <marker date="1521482063438" expanded="false" signature="18566:18709" ph="{&quot;name&quot;: 'ShoesSocofyShoes'...}" />
-            <marker date="1521482063438" expanded="false" signature="18719:18892" ph="{&quot;name&quot;: 'ShoesMenCasualLeatherShoes'...}" />
-            <marker date="1521482063438" expanded="false" signature="18902:19083" ph="{&quot;name&quot;: 'HomeGardenPersonalizedGifts'...}" />
-            <marker date="1521482063438" expanded="false" signature="19093:19244" ph="{&quot;name&quot;: 'KidsGirlsPartyDress'...}" />
-            <marker date="1521482063438" expanded="false" signature="19254:19408" ph="{&quot;name&quot;: 'KidsGirlsCasualDress'...}" />
-            <marker date="1521482063438" expanded="false" signature="19418:19600" ph="{&quot;name&quot;: 'AccessoriesWomenAccessories'...}" />
-            <marker date="1521482063438" expanded="false" signature="19610:19774" ph="{&quot;name&quot;: 'SalesVintageSocofyShoes'...}" />
-            <marker date="1521482063438" expanded="true" signature="20615:20755" ph="{&quot;name&quot;: 'HomePageSlideTwo'...}" />
-            <marker date="1521482063438" expanded="true" signature="20765:20911" ph="{&quot;name&quot;: 'HomePageSlideThree'...}" />
-            <marker date="1521482063438" expanded="true" signature="20921:21064" ph="{&quot;name&quot;: 'HomePageSlideFour'...}" />
-            <marker date="1521482063438" expanded="true" signature="21074:21239" ph="{&quot;name&quot;: 'HomePageSmallBannerThree'...}" />
-            <marker date="1521482063438" expanded="true" signature="21249:21411" ph="{&quot;name&quot;: 'HomePageSmallBannerFive'...}" />
-            <marker date="1521482063438" expanded="false" signature="21421:21588" ph="{&quot;name&quot;: 'ProductHasBeenBoughtErrorPage'...}" />
-            <marker date="1521482063438" expanded="false" signature="21598:21771" ph="{&quot;name&quot;: 'ProductDidnotBoughtYetErrorPage'...}" />
-            <marker date="1521482063438" expanded="true" signature="21781:21915" ph="{&quot;name&quot;: 'ProductAskQuestion'...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -655,66 +377,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6766">
           <caret line="398" column="37" lean-forward="false" selection-start-line="398" selection-start-column="23" selection-end-line="398" selection-end-column="37" />
-          <folding>
-            <element signature="e#15031#15204#0" expanded="false" />
-            <element signature="e#15230#15409#0" expanded="false" />
-            <element signature="e#15435#15629#0" expanded="false" />
-            <element signature="e#15655#15837#0" expanded="false" />
-            <marker date="1521482063438" expanded="true" signature="12537:12547" ph="{&quot;name&quot;: 'bloggerProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="12557:12686" ph="{&quot;name&quot;: 'affiliateProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="12696:12828" ph="{&quot;name&quot;: 'showVipIllustrate'...}" />
-            <marker date="1521482063438" expanded="true" signature="12838:12961" ph="{&quot;name&quot;: 'dropshiProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="12971:16594" ph="{&quot;name&quot;: 'myAccount'...}" />
-            <marker date="1521482063438" expanded="true" signature="13092:16584" ph="[...]" />
-            <marker date="1521482063438" expanded="true" signature="13110:13250" ph="{&quot;name&quot;: 'myAccountIndex'...}" />
-            <marker date="1521482063438" expanded="true" signature="13268:13425" ph="{&quot;name&quot;: 'myAccountPoints'...}" />
-            <marker date="1521482063438" expanded="true" signature="13443:13584" ph="{&quot;name&quot;: 'myCoupons'...}" />
-            <marker date="1521482063438" expanded="true" signature="13602:13758" ph="{&quot;name&quot;: 'myAccountWishList'...}" />
-            <marker date="1521482063438" expanded="true" signature="13776:13929" ph="{&quot;name&quot;: 'myAccountOutFits'...}" />
-            <marker date="1521482063438" expanded="true" signature="13947:14100" ph="{&quot;name&quot;: 'myAccountReviews'...}" />
-            <marker date="1521482063438" expanded="true" signature="14118:14286" ph="{&quot;name&quot;: 'myAccountPersonalInfo'...}" />
-            <marker date="1521482063438" expanded="true" signature="14304:14478" ph="{&quot;name&quot;: 'myAccountChangePassword'...}" />
-            <marker date="1521482063438" expanded="true" signature="14496:14655" ph="{&quot;name&quot;: 'myAccountQuestions'...}" />
-            <marker date="1521482063438" expanded="true" signature="14673:14838" ph="{&quot;name&quot;: 'myAccountAddressBook'...}" />
-            <marker date="1521482063438" expanded="true" signature="14856:15878" ph="{&quot;name&quot;: 'myOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15005:15859" ph="[...]" />
-            <marker date="1521482063438" expanded="true" signature="15031:15204" ph="{&quot;name&quot;: 'ordersList'...}" />
-            <marker date="1521482063438" expanded="true" signature="15230:15409" ph="{&quot;name&quot;: 'unPaidOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15435:15629" ph="{&quot;name&quot;: 'proccessingOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15655:15837" ph="{&quot;name&quot;: 'shippedOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15896:16570" ph="{&quot;name&quot;: 'myAccountPrograms'...}" />
-            <marker date="1521482063438" expanded="true" signature="16063:16552" ph="[...]" />
-            <marker date="1521482063438" expanded="true" signature="16090:16299" ph="{&quot;name&quot;: 'myAccountWholeSaleProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16325:16529" ph="{&quot;name&quot;: 'myAccountDopShipProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16604:16740" ph="{&quot;name&quot;: 'myAccountAffProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16750:16889" ph="{&quot;name&quot;: 'myAccountReffProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16899:17042" ph="{&quot;name&quot;: 'LingerieNewArrival'...}" />
-            <marker date="1521482063438" expanded="true" signature="17052:17204" ph="{&quot;name&quot;: 'VintagePrintedDresses'...}" />
-            <marker date="1521482063438" expanded="true" signature="17214:17360" ph="{&quot;name&quot;: 'DailyFashionApparel'...}" />
-            <marker date="1521482063438" expanded="true" signature="17370:17510" ph="{&quot;name&quot;: 'FashionSportShoes'...}" />
-            <marker date="1521482063438" expanded="true" signature="17520:17651" ph="{&quot;name&quot;: 'MensNewArrival'...}" />
-            <marker date="1521482063438" expanded="false" signature="17661:17804" ph="{&quot;name&quot;: 'WomenMainBannerLink'...}" />
-            <marker date="1521482063438" expanded="false" signature="17814:17967" ph="{&quot;name&quot;: 'MenArrowPantesBoxers'...}" />
-            <marker date="1521482063438" expanded="false" signature="17977:18109" ph="{&quot;name&quot;: 'MenSummerLook'...}" />
-            <marker date="1521482063438" expanded="false" signature="18119:18260" ph="{&quot;name&quot;: 'MenSportClothing'...}" />
-            <marker date="1521482063438" expanded="false" signature="18270:18420" ph="{&quot;name&quot;: 'MenSpringNewArrival'...}" />
-            <marker date="1521482063438" expanded="false" signature="18430:18556" ph="{&quot;name&quot;: 'MenTopSales'...}" />
-            <marker date="1521482063438" expanded="false" signature="18566:18709" ph="{&quot;name&quot;: 'ShoesSocofyShoes'...}" />
-            <marker date="1521482063438" expanded="false" signature="18719:18892" ph="{&quot;name&quot;: 'ShoesMenCasualLeatherShoes'...}" />
-            <marker date="1521482063438" expanded="false" signature="18902:19083" ph="{&quot;name&quot;: 'HomeGardenPersonalizedGifts'...}" />
-            <marker date="1521482063438" expanded="false" signature="19093:19244" ph="{&quot;name&quot;: 'KidsGirlsPartyDress'...}" />
-            <marker date="1521482063438" expanded="false" signature="19254:19408" ph="{&quot;name&quot;: 'KidsGirlsCasualDress'...}" />
-            <marker date="1521482063438" expanded="false" signature="19418:19600" ph="{&quot;name&quot;: 'AccessoriesWomenAccessories'...}" />
-            <marker date="1521482063438" expanded="false" signature="19610:19774" ph="{&quot;name&quot;: 'SalesVintageSocofyShoes'...}" />
-            <marker date="1521482063438" expanded="true" signature="20615:20755" ph="{&quot;name&quot;: 'HomePageSlideTwo'...}" />
-            <marker date="1521482063438" expanded="true" signature="20765:20911" ph="{&quot;name&quot;: 'HomePageSlideThree'...}" />
-            <marker date="1521482063438" expanded="true" signature="20921:21064" ph="{&quot;name&quot;: 'HomePageSlideFour'...}" />
-            <marker date="1521482063438" expanded="true" signature="21074:21239" ph="{&quot;name&quot;: 'HomePageSmallBannerThree'...}" />
-            <marker date="1521482063438" expanded="true" signature="21249:21411" ph="{&quot;name&quot;: 'HomePageSmallBannerFive'...}" />
-            <marker date="1521482063438" expanded="false" signature="21421:21588" ph="{&quot;name&quot;: 'ProductHasBeenBoughtErrorPage'...}" />
-            <marker date="1521482063438" expanded="false" signature="21598:21771" ph="{&quot;name&quot;: 'ProductDidnotBoughtYetErrorPage'...}" />
-            <marker date="1521482063438" expanded="true" signature="21781:21915" ph="{&quot;name&quot;: 'ProductAskQuestion'...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -744,13 +407,11 @@
         <state relative-caret-position="6766">
           <caret line="398" column="142" lean-forward="false" selection-start-line="398" selection-start-column="142" selection-end-line="398" selection-end-column="142" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#p#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#p#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#li#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1033,84 +694,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6681">
-          <caret line="707" column="38" lean-forward="false" selection-start-line="707" selection-start-column="19" selection-end-line="707" selection-end-column="38" />
-          <folding>
-            <element signature="e#15031#15204#0" expanded="false" />
-            <element signature="e#15230#15409#0" expanded="false" />
-            <element signature="e#15435#15629#0" expanded="false" />
-            <element signature="e#15655#15837#0" expanded="false" />
-            <marker date="1521482063438" expanded="true" signature="12537:12547" ph="{&quot;name&quot;: 'bloggerProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="12557:12686" ph="{&quot;name&quot;: 'affiliateProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="12696:12828" ph="{&quot;name&quot;: 'showVipIllustrate'...}" />
-            <marker date="1521482063438" expanded="true" signature="12838:12961" ph="{&quot;name&quot;: 'dropshiProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="12971:16594" ph="{&quot;name&quot;: 'myAccount'...}" />
-            <marker date="1521482063438" expanded="true" signature="13092:16584" ph="[...]" />
-            <marker date="1521482063438" expanded="true" signature="13110:13250" ph="{&quot;name&quot;: 'myAccountIndex'...}" />
-            <marker date="1521482063438" expanded="true" signature="13268:13425" ph="{&quot;name&quot;: 'myAccountPoints'...}" />
-            <marker date="1521482063438" expanded="true" signature="13443:13584" ph="{&quot;name&quot;: 'myCoupons'...}" />
-            <marker date="1521482063438" expanded="true" signature="13602:13758" ph="{&quot;name&quot;: 'myAccountWishList'...}" />
-            <marker date="1521482063438" expanded="true" signature="13776:13929" ph="{&quot;name&quot;: 'myAccountOutFits'...}" />
-            <marker date="1521482063438" expanded="true" signature="13947:14100" ph="{&quot;name&quot;: 'myAccountReviews'...}" />
-            <marker date="1521482063438" expanded="true" signature="14118:14286" ph="{&quot;name&quot;: 'myAccountPersonalInfo'...}" />
-            <marker date="1521482063438" expanded="true" signature="14304:14478" ph="{&quot;name&quot;: 'myAccountChangePassword'...}" />
-            <marker date="1521482063438" expanded="true" signature="14496:14655" ph="{&quot;name&quot;: 'myAccountQuestions'...}" />
-            <marker date="1521482063438" expanded="true" signature="14673:14838" ph="{&quot;name&quot;: 'myAccountAddressBook'...}" />
-            <marker date="1521482063438" expanded="true" signature="14856:15878" ph="{&quot;name&quot;: 'myOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15005:15859" ph="[...]" />
-            <marker date="1521482063438" expanded="true" signature="15031:15204" ph="{&quot;name&quot;: 'ordersList'...}" />
-            <marker date="1521482063438" expanded="true" signature="15230:15409" ph="{&quot;name&quot;: 'unPaidOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15435:15629" ph="{&quot;name&quot;: 'proccessingOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15655:15837" ph="{&quot;name&quot;: 'shippedOrders'...}" />
-            <marker date="1521482063438" expanded="true" signature="15896:16570" ph="{&quot;name&quot;: 'myAccountPrograms'...}" />
-            <marker date="1521482063438" expanded="true" signature="16063:16552" ph="[...]" />
-            <marker date="1521482063438" expanded="true" signature="16090:16299" ph="{&quot;name&quot;: 'myAccountWholeSaleProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16325:16529" ph="{&quot;name&quot;: 'myAccountDopShipProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16604:16740" ph="{&quot;name&quot;: 'myAccountAffProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16750:16889" ph="{&quot;name&quot;: 'myAccountReffProgram'...}" />
-            <marker date="1521482063438" expanded="true" signature="16899:17042" ph="{&quot;name&quot;: 'LingerieNewArrival'...}" />
-            <marker date="1521482063438" expanded="true" signature="17052:17204" ph="{&quot;name&quot;: 'VintagePrintedDresses'...}" />
-            <marker date="1521482063438" expanded="true" signature="17214:17360" ph="{&quot;name&quot;: 'DailyFashionApparel'...}" />
-            <marker date="1521482063438" expanded="true" signature="17370:17510" ph="{&quot;name&quot;: 'FashionSportShoes'...}" />
-            <marker date="1521482063438" expanded="true" signature="17520:17651" ph="{&quot;name&quot;: 'MensNewArrival'...}" />
-            <marker date="1521482063438" expanded="false" signature="17661:17804" ph="{&quot;name&quot;: 'WomenMainBannerLink'...}" />
-            <marker date="1521482063438" expanded="false" signature="17814:17967" ph="{&quot;name&quot;: 'MenArrowPantesBoxers'...}" />
-            <marker date="1521482063438" expanded="false" signature="17977:18109" ph="{&quot;name&quot;: 'MenSummerLook'...}" />
-            <marker date="1521482063438" expanded="false" signature="18119:18260" ph="{&quot;name&quot;: 'MenSportClothing'...}" />
-            <marker date="1521482063438" expanded="false" signature="18270:18420" ph="{&quot;name&quot;: 'MenSpringNewArrival'...}" />
-            <marker date="1521482063438" expanded="false" signature="18430:18556" ph="{&quot;name&quot;: 'MenTopSales'...}" />
-            <marker date="1521482063438" expanded="false" signature="18566:18709" ph="{&quot;name&quot;: 'ShoesSocofyShoes'...}" />
-            <marker date="1521482063438" expanded="false" signature="18719:18892" ph="{&quot;name&quot;: 'ShoesMenCasualLeatherShoes'...}" />
-            <marker date="1521482063438" expanded="false" signature="18902:19083" ph="{&quot;name&quot;: 'HomeGardenPersonalizedGifts'...}" />
-            <marker date="1521482063438" expanded="false" signature="19093:19244" ph="{&quot;name&quot;: 'KidsGirlsPartyDress'...}" />
-            <marker date="1521482063438" expanded="false" signature="19254:19408" ph="{&quot;name&quot;: 'KidsGirlsCasualDress'...}" />
-            <marker date="1521482063438" expanded="false" signature="19418:19600" ph="{&quot;name&quot;: 'AccessoriesWomenAccessories'...}" />
-            <marker date="1521482063438" expanded="false" signature="19610:19774" ph="{&quot;name&quot;: 'SalesVintageSocofyShoes'...}" />
-            <marker date="1521482063438" expanded="true" signature="20615:20755" ph="{&quot;name&quot;: 'HomePageSlideTwo'...}" />
-            <marker date="1521482063438" expanded="true" signature="20765:20911" ph="{&quot;name&quot;: 'HomePageSlideThree'...}" />
-            <marker date="1521482063438" expanded="true" signature="20921:21064" ph="{&quot;name&quot;: 'HomePageSlideFour'...}" />
-            <marker date="1521482063438" expanded="true" signature="21074:21239" ph="{&quot;name&quot;: 'HomePageSmallBannerThree'...}" />
-            <marker date="1521482063438" expanded="true" signature="21249:21411" ph="{&quot;name&quot;: 'HomePageSmallBannerFive'...}" />
-            <marker date="1521482063438" expanded="false" signature="21421:21588" ph="{&quot;name&quot;: 'ProductHasBeenBoughtErrorPage'...}" />
-            <marker date="1521482063438" expanded="false" signature="21598:21771" ph="{&quot;name&quot;: 'ProductDidnotBoughtYetErrorPage'...}" />
-            <marker date="1521482063438" expanded="true" signature="21781:21915" ph="{&quot;name&quot;: 'ProductAskQuestion'...}" />
-          </folding>
+        <state relative-caret-position="245">
+          <caret line="645" column="0" lean-forward="true" selection-start-line="645" selection-start-column="0" selection-end-line="645" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/moltin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/homeHeader.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4768">
-          <caret line="512" column="37" lean-forward="false" selection-start-line="512" selection-start-column="37" selection-end-line="512" selection-end-column="37" />
+        <state relative-caret-position="2742">
+          <caret line="476" column="41" lean-forward="true" selection-start-line="476" selection-start-column="41" selection-end-line="476" selection-end-column="41" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#p#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#p#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#3;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#li#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/CategoryApi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

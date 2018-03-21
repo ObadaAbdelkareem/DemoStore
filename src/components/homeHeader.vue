@@ -220,8 +220,7 @@
                                                         <!-- <u class="xian">|</u> -->
                                                     </div>
                                                     
-                                                </li> -->
-                                            </ul>
+
                                         </div>
                                     </div>
                                 </div>
@@ -475,8 +474,9 @@
                                             </span>
                                             </div>
                                         </div>
+                                    </li>
+                                </ul>
                                     </div>
-                                </li>
                                 <li v-for="category of categories"> <!--params: { id: category.id }-->
                                     <b>
                                         <router-link :to="{ path: '/mainCategory/'+category.id}" onclick="set_home_ga('Home - Women');set_navigation_ga('Women');"
