@@ -8,7 +8,7 @@
                     <li><a href=""><i class="rec_bins icon"></i>Recycle Bins</a></li>
                 </ul>
             </div>
-  <router-view></router-view>
+  <router-view :key="$route.fullPath"></router-view>
   <div class="pagination" pagenum="0" prev="Prev" next="Next"><span class="prev">Prev</span><span class="active">1</span><span class="next">Next</span><span class="goto"><input name="goto" value="" type="text"><i>Go to page</i></span></div>
 </div>
 </template>

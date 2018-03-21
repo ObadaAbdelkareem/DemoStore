@@ -14,11 +14,19 @@ export default {
         
     },
 
+    searchProduct (searchTerm) {
+        return axios.get(appConfig.apiUrl + '/products?search='+searchTerm)
+    },
+
     getByCode (code) {
         return axios.get(appConfig.apiUrl + '/products/categories/'+code)
     },
 
     getProductById (id) {
         return axios.get(appConfig.apiUrl + '/products/'+id)
+    },
+
+    getProductVariationsById (id) {
+        return axios.get(appConfig.apiUrl + '/products/'+ id + '/variations')
     }
 }   

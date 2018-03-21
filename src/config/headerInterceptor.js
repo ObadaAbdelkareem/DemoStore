@@ -1,9 +1,13 @@
 import axios from 'axios'
 
 axios.interceptors.request.use(function (config) {
+  console.log(config)
+  if(config.url.indexOf("/cart/add") == -1){
     // Do something before request is sent
     //config.headers.authorization = 'Basic Y2tfNzI3NDcwMWRjODc2MjczNmU3ODY3NWNmOWU5MWZjZjVhMWY3MWM4Nzpjc18wOWFlMTZiMjRhNDc4NTlkZDQ3NTFmNWVmMDAxNGZmMTI4MTczMmIz'
-    config.headers.authorization = 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd29vLmFsYXJhYmV4cHJlc3MuY29tIiwiaWF0IjoxNTIxMzUyMzU3LCJuYmYiOjE1MjEzNTIzNTcsImV4cCI6MTUyMTk1NzE1NywiZGF0YSI6eyJ1c2VyIjp7ImlkIjoiNiJ9fX0.ckOysNL6xYVfAP8EcrgkqNSNJIcd-oqdyfRpxIBhOKo',
+    config.headers.authorization = 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd29vLmFsYXJhYmV4cHJlc3MuY29tIiwiaWF0IjoxNTIxMzUyMzU3LCJuYmYiOjE1MjEzNTIzNTcsImV4cCI6MTUyMTk1NzE1NywiZGF0YSI6eyJ1c2VyIjp7ImlkIjoiNiJ9fX0.ckOysNL6xYVfAP8EcrgkqNSNJIcd-oqdyfRpxIBhOKo';
+    
+  }
     config.headers['Content-Type'] =  "application/json"
     return config;
   }, function (error) {

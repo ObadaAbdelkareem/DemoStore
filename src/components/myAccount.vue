@@ -3,7 +3,7 @@
     <div class="content_box clearfix">
         <myAccountLeftNavigation></myAccountLeftNavigation> 
           <div class="order_form_right">
-         <router-view></router-view>
+         <router-view :key="$route.fullPath"></router-view>
         
           <div class="recent_orders">
 		<fieldset>

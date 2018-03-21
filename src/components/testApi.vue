@@ -8,6 +8,7 @@
   import Category from '@/api/CategoryApi.js'
 
   import appConfig from '@/config'
+  import Cart from '@/api/CartApi.js'
 
   export default 
   {
@@ -19,10 +20,22 @@
       created: function () {
         var me = this 
          Category.getByCode(41).then(function(response){
-          me.TestArray=response.data
+          // me.TestArray=response.data
           console.log(response.data)
         })
         
+        Cart.addItemsToCart (28, 0, ).then(function(response){
+        //  me.TestArray=response.data
+          console.log(response.data)
+        })
+
+         Cart.getAll ( ).then(function(response){
+         me.TestArray=response.data
+          console.log(response.data)
+        })
+
+
+
       }
       // async created(){
       //   var data = {

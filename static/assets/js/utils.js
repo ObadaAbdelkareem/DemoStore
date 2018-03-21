@@ -1537,7 +1537,7 @@
     }
 })(jQuery);
 
-$(function(){
+function init_zoom_img(){
   // 默认配置
     var _option = {
         align: "left", // 当前展示图片的位置，则放大的图片在其相对的位置
@@ -1678,4 +1678,4 @@ $(function(){
         });
 
     });
-});
+}

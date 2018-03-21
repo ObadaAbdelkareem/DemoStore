@@ -82,8 +82,22 @@
 </template>
 
 <script>
+import myAccountApi from '@/api/myAccountApi.js'
+
 export default {
   name: 'ordersList',
+  
+  data () {
+    return {
+      ordersList:[]
+    }
+  },
+  created(){
+	  var me = this
+	  myAccountApi.getAllOrders().then(function(response){
+		  me.ordersList = response.data;
+	  })
+  },
   mounted(){
        if(getQueryString('orderlist_link_171216')){
         ga('send', 'event', '', 'checkOutSuccess', 'orderlist_link_171216');
