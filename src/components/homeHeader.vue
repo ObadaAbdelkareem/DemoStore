@@ -46,6 +46,8 @@
                                             </ul> -->
                                         </div>
                                     </div>
+                                    <!-- Currency need to check after-->
+                                    <!--
                                     <div style="" class="currency">
                                         <s></s>
                                         <b></b>
@@ -157,6 +159,8 @@
                                             </ul>
                                         </div>
                                     </div>
+                                    -->
+                                    <!--End of check currency-->
                                     <div class="help">
                                         <a href="javascript:;" class="open-live-chat">
                                             <i class="nc-icon nc-icon-icon--msg"></i>

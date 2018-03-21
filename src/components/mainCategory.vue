@@ -3,6 +3,8 @@
     <!--content begin-->
     <div class="wrap">
         <div class="wrap">
+        <!-- Filter need to check after-->
+           <!--
             <div class="nav_filters_cat">
                 <dl class="clearfix">
                     <dt>
@@ -593,7 +595,10 @@
                     </dd>
                 </dl>
             </div>
+-->
         </div>
+      <!-- Free shiping need to check after --> 
+       <!--
         <div class="wrap">
             <div class="assisted_filters">
                 <div class="filters_free in_block">
@@ -653,6 +658,10 @@
                 </div>
             </div>
         </div>
+        -->
+            <!---Enf of Filter need to chek after-->
+
+
         <div class="preOrder">
             <div class="preOrder_cont">
                 <div class="tab_cont">
@@ -679,11 +688,15 @@
                         :alt="product.name" class="lazy reals" style="display: inline;">
                 </router-link>
 
+                <!--small image on bottom banner very imposrtant need to check  -->
+           <!--
              <router-link :to="{ path: '/ProductPage/'+product.id}" target="_self">
                     <img :src="`http://bknd.alarabexpress.com/media/image/`+product.images[0].path"
 
                         :alt="product.name" class="lazy reals" style="display: inline;">
                 </router-link>
+                -->
+                <!--End of small image on bottom banner very imposrtant need to check  -->
                 <!--"`http://bknd.alarabexpress.com/media/cache/sylius_shop_product_thumbnail/`+product.images[0].path"-->
             </div>
             <div class="wom_lst_btm">
@@ -694,7 +707,7 @@
                         target="_self">{{product.name}}</router-link>
                 </h1>
                 <p class="wom_price_lst">
-                    <span class="price">{{product.price}} $</span>
+                    <span class="price">{{product.price}} nis</span>
                     <span class="like">
                         <!-- <a data-productsid="1201054" pid="1201054" data-title="Add to My Wishlist" data-skin="wom_lst_tips" data-placement="bottom"
                             data-toggle="tooltip" aria-describedby="tooltip1517865676497" class="like_a">

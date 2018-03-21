@@ -514,7 +514,9 @@
             </div>
           </div>
         </div>
-        <span id="customer-reviews-wrap"></span>
+
+        <!-- Customer Review section need to check after-->
+        <!--<span id="customer-reviews-wrap"></span>
         <div class="customer-reviews-wrap pro-review-container haven_data">
           <div class="block-title">customers reviews ( 0 )</div>
           <ul class="reviews-grade-wrap">
@@ -541,7 +543,12 @@
             </li>
           </ul>
           <div id="reviews_content" class="" style="position: relative;"></div>
-        </div>
+        </div>-->
+
+        <!--End of Customer Review section need to check after -->
+
+        <!--start of question answer section need to check after -->
+       <!--
         <div class="question-answer-wrap">
           <div class="block-title">QUESTION &amp; ANSWER</div>
           <div class="ask-wrap clearfix">
@@ -567,17 +574,11 @@
                 </div>
               </li>
             </ul>
-           <!-- <script type="text/javascript">
-              $(function () {
-                  if (window.goToPage) {
-                      $(".pagination a:not(.page_docs)").click(function () {
-                          goToPage($(this).data('page'), this);
-                      });
-                  }
-              });
-            </script>-->
+          
           </div>
         </div>
+!-->
+        <!--End of question answer section need to check after-->
       </div>
       <div class="size-charts-wrap none">
         <i class="nc-icon nc-icon-close pointer btn-close" i="close"></i>

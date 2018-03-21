@@ -1,12 +1,13 @@
 <template>
 
 <div class="wrap">
-	<h4 class="registration_title">Welcome to <font>Newchic</font>, stay with latest fashion trend.</h4>
-		<div class="sign_other">
+	<h4 class="registration_title">Welcome to <font>Alarabexpress</font>, stay with latest fashion trend.</h4>
+		<!--start of facbook / login with google div need to check after-->
+        <!--<div class="sign_other">
                 <span class="log_facebook"><i></i>Log in with Facebook</span>
                 <a href=""><span id="google_sign_in" class="log_google"><i></i>Log in with Google</span></a>
-                <!-- <h2><span>25% OFF</span> First order</h2> -->
-               </div>
+             </div>-->
+             <!--end of facbook / login with google div-->
     <div class="registration_log">
         <div class="log_in">
         <form method="post" name="toLogin" id="sign_form">
