@@ -14,7 +14,7 @@
       </div>
     </div>-->
     <homeHeader></homeHeader>
-     <router-view></router-view>
+     <router-view :key="$route.fullPath"></router-view>
      <homefooter></homefooter>
   </div>
 </template>

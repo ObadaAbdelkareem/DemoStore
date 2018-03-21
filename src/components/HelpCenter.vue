@@ -2,7 +2,7 @@
 <div class="wrap edts_form_contactus help_center_all">
     <div class="content_box clearfix">
         <LeftNavigation></LeftNavigation>
-        <router-view></router-view>
+        <router-view :key="$route.fullPath"></router-view>
     </div>
 </div>
 </template>
