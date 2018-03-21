@@ -208,34 +208,22 @@
                                             <!--<input type="hidden" name="keywords" value="" id="keywords" />-->
                                             <input type="hidden" name="com" value="search">
                                             <input type="hidden" name="t" value="display">
-                                            <div class="search_list">
+                                            <!-- <div class="search_list">
                                                 <div class="sel_flg">
                                                     <span>All categories</span>
                                                     <i></i>
-                                                    <!-- <u class="xian">|</u> -->
                                                 </div>
                                                 <div class="nav_category_list" style="display:none;">
                                                     <dl>
                                                          <dd v-for="category of categories">{{category.name}}</dd>
-
-                                                        <!-- <dd cid="0">All categories</dd>
-                                                        <dd cid="3578">Women</dd>
-                                                        <dd cid="3581">Men</dd>
-                                                        <dd cid="3579">Bags</dd>
-                                                        <dd cid="3580">Shoes</dd>
-                                                        <dd cid="3990">Beauty</dd>
-                                                        <dd cid="4040">Jewelry &amp; Watch</dd>
-                                                        <dd cid="4494">Home &amp; Garden</dd>
-                                                        <dd cid="4565">Kids</dd>
-                                                        <dd cid="3973">Accessories</dd> -->
                                                     </dl>
                                                 </div>
                                                 <input type="hidden" name="cat_id" value="">
-                                            </div>
+                                            </div> -->
                                             <div class="inputbox">
                                                 <!--<span class="tips">Search products</span>-->
                                                 <input type="text" placeholder="Search products" value="" class="serach_keyword colors_gray" name="keywords" id="keywords"
-                                                    autocomplete="off">
+                                                    autocomplete="off" v-model="searchTerm" @keyup.enter="onEnterClick">
                                                 <!-- <input type="hidden" value="en-GB" class="serach_keyword" name="lang">-->
                                                  <i id="submit_btn" onclick=""></i> 
                                                 <ul class="search_result_list text-left" id="search_result_list">
@@ -490,7 +478,8 @@ export default {
     return {
 
         categories:[],
-        isUserLoggedIn: localStorage.userId>0
+        isUserLoggedIn: localStorage.userId>0,
+        searchTerm: ""
 //       categories: [
 //           {code:"Women", subCategories: [
 //                 {main: '', items: [
@@ -740,6 +729,11 @@ export default {
 
   },
   methods: {
+      search(){
+      },
+      onEnterClick(){
+          this.$router.push('/generalSearch/' + this.searchTerm);
+      }
   },
   mounted(){
 

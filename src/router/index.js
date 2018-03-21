@@ -55,6 +55,7 @@ import imagesliderHomePage from '@/components/imagesliderHomePage'
 import categoryHomePage from '@/components/categoryHomePage'
 import ShoppingPage from '@/components/ShoppingPage'
 import mainCategory from '@/components/mainCategory'
+import generalSearch from '@/components/generalSearch'
 import homePage from '@/components/homePage'
 import PlaceOrder from '@/components/PlaceOrder'
 import PaymentDetailsVisaMaster from '@/components/PaymentDetailsVisaMaster'
@@ -121,6 +122,11 @@ export default new Router({
       path: '/mainCategory/:id',
       name: 'mainCategory',
       component: mainCategory
+    },
+    {
+      path: '/generalSearch/:searchTerm',
+      name: 'generalSearch',
+      component: generalSearch
     },
     {
       path: '/',
