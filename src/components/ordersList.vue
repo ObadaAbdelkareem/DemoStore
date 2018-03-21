@@ -11,8 +11,72 @@
 
                             <div class="order-list-container">
                                 <div class="order_none">You have not yet made any purchases. To continue shopping, <a target="_blank" href="">click here.</a></div>
-
-
+								<table class="item table table-bordered" v-for="prOrder in ordersList">
+									<thead>
+										<tr>
+											<th colspan="99">
+												<ul class="list-inline pull-left">
+												<li>
+													<b>Date:</b> {{prOrder.date_created}}
+												</li>
+												<li>
+													<b>Order:</b>NO.{{prOrder.number}}
+												</li>
+												<li>
+													<b>Shipping fees:</b>US${{prOrder.shipping_total}}
+												</li>
+												<li>
+													<b>Amount:</b>US${{prOrder.total}}
+												</li>
+												</ul>
+											</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<ul class="list-inline thumb-list">
+												<li><a target="_self" href="https://www.newchic.com/formal-shoes-3617/p-1067362.html?rmmds=myorder"><img src="https://img.newchic.com/thumb/list_grid/oaupload/newchic/images/6D/92/e2dcfd33-be3d-4b86-a4fa-b81d3a91bd18.JPG"></a></li>
+												</ul>
+											</td>
+											<td class="text-center" width="152" height="117">
+												<p class="status">Refunded</p>
+												<p>
+												<a target="_self" href="/account/orderDetail.html?order_id=39107857" class="und_line">Order details</a>
+												</p>
+												<div class="orders_track_all" data-order_id="39107857" data-tracking_more="0">
+												<p>
+													<a href="/account/orderDetail.html?order_id=39107857&amp;current=tracking" class="und_line" target="_self">
+													Shipping info         </a>
+												</p>
+												<div class="tooltip orders_trackinged bottom hidden" style="display: none;">
+													<div class="tooltip-arrow"><i></i></div>
+													<div class="tooltip-inner">
+														<ul class="orderTrackinged">
+															<li>Tracking Number: RU797465437CN</li>
+															<li class="has_doc order_thems">
+															<i class="r_doc"></i>2018-01-29 00:00 
+															Jerusalem
+															.
+															Derech Ramallah,Delivered to addressee
+															</li>
+															<li class="has_doc">
+															<i class="r_doc"></i>The above is the lastest tracking info.
+															</li>
+															<li class="view_all">
+															<a href="/account/orderDetail.html?order_id=39107857&amp;current=tracking">View All &gt;&gt;</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+												</div>
+											</td>
+											<td class="text-center" width="152" height="117">
+												-
+											</td>
+										</tr>
+									</tbody>
+								</table>
                             </div>
                         </form>
                         						
@@ -95,8 +159,16 @@ export default {
   created(){
 	  var me = this
 	  myAccountApi.getAllOrders().then(function(response){
-		  me.ordersList = response.data;
-	  })
+		  	me.ordersList = response.data;
+			  console.log(me.ordersList)
+			// for(var i = 0 ; i < me.ordersList.cross_sell_ids[i]; i++){
+			// 		productApi.getProductById(me.ordersList.cross_sell_ids[i]).then(function(AlLO){
+			// 		me.ordersList.push(AlLO.data);
+			// 		console.log(me.ordersList);
+			// 		})
+			// }
+				})
+	  
   },
   mounted(){
        if(getQueryString('orderlist_link_171216')){

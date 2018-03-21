@@ -6,5 +6,9 @@ export default {
    
    getMyPoint(){
         return axios.get(appConfig.apiUrl+'/customers')
+   },
+   getMyCoupons(){
+       return axios.get(appConfig.apiUrl+'/products/categories?parent=0')
    }
+   
 }   

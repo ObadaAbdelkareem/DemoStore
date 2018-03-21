@@ -528,8 +528,21 @@
 </template>
 
 <script>
+import myAccountApi from '@/api/CustomerApi.js'
 export default {
 name: 'myCoupons',
+data(){
+    return {
+        myCoupons :[] 
+    }
+},
+    created(){
+        var me= this
+        myAccountApi.getMyCoupons().then(function(response){
+            me.myCoupons=response.data;
+
+        })
+    },
 mounted(){
      $(function () {
             if (window.goToPage) {

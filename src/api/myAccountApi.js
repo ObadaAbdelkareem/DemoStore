@@ -15,5 +15,8 @@ export default {
     },
     getshippedOrders(){
         return axios.get(appConfig.apiUrl+'orders?customer='+localStorage.userId+'&status=processing')
+    },
+    getPersonalDetails(){
+        return axios.get(appConfig.apiUrl+'/orders?customer='+ localStorage.userId +'&status=any')
     }
 }   
