@@ -7036,9 +7036,9 @@
     .fulls_div {
         background: #fff;
     }
-    .nav {
+    /* .nav {
         display: none;
-    }
+    } */
     .btm30 {
         margin-bottom: 30px;
     }
